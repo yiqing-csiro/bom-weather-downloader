@@ -7,18 +7,18 @@
         <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
         <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
     </source>
-    <identifier>IDS11049</identifier>
-    <issue-time-utc>2026-03-13T22:46:56Z</issue-time-utc>
-    <issue-time-local tz="CDT">2026-03-14T09:16:56+10:30</issue-time-local>
-    <sent-time>2026-03-13T22:46:56Z</sent-time>
-    <expiry-time>2026-03-14T22:46:56Z</expiry-time>
+    <identifier>IDS11004</identifier>
+    <issue-time-utc>2026-03-13T22:45:56Z</issue-time-utc>
+    <issue-time-local tz="CDT">2026-03-14T09:15:56+10:30</issue-time-local>
+    <sent-time>2026-03-13T22:45:56Z</sent-time>
+    <expiry-time>2026-03-14T22:45:56Z</expiry-time>
     <validity-bgn-time-local tz="CDT">2026-03-14T00:00:00+10:30</validity-bgn-time-local>
-    <validity-end-time-local tz="CDT">2026-03-17T23:59:59+10:30</validity-end-time-local>
-    <next-routine-issue-time-utc>2026-03-14T05:25:00Z</next-routine-issue-time-utc>
-    <next-routine-issue-time-local tz="CDT">2026-03-14T15:55:00+10:30</next-routine-issue-time-local>
+    <validity-end-time-local tz="CDT">2026-03-20T23:59:59+10:30</validity-end-time-local>
+    <next-routine-issue-time-utc>2026-03-14T05:15:00Z</next-routine-issue-time-utc>
+    <next-routine-issue-time-local tz="CDT">2026-03-14T15:45:00+10:30</next-routine-issue-time-local>
     <status>O</status>
     <service>WSP</service>
-    <sub-service>FDS</sub-service>
+    <sub-service>FTW</sub-service>
     <product-type>F</product-type>
     <phase>NEW</phase>
 </amoc>
