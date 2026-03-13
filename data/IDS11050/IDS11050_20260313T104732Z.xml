@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11050</identifier>
+        <issue-time-utc>2026-03-13T10:47:32Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-13T21:17:32+10:30</issue-time-local>
+        <sent-time>2026-03-13T10:47:32Z</sent-time>
+        <expiry-time>2026-03-14T10:47:32Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-13T17:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-17T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-13T17:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-14T04:10:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-13T21:17:32+10:30" end-time-local="2026-03-13T21:17:32+10:30" start-time-utc="2026-03-13T10:47:32Z" end-time-utc="2026-03-13T10:47:32Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A ridge of high pressure extends from a high south of WA, across waters well south of SA. The high slowly moves eastwards to be centred over the Tasman Sea by Saturday afternoon, with further high pressure systems building well south of the Bight. A trough over inland WA is expected to move across western and northern SA on Sunday and into the new week. A cold front clips the southeast early next week.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW010" description="West Coast" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-03-13T21:00:00+10:30" end-time-local="2026-03-14T00:00:00+10:30" start-time-utc="2026-03-13T10:30:00Z" end-time-utc="2026-03-13T13:30:00Z">
+                <text type="forecast">Mostly clear. The chance of a thunderstorm west of Nullarbor. Winds southeasterly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-14T00:00:00+10:30" end-time-local="2026-03-15T00:00:00+10:30" start-time-utc="2026-03-13T13:30:00Z" end-time-utc="2026-03-14T13:30:00Z">
+                <text type="forecast">Mostly sunny. Slight chance of a shower west of Nullarbor, most likely in the evening. Near zero chance of rain elsewhere. Winds easterly 15 to 25 km/h turning southeasterly 20 to 30 km/h in the late afternoon. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching around 30.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 10:10am to 5:10pm, UV Index predicted to reach 9 [Very High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-15T00:00:00+10:30" end-time-local="2026-03-16T00:00:00+10:30" start-time-utc="2026-03-14T13:30:00Z" end-time-utc="2026-03-15T13:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers west of Ceduna, medium chance elsewhere. The chance of a thunderstorm west of Nullarbor from the late morning. Winds east to southeasterly 15 to 25 km/h tending south to southeasterly 20 to 30 km/h in the late morning and afternoon. Overnight temperatures falling to between 14 and 18 with daytime temperatures reaching 24 to 34.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-16T00:00:00+10:30" end-time-local="2026-03-17T00:00:00+10:30" start-time-utc="2026-03-15T13:30:00Z" end-time-utc="2026-03-16T13:30:00Z">
+                <text type="forecast">Cloudy. High chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm west of Ceduna in the morning. Winds southeasterly 15 to 25 km/h. Overnight temperatures falling to around 17 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-17T00:00:00+10:30" end-time-local="2026-03-18T00:00:00+10:30" start-time-utc="2026-03-16T13:30:00Z" end-time-utc="2026-03-17T13:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the morning. Winds southeasterly 20 to 30 km/h. Overnight temperatures falling to around 16 with daytime temperatures reaching the low to high 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT005" description="Ceduna" type="location" parent-aac="SA_PW010">
+            <forecast-period index="1" start-time-local="2026-03-14T00:00:00+10:30" end-time-local="2026-03-15T00:00:00+10:30" start-time-utc="2026-03-13T13:30:00Z" end-time-utc="2026-03-14T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">28</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-15T00:00:00+10:30" end-time-local="2026-03-16T00:00:00+10:30" start-time-utc="2026-03-14T13:30:00Z" end-time-utc="2026-03-15T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">28</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-16T00:00:00+10:30" end-time-local="2026-03-17T00:00:00+10:30" start-time-utc="2026-03-15T13:30:00Z" end-time-utc="2026-03-16T13:30:00Z">
+                <element type="forecast_icon_code">12</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Rain.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-17T00:00:00+10:30" end-time-local="2026-03-18T00:00:00+10:30" start-time-utc="2026-03-16T13:30:00Z" end-time-utc="2026-03-17T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT057" description="Wudinna" type="location" parent-aac="SA_PW010">
+            <forecast-period index="1" start-time-local="2026-03-14T00:00:00+10:30" end-time-local="2026-03-15T00:00:00+10:30" start-time-utc="2026-03-13T13:30:00Z" end-time-utc="2026-03-14T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">32</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-15T00:00:00+10:30" end-time-local="2026-03-16T00:00:00+10:30" start-time-utc="2026-03-14T13:30:00Z" end-time-utc="2026-03-15T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">35</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-16T00:00:00+10:30" end-time-local="2026-03-17T00:00:00+10:30" start-time-utc="2026-03-15T13:30:00Z" end-time-utc="2026-03-16T13:30:00Z">
+                <element type="forecast_icon_code">12</element>
+                <element type="air_temperature_minimum" units="Celsius">18</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Rain.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-17T00:00:00+10:30" end-time-local="2026-03-18T00:00:00+10:30" start-time-utc="2026-03-16T13:30:00Z" end-time-utc="2026-03-17T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">28</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT063" description="Elliston" type="location" parent-aac="SA_PW010">
+            <forecast-period index="1" start-time-local="2026-03-14T00:00:00+10:30" end-time-local="2026-03-15T00:00:00+10:30" start-time-utc="2026-03-13T13:30:00Z" end-time-utc="2026-03-14T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-15T00:00:00+10:30" end-time-local="2026-03-16T00:00:00+10:30" start-time-utc="2026-03-14T13:30:00Z" end-time-utc="2026-03-15T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-16T00:00:00+10:30" end-time-local="2026-03-17T00:00:00+10:30" start-time-utc="2026-03-15T13:30:00Z" end-time-utc="2026-03-16T13:30:00Z">
+                <element type="forecast_icon_code">12</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Rain.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-17T00:00:00+10:30" end-time-local="2026-03-18T00:00:00+10:30" start-time-utc="2026-03-16T13:30:00Z" end-time-utc="2026-03-17T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT036" description="Nullarbor" type="location" parent-aac="SA_PW010">
+            <forecast-period index="1" start-time-local="2026-03-14T00:00:00+10:30" end-time-local="2026-03-15T00:00:00+10:30" start-time-utc="2026-03-13T13:30:00Z" end-time-utc="2026-03-14T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-15T00:00:00+10:30" end-time-local="2026-03-16T00:00:00+10:30" start-time-utc="2026-03-14T13:30:00Z" end-time-utc="2026-03-15T13:30:00Z">
+                <element type="forecast_icon_code">12</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Rain.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-16T00:00:00+10:30" end-time-local="2026-03-17T00:00:00+10:30" start-time-utc="2026-03-15T13:30:00Z" end-time-utc="2026-03-16T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Showers easing.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-17T00:00:00+10:30" end-time-local="2026-03-18T00:00:00+10:30" start-time-utc="2026-03-16T13:30:00Z" end-time-utc="2026-03-17T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
