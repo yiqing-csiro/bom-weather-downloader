@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>AusBoM-IDS20374-2026-03-13T01:25:30+00:00</identifier>
+  <sender>CAP.Message@bom.gov.au</sender>
+  <sent>2026-03-13T01:25:30+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-13T01:25:30+00:00</effective>
+    <expires>2026-03-14T07:25:30+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Lake Eyre</headline>
+    <description>FLOODING POSSIBLE IN PARTS OF THE NORTH-WEST AND CENTRAL CATCHMENTS FROM MONDAY
+
+A trough of low pressure is forecast to deepen over south west Northern Territory during Sunday, then extend into South Australia on Monday. Fed by humid tropical winds, this system is expected to generate widespread rainfall, which may be heavy in parts of North West and Central catchments from Monday.
+
+Catchments in the Flood Watch area are moderately wet and are likely to respond quickly to this rainfall.
+
+Forecast rainfall may cause river and creek level rises, prolonged overland flooding, and ponding from Monday onwards. Roads access may be affected, and some communities and homesteads my become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Lake Eyre</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_FL010</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-13T01:25:30+00:00</effective>
+    <expires>2026-03-14T07:25:30+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Finke River and Stephenson Creek</headline>
+    <description>FLOODING POSSIBLE IN PARTS OF THE NORTH-WEST AND CENTRAL CATCHMENTS FROM MONDAY
+
+A trough of low pressure is forecast to deepen over south west Northern Territory during Sunday, then extend into South Australia on Monday. Fed by humid tropical winds, this system is expected to generate widespread rainfall, which may be heavy in parts of North West and Central catchments from Monday.
+
+Catchments in the Flood Watch area are moderately wet and are likely to respond quickly to this rainfall.
+
+Forecast rainfall may cause river and creek level rises, prolonged overland flooding, and ponding from Monday onwards. Roads access may be affected, and some communities and homesteads my become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Finke River and Stephenson Creek</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>NT_FL037</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-13T01:25:30+00:00</effective>
+    <expires>2026-03-14T07:25:30+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Eastern Great Victoria Desert</headline>
+    <description>FLOODING POSSIBLE IN PARTS OF THE NORTH-WEST AND CENTRAL CATCHMENTS FROM MONDAY
+
+A trough of low pressure is forecast to deepen over south west Northern Territory during Sunday, then extend into South Australia on Monday. Fed by humid tropical winds, this system is expected to generate widespread rainfall, which may be heavy in parts of North West and Central catchments from Monday.
+
+Catchments in the Flood Watch area are moderately wet and are likely to respond quickly to this rainfall.
+
+Forecast rainfall may cause river and creek level rises, prolonged overland flooding, and ponding from Monday onwards. Roads access may be affected, and some communities and homesteads my become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Eastern Great Victoria Desert</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_FL016</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-13T01:25:30+00:00</effective>
+    <expires>2026-03-14T07:25:30+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Warburton District Rivers</headline>
+    <description>FLOODING POSSIBLE IN PARTS OF THE NORTH-WEST AND CENTRAL CATCHMENTS FROM MONDAY
+
+A trough of low pressure is forecast to deepen over south west Northern Territory during Sunday, then extend into South Australia on Monday. Fed by humid tropical winds, this system is expected to generate widespread rainfall, which may be heavy in parts of North West and Central catchments from Monday.
+
+Catchments in the Flood Watch area are moderately wet and are likely to respond quickly to this rainfall.
+
+Forecast rainfall may cause river and creek level rises, prolonged overland flooding, and ponding from Monday onwards. Roads access may be affected, and some communities and homesteads my become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Warburton District Rivers</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>WA_FL028</value>
+      </geocode>
+    </area>
+  </info>
+</alert>
