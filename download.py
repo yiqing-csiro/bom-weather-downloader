@@ -2,26 +2,20 @@ from ftplib import FTP
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from io import BytesIO
+import re
 
 FTP_HOST = "ftp.bom.gov.au"
 FTP_DIR = "/anon/gen/fwo"
 
-FILES = [
-    "IDS11068.xml",
-    "IDS11068.amoc.xml",
-    "IDS11068.pdf",
-]
 
-
-def get_issue_time(xml_bytes):
+def extract_issue_time(xml_bytes):
     """Extract issue-time-utc from XML"""
     root = ET.fromstring(xml_bytes)
     issue_time = root.find(".//issue-time-utc").text
-    issue_time = issue_time.replace(":", "").replace("-", "")
-    return issue_time
+    return issue_time.replace(":", "").replace("-", "")
 
 
-def download_file(ftp, filename):
+def download_bytes(ftp, filename):
     """Download file from FTP and return bytes"""
     buffer = BytesIO()
     ftp.retrbinary(f"RETR {filename}", buffer.write)
@@ -30,55 +24,79 @@ def download_file(ftp, filename):
 
 def main():
 
-    out_dir = Path("data")
-    out_dir.mkdir(exist_ok=True)
+    output_dir = Path("data")
+    output_dir.mkdir(exist_ok=True)
 
     ftp = FTP(FTP_HOST)
     ftp.login("anonymous", "test@example.com")
     ftp.cwd(FTP_DIR)
 
-    files = ftp.nlst()
-    print("Files:", files)
+    ftp_files = ftp.nlst()
+    print(f"Total files on FTP: {len(ftp_files)}")
 
-    # ---- download main XML first (needed to get issue time)
-    xml_filename = "IDS11068.xml"
+    # Match IDS files
+    pattern = re.compile(r"^(IDS\d+).*\.(xml|pdf)$")
 
-    if xml_filename not in files:
-        print("Main XML file not found!")
-        return
+    grouped_files = {}
 
-    xml_data = download_file(ftp, xml_filename)
+    for f in ftp_files:
+        m = pattern.match(f)
+        if m:
+            product_id = m.group(1)
+            grouped_files.setdefault(product_id, []).append(f)
 
-    issue_time = get_issue_time(xml_data)
-    print("Issue time:", issue_time)
+    print(f"Found {len(grouped_files)} IDS products")
 
-    # save main XML
-    xml_save = out_dir / f"IDS11068_{issue_time}.xml"
-    xml_save.write_bytes(xml_data)
-    print("Saved:", xml_save)
+    for product_id, files in grouped_files.items():
 
-    # ---- download remaining files
-    for fname in FILES:
+        print(f"\nProcessing {product_id}")
 
-        if fname == xml_filename:
+        main_xml = f"{product_id}.xml"
+
+        if main_xml not in files:
+            print(f"No main XML for {product_id}")
             continue
 
-        if fname not in files:
-            print(f"{fname} not found on FTP")
+        product_dir = output_dir / product_id
+        product_dir.mkdir(exist_ok=True)
+
+        # download main XML
+        xml_data = download_bytes(ftp, main_xml)
+
+        try:
+            issue_time = extract_issue_time(xml_data)
+        except Exception:
+            print("Failed to extract issue time")
             continue
 
-        data = download_file(ftp, fname)
+        print("Issue time:", issue_time)
 
-        suffix = fname.replace("IDS11068", "")
-        save_name = out_dir / f"IDS11068_{issue_time}{suffix}"
+        # save main XML
+        xml_save = product_dir / f"{product_id}_{issue_time}.xml"
+        xml_save.write_bytes(xml_data)
+        print("Saved:", xml_save)
 
-        save_name.write_bytes(data)
+        # download remaining files
+        for filename in files:
 
-        print("Saved:", save_name)
+            if filename == main_xml:
+                continue
+
+            try:
+                data = download_bytes(ftp, filename)
+            except Exception as e:
+                print("Download failed:", filename, e)
+                continue
+
+            suffix = filename.replace(product_id, "")
+            save_path = product_dir / f"{product_id}_{issue_time}{suffix}"
+
+            save_path.write_bytes(data)
+            print("Saved:", save_path)
 
     ftp.quit()
 
-    print("Download complete")
+    print("\nDownload complete")
 
 
 if __name__ == "__main__":
