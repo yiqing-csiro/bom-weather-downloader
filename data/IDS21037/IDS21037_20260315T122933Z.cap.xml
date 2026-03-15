@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21037-2026-03-15T12:29:33+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-03-15T12:29:33+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS21037-2026-03-15T06:14:29+00:00,2026-03-15T06:14:29+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Weather</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-03-15T12:29:30+00:00</effective>
+        <expires>2026-03-15T20:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Weather Warning for North West Pastoral and North East Pastoral forecast districts</headline>
+        <description>
+          HEAVY RAINFALL which may lead to FLASH FLOODING is forecast for parts of the North West Pastoral district from late this evening, extending into parts of the North East Pastoral on Monday. Six-hourly rainfall totals between 50 and 80 mm are likely.
+          
+          Flood Watches and Warnings are current for the area. Please refer to https://www.bom.gov.au/weather-and-climate/warnings-and-alerts/ for more information.
+          Locations which may be affected include Marla, Coober Pedy, Oodnadatta, Marree, Ernabella and Amata.  
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Don't drive, ride or walk through flood water;
+* Keep clear of creeks and storm drains;
+* Stay indoors, away from windows, while conditions are severe.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: North West Pastoral and North East Pastoral</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW013</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW014</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
