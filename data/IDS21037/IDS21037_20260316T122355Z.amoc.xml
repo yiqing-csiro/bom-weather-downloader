@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS21037</identifier>
+    <issue-time-utc>2026-03-16T12:23:55Z</issue-time-utc>
+    <issue-time-local tz="CDT">2026-03-16T22:53:55+10:30</issue-time-local>
+    <sent-time>2026-03-16T12:23:55Z</sent-time>
+    <expiry-time>2026-03-16T20:30:00Z</expiry-time>
+    <validity-bgn-time-local tz="CDT">2026-03-16T22:53:48+10:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CDT">2026-03-17T06:59:59+10:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSW</service>
+    <sub-service>WSW</sub-service>
+    <product-type>W</product-type>
+    <phase>REN</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="REN" type="SWW" severity="STD" urgency="UNK" certainty="UNK" start-time-utc="2026-03-16T12:23:48Z" end-time-utc="2026-03-16T20:30:00Z">
+        <area-list>
+            <area aac="SA_PW013" phase="REN" description="North West Pastoral" type="public-district"/>
+            <area aac="SA_PW014" phase="REN" description="North East Pastoral" type="public-district"/>
+        </area-list>
+        <phenomenon-list>
+            <phenomenon type="R"/>
+            <phenomenon type="R+"/>
+        </phenomenon-list>
+        <priority>W</priority>
+        <headline>Severe Weather Warning for Heavy Rainfall and Intense Rainfall for North West Pastoral and North East Pastoral forecast districts</headline>
+    </hazard>
+</amoc>
