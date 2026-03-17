@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-03-17T05:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-17T16:00:00+10:30</issue-time-local>
+        <sent-time>2026-03-17T05:30:32Z</sent-time>
+        <expiry-time>2026-03-17T20:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-17T16:00:32+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-21T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-17T17:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-18T04:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-17T16:00:32+10:30" end-time-local="2026-03-17T16:00:32+10:30" start-time-utc="2026-03-17T05:30:32Z" end-time-utc="2026-03-17T05:30:32Z">
+                <text type="synoptic_situation">A low and trough over northeast SA will continue to move northeastwards clearing the State by Thursday. A ridge of high pressure persists to the south.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-18T00:00:00+10:30" end-time-local="2026-03-19T00:00:00+10:30" start-time-utc="2026-03-17T13:30:00Z" end-time-utc="2026-03-18T13:30:00Z">
+                <text type="forecast">Showers about the northern agricultural area and pastoral districts, possibly extending into the north of the southern agricultural area . Rain at times about the northeast with locally heavy falls possible.The chance of a thunderstorm in the northeast and eastern parts of the North East Pastoral district. Possible light showers about western coasts. Maximum temperatures generally below average, grading to near average in the southeast. South to southeasterly winds, tending easterly in the east and northeasterly in the far northeast.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-03-17T17:00:00+10:30" end-time-local="2026-03-18T00:00:00+10:30" start-time-utc="2026-03-17T06:30:00Z" end-time-utc="2026-03-17T13:30:00Z">
+                <text type="forecast">Showers about the Pastoral districts and northern agricultural area, contracting northeastwards. Rain at times about the north, with locally heavy falls possible about the northeast. The chance of a thunderstorm in the northeast. South to southeasterly winds, shifting east to northeasterly in the northeast.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-19T00:00:00+10:30" end-time-local="2026-03-20T00:00:00+10:30" start-time-utc="2026-03-18T13:30:00Z" end-time-utc="2026-03-19T13:30:00Z">
+                <text type="forecast">Showers mainly about the pastoral districts, possibly extending into the northern agricultural area. Possible light showers about western coasts. Maximum temperatures below average, grading to near average about the southeast. Generally south to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-20T00:00:00+10:30" end-time-local="2026-03-21T00:00:00+10:30" start-time-utc="2026-03-19T13:30:00Z" end-time-utc="2026-03-20T13:30:00Z">
+                <text type="forecast">Showers mainly about the pastoral districts, possibly extending into the northern agricultural area. Maximum temperatures below average in the north, grading to slightly above average in the south. Generally south to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-21T00:00:00+10:30" end-time-local="2026-03-22T00:00:00+10:30" start-time-utc="2026-03-20T13:30:00Z" end-time-utc="2026-03-21T13:30:00Z">
+                <text type="forecast">
+                    <p>Showers mainly about the pastoral districts. Maximum temperatures below average in the north, grading to slightly above average in the south. Generally south to southeasterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: less than 3mm about the southern agricultural area, increasing to 2 to 10 mm about the northern agricultural area and North West Pastoral district, increasing to 5 to 20 mm about the Flinders and North East Pastoral district and to 20 to 60mm about the northeast, with isolated falls of 60 to 140 mm.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
