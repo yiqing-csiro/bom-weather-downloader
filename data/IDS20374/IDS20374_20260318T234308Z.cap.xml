@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>AusBoM-IDS20374-2026-03-18T23:43:08+00:00</identifier>
+  <sender>CAP.Message@bom.gov.au</sender>
+  <sent>2026-03-18T23:43:08+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+  <references>CAP.Message@bom.gov.au,AusBoM-IDS20374-2026-03-18T01:03:41+00:00,2026-03-18T01:03:41+00:00</references>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-18T23:43:08+00:00</effective>
+    <expires>2026-03-20T05:43:08+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Warburton River</headline>
+    <description>FLOOD IMPACTS ARE EASING BUT CONTINUING ACROSS PARTS OF FLOOD WATCH AREA
+
+Rainfall has cleared across the Flood Watch area, with no further significant rainfall expected over the next few days.
+
+The immediate flood threat is easing. However, flood waters will remain in the landscape and continue to flow through watercourses, causing prolonged overland flooding and ponding. Roads access may be affected, and some communities and homesteads may become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Warburton River</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_FL011</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-18T23:43:08+00:00</effective>
+    <expires>2026-03-20T05:43:08+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Cooper Creek</headline>
+    <description>FLOOD IMPACTS ARE EASING BUT CONTINUING ACROSS PARTS OF FLOOD WATCH AREA
+
+Rainfall has cleared across the Flood Watch area, with no further significant rainfall expected over the next few days.
+
+The immediate flood threat is easing. However, flood waters will remain in the landscape and continue to flow through watercourses, causing prolonged overland flooding and ponding. Roads access may be affected, and some communities and homesteads may become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Cooper Creek</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>QLD_FL071</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-18T23:43:08+00:00</effective>
+    <expires>2026-03-20T05:43:08+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Lake Eyre</headline>
+    <description>FLOOD IMPACTS ARE EASING BUT CONTINUING ACROSS PARTS OF FLOOD WATCH AREA
+
+Rainfall has cleared across the Flood Watch area, with no further significant rainfall expected over the next few days.
+
+The immediate flood threat is easing. However, flood waters will remain in the landscape and continue to flow through watercourses, causing prolonged overland flooding and ponding. Roads access may be affected, and some communities and homesteads may become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Lake Eyre</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_FL010</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-18T23:43:08+00:00</effective>
+    <expires>2026-03-20T05:43:08+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Lake Frome</headline>
+    <description>FLOOD IMPACTS ARE EASING BUT CONTINUING ACROSS PARTS OF FLOOD WATCH AREA
+
+Rainfall has cleared across the Flood Watch area, with no further significant rainfall expected over the next few days.
+
+The immediate flood threat is easing. However, flood waters will remain in the landscape and continue to flow through watercourses, causing prolonged overland flooding and ponding. Roads access may be affected, and some communities and homesteads may become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Lake Frome</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_FL013</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-18T23:43:08+00:00</effective>
+    <expires>2026-03-20T05:43:08+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Finke River and Stephenson Creek</headline>
+    <description>FLOOD IMPACTS ARE EASING BUT CONTINUING ACROSS PARTS OF FLOOD WATCH AREA
+
+Rainfall has cleared across the Flood Watch area, with no further significant rainfall expected over the next few days.
+
+The immediate flood threat is easing. However, flood waters will remain in the landscape and continue to flow through watercourses, causing prolonged overland flooding and ponding. Roads access may be affected, and some communities and homesteads may become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Finke River and Stephenson Creek</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>NT_FL037</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Unknown</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-03-18T23:43:08+00:00</effective>
+    <expires>2026-03-20T05:43:08+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Flood Watch for Simpson Desert</headline>
+    <description>FLOOD IMPACTS ARE EASING BUT CONTINUING ACROSS PARTS OF FLOOD WATCH AREA
+
+Rainfall has cleared across the Flood Watch area, with no further significant rainfall expected over the next few days.
+
+The immediate flood threat is easing. However, flood waters will remain in the landscape and continue to flow through watercourses, causing prolonged overland flooding and ponding. Roads access may be affected, and some communities and homesteads may become isolated. Check road conditions before travelling.
+</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Simpson Desert</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>NT_FL038</value>
+      </geocode>
+    </area>
+  </info>
+</alert>
