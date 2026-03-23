@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11045</identifier>
+        <issue-time-utc>2026-03-23T10:50:36Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-23T21:20:36+10:30</issue-time-local>
+        <sent-time>2026-03-23T10:50:36Z</sent-time>
+        <expiry-time>2026-03-24T10:50:36Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-23T17:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-27T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-23T17:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-24T04:10:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-23T21:20:36+10:30" end-time-local="2026-03-23T21:20:36+10:30" start-time-utc="2026-03-23T10:50:36Z" end-time-utc="2026-03-23T10:50:36Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A high pressure system over the Tasman sea, extends a ridge over southern SA. A broad trough moves over SA Tuesday, then a cold front clips the southeast as an upper trough moves up over SA Wednesday and Thursday. A new ridge develops south of the Bight late in the week.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW005" description="Lower South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-03-23T21:00:00+10:30" end-time-local="2026-03-24T00:00:00+10:30" start-time-utc="2026-03-23T10:30:00Z" end-time-utc="2026-03-23T13:30:00Z">
+                <text type="forecast">Mostly clear. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-24T00:00:00+10:30" end-time-local="2026-03-25T00:00:00+10:30" start-time-utc="2026-03-23T13:30:00Z" end-time-utc="2026-03-24T13:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers in the south, medium chance elsewhere. The chance of a thunderstorm. Light winds becoming south to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon. Overnight temperatures falling to around 16 with daytime temperatures reaching around 30.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 10:00am to 4:20pm, UV Index predicted to reach 7 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and early afternoon. The chance of a thunderstorm in the morning and afternoon. Light winds becoming westerly 15 to 25 km/h in the middle of the day then tending southwesterly 20 to 30 km/h in the early afternoon. Overnight temperatures falling to around 14 with daytime temperatures reaching 22 to 27.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 15 to 25 km/h turning southerly 25 to 40 km/h during the day then decreasing to 20 to 30 km/h during the evening. Overnight temperatures falling to around 10 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the south, near zero chance elsewhere. Winds southerly 25 to 35 km/h. Overnight temperatures falling to between 6 and 10 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT030" description="Mount Gambier" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-03-24T00:00:00+10:30" end-time-local="2026-03-25T00:00:00+10:30" start-time-utc="2026-03-23T13:30:00Z" end-time-utc="2026-03-24T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">28</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <text type="precis">Showers easing.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT034" description="Naracoorte" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-03-24T00:00:00+10:30" end-time-local="2026-03-25T00:00:00+10:30" start-time-utc="2026-03-23T13:30:00Z" end-time-utc="2026-03-24T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">6</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT010" description="Coonawarra" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-03-24T00:00:00+10:30" end-time-local="2026-03-25T00:00:00+10:30" start-time-utc="2026-03-23T13:30:00Z" end-time-utc="2026-03-24T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT046" description="Robe" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-03-24T00:00:00+10:30" end-time-local="2026-03-25T00:00:00+10:30" start-time-utc="2026-03-23T13:30:00Z" end-time-utc="2026-03-24T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">16</element>
+                <text type="precis">Possible shower. Windy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">9</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">16</element>
+                <text type="precis">Becoming windy. Cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
