@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11051</identifier>
+        <issue-time-utc>2026-03-24T05:25:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-24T15:55:00+10:30</issue-time-local>
+        <sent-time>2026-03-24T05:25:43Z</sent-time>
+        <expiry-time>2026-03-25T05:25:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-24T15:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-28T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-24T17:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-25T04:10:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-24T15:55:43+10:30" end-time-local="2026-03-24T15:55:43+10:30" start-time-utc="2026-03-24T05:25:43Z" end-time-utc="2026-03-24T05:25:43Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A broad trough lies over SA. A cold front clips the southeast as an upper trough moves up over SA Wednesday and Thursday. A high pressure system develops south of the Bight late in the week and persists over the weekend.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW011" description="Eastern Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-03-24T15:00:00+10:30" end-time-local="2026-03-25T00:00:00+10:30" start-time-utc="2026-03-24T04:30:00Z" end-time-utc="2026-03-24T13:30:00Z">
+                <text type="forecast">Clear. Winds northwest to southwesterly 15 to 20 km/h tending southeast to southwesterly in the evening then becoming light in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm from the late morning, possibly severe, with damaging winds, possible hail and heavy rain which may lead to flash flooding in the late morning and afternoon. Light winds becoming northwest to southwesterly 15 to 25 km/h in the morning then tending south to southeasterly 20 to 30 km/h in the middle of the day. Overnight temperatures falling to around 19 with daytime temperatures reaching 26 to 32.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 10:10am to 4:40pm, UV Index predicted to reach 8 [Very High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the early morning. The chance of a thunderstorm near the coast in the early morning. Winds southerly 25 to 40 km/h. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching between 19 and 22.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower near the coast, near zero chance elsewhere. Winds southerly 20 to 30 km/h increasing to 35 km/h before turning southeasterly 15 to 25 km/h during the day. Overnight temperatures falling to around 12 with daytime temperatures reaching around 19.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower in the south, near zero chance elsewhere. Winds southeasterly 15 to 25 km/h. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT055" description="Whyalla" type="location" parent-aac="SA_PW011">
+            <forecast-period index="1" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <text type="precis">Shower or two. Possible storm.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Shower or two. Becoming windy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT007" description="Cleve" type="location" parent-aac="SA_PW011">
+            <forecast-period index="1" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT069" description="Kimba" type="location" parent-aac="SA_PW011">
+            <forecast-period index="1" start-time-local="2026-03-25T00:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T13:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">32</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <text type="precis">Shower or two. Possible storm.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
