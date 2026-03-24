@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS11054</identifier>
+    <issue-time-utc>2026-03-24T22:48:08Z</issue-time-utc>
+    <issue-time-local tz="CDT">2026-03-25T09:18:08+10:30</issue-time-local>
+    <sent-time>2026-03-24T22:48:08Z</sent-time>
+    <expiry-time>2026-03-25T22:48:08Z</expiry-time>
+    <validity-bgn-time-local tz="CDT">2026-03-25T00:00:00+10:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CDT">2026-03-28T23:59:59+10:30</validity-end-time-local>
+    <next-routine-issue-time-utc>2026-03-25T05:25:00Z</next-routine-issue-time-utc>
+    <next-routine-issue-time-local tz="CDT">2026-03-25T15:55:00+10:30</next-routine-issue-time-local>
+    <status>O</status>
+    <service>WSP</service>
+    <sub-service>FDS</sub-service>
+    <product-type>F</product-type>
+    <phase>NEW</phase>
+</amoc>
