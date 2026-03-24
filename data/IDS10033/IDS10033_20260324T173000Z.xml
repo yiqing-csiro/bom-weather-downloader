@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-03-24T17:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-25T04:00:00+10:30</issue-time-local>
+        <sent-time>2026-03-24T17:30:04Z</sent-time>
+        <expiry-time>2026-03-25T08:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-25T04:00:04+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-28T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-25T05:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-25T16:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-25T04:00:04+10:30" end-time-local="2026-03-25T04:00:04+10:30" start-time-utc="2026-03-24T17:30:04Z" end-time-utc="2026-03-24T17:30:04Z">
+                <text type="synoptic_situation">A broad trough lies over SA. A cold front clips the southeast as an upper trough moves up over SA today and tomorrow. A high pressure system develops south of the Bight late in the week and persists over the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-03-25T05:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-24T18:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <text type="forecast">Showers and thunderstorms about the agricultural area and south of the pastoral districts, showers possibly extending throughout the North West Pastoral district. Thunderstorms may become severe about parts of the northern agricultural area. Maximum temperatures above average, grading to below average in the northeast and about the coastal districts. Southeast to southwesterly winds extending throughout during the day, fresh at times about coastal districts during the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <text type="forecast">Showers about the agricultural area and south of the pastoral districts, possibly extending to the north of the pastoral districts. Possible thunderstorms about the pastoral and Flinders districts. Maximum temperatures below average to well below average about central districts. Southwest to southeasterly winds, fresh to strong about coastal districts.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <text type="forecast">Possible light showers about windward coasts and ranges. Maximum temperatures well below average. South to southeasterly winds, fresh about coastal districts.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <text type="forecast">
+                    <p>Possible light showers about windward coasts. Maximum temperatures below average to well below average about the north. Southeast to northeasterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: broadly less than 2 mm, possibly reaching 5mm about parts of the agricultural area. Isolated falls of 5 to 15 mm, mostly with thunderstorms and possibly up to 30 mm about the Flinders districts.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
