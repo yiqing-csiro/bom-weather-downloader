@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21033-2026-03-25T00:39:18+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-03-25T00:39:18+00:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Thunderstorm</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <effective>2026-03-25T00:39:17+00:00</effective>
+        <expires>2026-03-25T05:39:17+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Thunderstorm Warning for North East Pastoral, Flinders, Mid North and Riverland forecast districts</headline>
+        <description>
+          Severe thunderstorms are likely to produce heavy rainfall that may lead to flash flooding and damaging winds in the warning area over the next several hours. Locations which may be affected include Renmark, Port Pirie, Jamestown, Waikerie, Burra and Peterborough.  
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Secure or put away loose items around your property.
+* Move cars under cover or away from trees.
+* Keep clear of fallen power lines.
+* Don't drive, ride or walk through flood water.
+* Keep clear of creeks and storm drains.
+* Stay indoors, away from windows, while storms are nearby.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Flinders, Mid North, Riverland and North East Pastoral</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW014</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW006</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
