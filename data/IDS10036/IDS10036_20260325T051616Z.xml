@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10036</identifier>
+        <issue-time-utc>2026-03-25T05:16:16Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-25T15:46:16+10:30</issue-time-local>
+        <sent-time>2026-03-25T05:16:16Z</sent-time>
+        <expiry-time>2026-03-26T05:16:16Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-25T15:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-29T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-25T11:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-25T21:30:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FLW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-25T15:46:16+10:30" end-time-local="2026-03-25T15:46:16+10:30" start-time-utc="2026-03-25T05:16:16Z" end-time-utc="2026-03-25T05:16:16Z">
+                <text type="synoptic_situation">A trough will contract off the east coast of Victoria late Wednesday evening with a cold front set to follow on Thursday. A cold southerly airstream will establish in the wake of this front with another trough lingering in Bass Strait into Thursday evening. This trough will linger off the Gippsland coast on Friday with a low pressure system establishing in the Tasman Sea. A high pressure system will begin to slowly move in from the west on Friday, centring itself over Victoria on Sunday.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW011" description="Adelaide Metropolitan Waters" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-03-25T15:00:00+10:30" end-time-local="2026-03-26T00:00:00+10:30" start-time-utc="2026-03-25T04:30:00Z" end-time-utc="2026-03-25T13:30:00Z">
+                <text type="forecast_winds">Southwesterly 15 to 20 knots tending southerly in the evening.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres north of Grange.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-26T00:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T13:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <warning-summary type="marine_forecast">Strong Wind Warning for Thursday for Adelaide Metropolitan Waters</warning-summary>
+                <text type="forecast_winds">Southerly 15 to 25 knots, reaching up to 30 knots during the afternoon and evening.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres during the morning, then increasing to 1.5 to 2.5 metres around midday.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <text type="forecast_winds">Southerly 15 to 20 knots turning southeasterly 10 to 15 knots in the late evening.</text>
+                <text type="forecast_seas">1 to 1.5 metres, increasing to 1 to 2 metres north of Grange.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <text type="forecast_winds">Southeasterly 10 to 15 knots decreasing to about 10 knots during the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-29T00:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-28T13:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <text type="forecast_winds">Variable about 10 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Westerly below 0.5 metres.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

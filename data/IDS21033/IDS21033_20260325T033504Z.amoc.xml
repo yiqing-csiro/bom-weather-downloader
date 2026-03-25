@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS21033</identifier>
+    <issue-time-utc>2026-03-25T03:35:04Z</issue-time-utc>
+    <issue-time-local tz="CDT">2026-03-25T14:05:04+10:30</issue-time-local>
+    <sent-time>2026-03-25T03:35:04Z</sent-time>
+    <expiry-time>2026-03-25T08:35:01Z</expiry-time>
+    <validity-bgn-time-local tz="CDT">2026-03-25T14:05:01+10:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CDT">2026-03-25T19:05:00+10:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSW</service>
+    <sub-service>WST</sub-service>
+    <product-type>W</product-type>
+    <phase>CAN</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="CAN" type="STW" severity="CAN" urgency="UNK" certainty="UNK" start-time-utc="2026-03-25T03:35:01Z" end-time-utc="2026-03-25T08:35:01Z">
+        <area-list>
+            <area aac="SA_PW014" phase="CAN" description="North East Pastoral" type="public-district"/>
+            <area aac="SA_PW009" phase="CAN" description="Flinders" type="public-district"/>
+            <area aac="SA_PW008" phase="CAN" description="Mid North" type="public-district"/>
+            <area aac="SA_PW006" phase="CAN" description="Riverland" type="public-district"/>
+        </area-list>
+        <priority>W</priority>
+        <headline>Cancellation of Severe Thunderstorm Warning for North East Pastoral, Flinders, Mid North and Riverland forecast districts</headline>
+    </hazard>
+</amoc>
