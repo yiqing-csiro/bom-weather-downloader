@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20242</identifier>
+        <issue-time-utc>2026-03-25T23:48:57Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-26T10:18:57+10:30</issue-time-local>
+        <sent-time>2026-03-25T23:48:57Z</sent-time>
+        <expiry-time>2026-03-27T13:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-26T09:58:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-27T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-26T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-26T17:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>WSG</sub-service>
+        <product-type>W</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+            <text type="warning_title">Warning to Sheep Graziers</text>
+            <text type="warning_area_summary">Flinders and North East Pastoral forecast districts</text>
+            <text type="warning_next_issue">5:00 pm CDT Thursday</text>
+        </warning-info>
+        <!---->
+        <!--locale[SA_EV001, allow-output=yes]-->
+        <!--hazards-exist="yes" non-warning-info-elements-exist="no"-->
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <!--locale[SA_EV001]/period[variable]-->
+            <hazard index="1" parent-aac="SA_EV001" phase="NEW" type="SHW" severity="STD" urgency="UNK" certainty="UNK" start-time-local="2026-03-26T09:58:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-25T23:28:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <area-list>
+                    <area aac="SA_PW014" phase="NEW" description="North East Pastoral" type="public-district"/>
+                    <area aac="SA_PW009" phase="NEW" description="Flinders" type="public-district"/>
+                </area-list>
+                <priority>W</priority>
+                <text type="warning_phenomena">Warning to Sheep Graziers</text>
+                <text type="warning_areas">Flinders and North East Pastoral forecast districts</text>
+                <text type="warning">Sheep graziers are warned that cold temperatures, and fresh southerly winds are expected during Friday. Areas likely to be affected include parts of the Flinders and North East Pastoral forecast districts. There is a risk of losses of lambs and sheep exposed to these conditions.</text>
+            </hazard>
+        </area>
+    </warning>
+</product>

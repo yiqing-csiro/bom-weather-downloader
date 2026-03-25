@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11065</identifier>
+        <issue-time-utc>2026-03-25T23:00:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-26T09:30:00+10:30</issue-time-local>
+        <sent-time>2026-03-25T23:01:19Z</sent-time>
+        <expiry-time>2026-03-26T23:00:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-26T00:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-28T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-26T05:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-26T15:30:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FCW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-26T09:31:19+10:30" end-time-local="2026-03-26T09:31:19+10:30" start-time-utc="2026-03-25T23:01:19Z" end-time-utc="2026-03-25T23:01:19Z">
+                <text type="synoptic_situation">A broad trough lies over eastern SA. A cold front will clip the southeast tomorrow as a high pressure system starts to build south of the Bight. The high will become established south of SA by Friday before starting to move east towards the Tasman Sea on Sunday.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones. Marine forecasts are also available on VHF and HF radio. View the radio schedule on www.bom.gov.au/marine</text>
+                <text type="postamble">Check the latest Coastal Waters Forecasts for information on wind, wave and weather conditions for neighbouring coastal zones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW008" description="South Central Coast" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-03-26T09:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-25T22:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <warning-summary type="marine_forecast">Strong Wind Warning for Thursday for South Central Coast</warning-summary>
+                <text type="forecast_winds">Southerly 20 to 30 knots.</text>
+                <text type="forecast_seas">2 to 2.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 to 3 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <text type="forecast_winds">Southerly 15 to 25 knots.</text>
+                <text type="forecast_seas">1.5 to 2 metres, decreasing to 1 to 1.5 metres around midday.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 to 3 metres.</text>
+                <text type="forecast_swell2">South to southeasterly around 1 metre.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <text type="forecast_winds">South to southeasterly 10 to 15 knots decreasing to about 10 knots during the morning.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
