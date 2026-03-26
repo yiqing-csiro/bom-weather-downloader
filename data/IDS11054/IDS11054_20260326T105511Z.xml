@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11054</identifier>
+        <issue-time-utc>2026-03-26T10:55:11Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-26T21:25:11+10:30</issue-time-local>
+        <sent-time>2026-03-26T10:55:11Z</sent-time>
+        <expiry-time>2026-03-27T10:55:11Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-26T15:43:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-30T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-26T17:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-27T04:10:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-26T21:25:12+10:30" end-time-local="2026-03-26T21:25:12+10:30" start-time-utc="2026-03-26T10:55:12Z" end-time-utc="2026-03-26T10:55:12Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">An upper level trough over southeast SA will continue to move eastwards, as a high pressure system starts to build southwest of the Bight. The high will become established south of SA by Friday, then moving eastwards over the weekend to be centred over the Tasman Sea on Monday. A low pressure system well to the south will link to a trough over the far west late Monday and into Tuesday.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW014" description="North East Pastoral" type="public-district" parent-aac="SA_FA001">
+            <warning-summary type="sheep_graziers_warning" start-time-local="2026-03-26T15:43:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T05:13:00Z" end-time-utc="2026-03-27T13:30:00Z">Warning to Sheep Graziers</warning-summary>
+            <forecast-period index="0" start-time-local="2026-03-26T21:00:00+10:30" end-time-local="2026-03-27T00:00:00+10:30" start-time-utc="2026-03-26T10:30:00Z" end-time-utc="2026-03-26T13:30:00Z">
+                <text type="forecast">Clear. Winds southerly 30 to 45 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <text type="forecast">Sunny. Winds south to southeasterly 30 to 45 km/h. Overnight temperatures falling to between 8 and 17 with daytime temperatures reaching between 19 and 24.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 10:00am to 4:30pm, UV Index predicted to reach 8 [Very High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <text type="forecast">Sunny. Winds southeasterly 20 to 30 km/h. Overnight temperatures falling to between 8 and 13 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-29T00:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-28T13:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <text type="forecast">Mostly sunny. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to around 12 with daytime temperatures reaching the low to high 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-30T00:00:00+10:30" end-time-local="2026-03-31T00:00:00+10:30" start-time-utc="2026-03-29T13:30:00Z" end-time-utc="2026-03-30T13:30:00Z">
+                <text type="forecast">Sunny. Winds east to southeasterly 15 to 25 km/h. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 26 to 32.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT021" description="Leigh Creek" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-29T00:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-28T13:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-30T00:00:00+10:30" end-time-local="2026-03-31T00:00:00+10:30" start-time-utc="2026-03-29T13:30:00Z" end-time-utc="2026-03-30T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT024" description="Marree" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-29T00:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-28T13:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-30T00:00:00+10:30" end-time-local="2026-03-31T00:00:00+10:30" start-time-utc="2026-03-29T13:30:00Z" end-time-utc="2026-03-30T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT027" description="Moomba" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">9</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <text type="precis">Windy. Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-29T00:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-28T13:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-30T00:00:00+10:30" end-time-local="2026-03-31T00:00:00+10:30" start-time-utc="2026-03-29T13:30:00Z" end-time-utc="2026-03-30T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">31</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT038" description="Oodnadatta" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-29T00:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-28T13:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-30T00:00:00+10:30" end-time-local="2026-03-31T00:00:00+10:30" start-time-utc="2026-03-29T13:30:00Z" end-time-utc="2026-03-30T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">31</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT058" description="Yunta" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-03-27T00:00:00+10:30" end-time-local="2026-03-28T00:00:00+10:30" start-time-utc="2026-03-26T13:30:00Z" end-time-utc="2026-03-27T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-03-28T00:00:00+10:30" end-time-local="2026-03-29T00:00:00+10:30" start-time-utc="2026-03-27T13:30:00Z" end-time-utc="2026-03-28T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Becoming cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-03-29T00:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-28T13:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-03-30T00:00:00+10:30" end-time-local="2026-03-31T00:00:00+10:30" start-time-utc="2026-03-29T13:30:00Z" end-time-utc="2026-03-30T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
