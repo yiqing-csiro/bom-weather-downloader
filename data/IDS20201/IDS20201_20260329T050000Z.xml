@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20201</identifier>
+        <issue-time-utc>2026-03-29T05:00:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-29T15:30:00+10:30</issue-time-local>
+        <sent-time>2026-03-29T05:00:04Z</sent-time>
+        <expiry-time>2026-03-29T13:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-29T15:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-29T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-29T11:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-29T21:30:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>WMS</sub-service>
+        <product-type>W</product-type>
+        <phase>CAN</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+            <text type="warning_title">Marine Wind Warning Summary for South Australia</text>
+            <text type="postamble">Check the latest Coastal Waters Forecast or Local Waters Forecast at http://www.bom.gov.au/sa/forecasts/map.shtml for information on wind, wave and weather conditions for these coastal zones.</text>
+            <text type="warning_next_issue">The next Marine Wind Warning Summary will be issued when required.</text>
+        </warning-info>
+        <!---->
+        <!--locale[SA_FA001, allow-output=yes]-->
+        <!--hazards-exist="yes" non-warning-info-elements-exist="yes"-->
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <!--===================-->
+            <!--NON-HAZARD ELEMENTS-->
+            <!--===================-->
+            <!--locale[SA_FA001]/period[variable]-->
+            <!--non-warning-info-elements-exist='yes'-->
+            <forecast-period start-time-local="2026-03-29T15:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-03-29T04:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <warning-summary type="marine_forecast"/>
+            </forecast-period>
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <!--locale[SA_FA001]/period[day0]-->
+            <forecast-period index="0" start-time-local="2026-03-29T15:00:00+10:30" end-time-local="2026-03-30T00:00:00+10:30" start-time-utc="2026-03-29T04:30:00Z" end-time-utc="2026-03-29T13:30:00Z">
+                <hazard index="1" parent-aac="SA_FA001" phase="CAN" type="MWW" severity="CAN" urgency="UNK" certainty="UNK">
+                    <area-list>
+                        <area aac="SA_MW001" phase="CAN" description="Far West Coast: WA-SA Border to Fowlers Bay" type="coast"/>
+                    </area-list>
+                    <priority>W</priority>
+                    <text type="warning_phenomena">Cancellation</text>
+                    <text type="warning_areas">Far West Coast</text>
+                </hazard>
+            </forecast-period>
+        </area>
+    </warning>
+</product>
