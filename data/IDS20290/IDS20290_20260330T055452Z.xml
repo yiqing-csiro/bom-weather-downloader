@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20290</identifier>
+        <issue-time-utc>2026-03-30T05:54:52Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-30T16:24:52+10:30</issue-time-local>
+        <sent-time>2026-03-30T05:54:52Z</sent-time>
+        <expiry-time>2026-03-31T13:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-31T00:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-03-31T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-30T20:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-31T07:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSF</service>
+        <sub-service>WFW</sub-service>
+        <product-type>W</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+            <text type="warning_title">Fire Weather Warning</text>
+            <text type="warning_area_summary">Mount Lofty Ranges fire weather district</text>
+            <text type="warning_advice">
+                <p>The Country Fire Service advises you to:</p>
+                <p>Action your Bushfire Survival Plan now.</p>
+                <p>Monitor the fire and weather situation through your local radio station, www.cfs.sa.gov.au, and www.bom.gov.au.</p>
+                <p>Call 000 (Triple Zero) in an emergency.</p>
+            </text>
+            <text type="warning_next_issue">The next warning will be issued by 7:00 am CDT Tuesday.</text>
+        </warning-info>
+        <!---->
+        <!--locale[SA_EV001, allow-output=yes]-->
+        <!--hazards-exist="yes" non-warning-info-elements-exist="yes"-->
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <!--===================-->
+            <!--NON-HAZARD ELEMENTS-->
+            <!--===================-->
+            <!--locale[SA_EV001]/period[variable]-->
+            <!--non-warning-info-elements-exist='yes'-->
+            <forecast-period start-time-local="2026-03-31T00:00:00+10:30" end-time-local="2026-04-01T00:00:00+10:30" start-time-utc="2026-03-30T13:30:00Z" end-time-utc="2026-03-31T13:30:00Z">
+                <text type="information">For information on preparing for bushfires go to www.cfs.sa.gov.au.</text>
+                <text type="synoptic_situation">Warm to hot and dry conditions coupled with fresh northwesterly winds will drive Extreme fire dangers over the Mount Lofty Ranges during Tuesday.</text>
+            </forecast-period>
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <!--locale[SA_EV001]/period[day1]-->
+            <forecast-period index="1" start-time-local="2026-03-31T00:00:00+10:30" end-time-local="2026-04-01T00:00:00+10:30" start-time-utc="2026-03-30T13:30:00Z" end-time-utc="2026-03-31T13:30:00Z">
+                <hazard index="1" parent-aac="SA_EV001" phase="NEW" type="FWW" severity="EXT" urgency="UNK" certainty="UNK">
+                    <area-list>
+                        <area aac="SA_FW015" phase="NEW" description="Mount Lofty Ranges" type="fire-district"/>
+                    </area-list>
+                    <priority>W</priority>
+                    <text type="warning_phenomena">Extreme Fire Danger</text>
+                    <text type="warning_areas">Mount Lofty Ranges</text>
+                    <text type="warning_for">is forecast for the following fire weather district:</text>
+                </hazard>
+            </forecast-period>
+        </area>
+    </warning>
+</product>
