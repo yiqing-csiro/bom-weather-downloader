@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10036</identifier>
+        <issue-time-utc>2026-03-30T18:40:12Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-31T05:10:12+10:30</issue-time-local>
+        <sent-time>2026-03-30T18:40:12Z</sent-time>
+        <expiry-time>2026-03-31T18:40:12Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-31T03:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-04-03T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-30T23:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-03-31T09:30:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FLW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-31T05:10:12+10:30" end-time-local="2026-03-31T05:10:12+10:30" start-time-utc="2026-03-30T18:40:12Z" end-time-utc="2026-03-30T18:40:12Z">
+                <text type="synoptic_situation">A high pressure system over the Tasman sea extends a weak ridge over SA. A trough over central WA extends over southwest SA, and is forecast to move across the west and south later Tuesday, pushing into the northeast of SA on Wednesday. Another high pressure system is expected to become established south of the Bight late in the week.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW011" description="Adelaide Metropolitan Waters" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-03-31T03:00:00+10:30" end-time-local="2026-04-01T00:00:00+10:30" start-time-utc="2026-03-30T16:30:00Z" end-time-utc="2026-03-31T13:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots turning northerly in the morning.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-01T00:00:00+10:30" end-time-local="2026-04-02T00:00:00+10:30" start-time-utc="2026-03-31T13:30:00Z" end-time-utc="2026-04-01T13:30:00Z">
+                <text type="forecast_winds">Westerly 10 to 15 knots tending southwesterly in the morning then becoming variable below 10 knots in the late afternoon.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 1 metre.</text>
+                <text type="forecast_weather">70% chance of showers in the early morning. Mostly sunny afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-02T00:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-04-01T13:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <text type="forecast_winds">Variable below 10 knots becoming southwesterly 10 to 15 knots during the afternoon then tending southeast to southwesterly during the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 1 metre.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-03T00:00:00+10:30" end-time-local="2026-04-04T00:00:00+10:30" start-time-utc="2026-04-02T13:30:00Z" end-time-utc="2026-04-03T13:30:00Z">
+                <text type="forecast_winds">Southeasterly about 10 knots increasing to 15 to 20 knots during the afternoon.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
