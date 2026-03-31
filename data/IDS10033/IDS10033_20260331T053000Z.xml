@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-03-31T05:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-03-31T16:00:00+10:30</issue-time-local>
+        <sent-time>2026-03-31T05:30:04Z</sent-time>
+        <expiry-time>2026-03-31T20:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-03-31T16:00:05+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-04-04T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-03-31T17:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-04-01T04:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-03-31T16:00:05+10:30" end-time-local="2026-03-31T16:00:05+10:30" start-time-utc="2026-03-31T05:30:05Z" end-time-utc="2026-03-31T05:30:05Z">
+                <text type="synoptic_situation">A trough over western SA, links to a low pressure system well south of the Bight. The low and associated trough continue to move southeastwards, with the trough reaching central parts late Tuesday and then pushing into the northeast of SA on Wednesday. A high pressure system is expected to become established south of the Bight late in the week, after a weak front clips the southeast late Thursday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-01T00:00:00+10:30" end-time-local="2026-04-02T00:00:00+10:30" start-time-utc="2026-03-31T13:30:00Z" end-time-utc="2026-04-01T13:30:00Z">
+                <text type="forecast">Showers and thunderstorms moving across the agricultural area and North West Pastoral district during the morning, then lingering about the Flinders, Riverland and southern North East Pastoral district into the afternoon before clearing in the evening. Maximum temperatures above average, lowering to slightly below average in the west and about the southern agricultural area. Northerly winds in the northeast, with southwest to southerly winds extending throughout during the day.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-03-31T17:00:00+10:30" end-time-local="2026-04-01T00:00:00+10:30" start-time-utc="2026-03-31T06:30:00Z" end-time-utc="2026-03-31T13:30:00Z">
+                <text type="forecast">Showers and thunderstorms in the west, reaching central districts at night. Thunderstorms possibly severe about the west. Northerly winds, freshening in the west ahead of a southwesterly change extending over western parts in the afternoon and evening, reaching central parts at night.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-02T00:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-04-01T13:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <text type="forecast">Dry apart from possible isolated showers about the southern coasts and possible showers in the west. Areas of morning fog about the agricultural area. Maximum temperatures near to slightly below average about the southern agricultural area, grading to above average in the north and east. Southwest to southeasterly winds and locally fresh afternoon sea breezes. Northwest to southwesterly winds in the southeast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-03T00:00:00+10:30" end-time-local="2026-04-04T00:00:00+10:30" start-time-utc="2026-04-02T13:30:00Z" end-time-utc="2026-04-03T13:30:00Z">
+                <text type="forecast">Dry apart from isolated showers about the southern agricultural area and far southwest, clearing during the afternoon. Areas of morning fog about the agricultural area. Maximum temperatures below average about the agricultural area, grading to above average in the north. South to southeasterly winds and locally fresh afternoon sea breezes.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-04T00:00:00+10:30" end-time-local="2026-04-05T00:00:00+10:30" start-time-utc="2026-04-03T13:30:00Z" end-time-utc="2026-04-04T13:30:00Z">
+                <text type="forecast">
+                    <p>Dry apart from isolated showers about the southwest. Maximum temperatures below average about the southeast, grading to above average in elsewhere. Generally southeast to northeasterly winds and locally fresh afternoon sea breezes.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: Less than 2mm about the North West Pastoral district, agricultural areas and south of the North East Pastoral district, increasing to 2 to 5mm about western parts, with highly variable totals of 5 to 30 mm across the west from showers and thunderstorms Tuesday and into Wednesday.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
