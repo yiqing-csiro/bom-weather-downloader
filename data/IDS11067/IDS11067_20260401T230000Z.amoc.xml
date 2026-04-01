@@ -7,10 +7,10 @@
         <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
         <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
     </source>
-    <identifier>IDS11065</identifier>
+    <identifier>IDS11067</identifier>
     <issue-time-utc>2026-04-01T23:00:00Z</issue-time-utc>
     <issue-time-local tz="CDT">2026-04-02T09:30:00+10:30</issue-time-local>
-    <sent-time>2026-04-01T23:00:26Z</sent-time>
+    <sent-time>2026-04-01T23:00:30Z</sent-time>
     <expiry-time>2026-04-02T23:00:00Z</expiry-time>
     <validity-bgn-time-local tz="CDT">2026-04-02T00:00:00+10:30</validity-bgn-time-local>
     <validity-end-time-local tz="CDT">2026-04-04T23:59:59+10:30</validity-end-time-local>
