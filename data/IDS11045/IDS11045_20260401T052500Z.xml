@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11045</identifier>
+        <issue-time-utc>2026-04-01T05:25:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-04-01T15:55:00+10:30</issue-time-local>
+        <sent-time>2026-04-01T05:25:18Z</sent-time>
+        <expiry-time>2026-04-02T05:25:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-04-01T15:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-05T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-01T17:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-04-02T04:10:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-01T15:55:19+10:30" end-time-local="2026-04-01T15:55:19+10:30" start-time-utc="2026-04-01T05:25:19Z" end-time-utc="2026-04-01T05:25:19Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A high pressure system southwest of Perth extends a ridge over SA. The ridge will weaken overnight to allow the tail end of a cold front to brush the southeast of SA later Thursday. The high is forecast to move east on Friday to be southeast of Tasmania by Sunday.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW005" description="Lower South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-01T15:00:00+10:30" end-time-local="2026-04-02T00:00:00+10:30" start-time-utc="2026-04-01T04:30:00Z" end-time-utc="2026-04-01T13:30:00Z">
+                <text type="forecast">Clear. Winds westerly 15 to 25 km/h becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-02T00:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-04-01T13:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Medium chance of showers in the south, slight chance elsewhere. Light winds becoming westerly 20 to 30 km/h in the morning then tending southwesterly 15 to 25 km/h in the evening. Overnight temperatures falling to between 7 and 11 with daytime temperatures reaching the low 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 10:20am to 4:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-03T00:00:00+10:30" end-time-local="2026-04-04T00:00:00+10:30" start-time-utc="2026-04-02T13:30:00Z" end-time-utc="2026-04-03T13:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of fog in the north in the early morning. Light winds becoming south to southeasterly 20 to 30 km/h in the morning. Overnight temperatures falling to around 10 with daytime temperatures reaching between 18 and 21.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-04T00:00:00+10:30" end-time-local="2026-04-05T00:00:00+10:30" start-time-utc="2026-04-03T13:30:00Z" end-time-utc="2026-04-04T13:30:00Z">
+                <text type="forecast">Sunny. Winds east to southeasterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to around 7 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-05T00:00:00+10:30" end-time-local="2026-04-06T00:00:00+09:30" start-time-utc="2026-04-04T13:30:00Z" end-time-utc="2026-04-05T14:30:00Z">
+                <text type="forecast">Mostly sunny morning. Medium chance of showers, most likely in the evening. Light winds becoming northerly 15 to 20 km/h during the day then becoming light during the afternoon. Overnight temperatures falling to around 8 with daytime temperatures reaching the mid to high 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT030" description="Mount Gambier" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-04-02T00:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-04-01T13:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-03T00:00:00+10:30" end-time-local="2026-04-04T00:00:00+10:30" start-time-utc="2026-04-02T13:30:00Z" end-time-utc="2026-04-03T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-04T00:00:00+10:30" end-time-local="2026-04-05T00:00:00+10:30" start-time-utc="2026-04-03T13:30:00Z" end-time-utc="2026-04-04T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-05T00:00:00+10:30" end-time-local="2026-04-06T00:00:00+09:30" start-time-utc="2026-04-04T13:30:00Z" end-time-utc="2026-04-05T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT034" description="Naracoorte" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-04-02T00:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-04-01T13:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-03T00:00:00+10:30" end-time-local="2026-04-04T00:00:00+10:30" start-time-utc="2026-04-02T13:30:00Z" end-time-utc="2026-04-03T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-04T00:00:00+10:30" end-time-local="2026-04-05T00:00:00+10:30" start-time-utc="2026-04-03T13:30:00Z" end-time-utc="2026-04-04T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">6</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-05T00:00:00+10:30" end-time-local="2026-04-06T00:00:00+09:30" start-time-utc="2026-04-04T13:30:00Z" end-time-utc="2026-04-05T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT010" description="Coonawarra" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-04-02T00:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-04-01T13:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-03T00:00:00+10:30" end-time-local="2026-04-04T00:00:00+10:30" start-time-utc="2026-04-02T13:30:00Z" end-time-utc="2026-04-03T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-04T00:00:00+10:30" end-time-local="2026-04-05T00:00:00+10:30" start-time-utc="2026-04-03T13:30:00Z" end-time-utc="2026-04-04T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">6</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-05T00:00:00+10:30" end-time-local="2026-04-06T00:00:00+09:30" start-time-utc="2026-04-04T13:30:00Z" end-time-utc="2026-04-05T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT046" description="Robe" type="location" parent-aac="SA_PW005">
+            <forecast-period index="1" start-time-local="2026-04-02T00:00:00+10:30" end-time-local="2026-04-03T00:00:00+10:30" start-time-utc="2026-04-01T13:30:00Z" end-time-utc="2026-04-02T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-03T00:00:00+10:30" end-time-local="2026-04-04T00:00:00+10:30" start-time-utc="2026-04-02T13:30:00Z" end-time-utc="2026-04-03T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-04T00:00:00+10:30" end-time-local="2026-04-05T00:00:00+10:30" start-time-utc="2026-04-03T13:30:00Z" end-time-utc="2026-04-04T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-05T00:00:00+10:30" end-time-local="2026-04-06T00:00:00+09:30" start-time-utc="2026-04-04T13:30:00Z" end-time-utc="2026-04-05T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
