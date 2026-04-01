@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+			<region>National Water Operations</region>
+			<office>NWOT</office>
+           <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20370</identifier>
+        <issue-time-utc>2026-04-01T03:27:09Z</issue-time-utc>
+        <issue-time-local tz="ACDT">2026-04-01T13:57:09+10:30</issue-time-local>
+        <sent-time>2026-04-01T03:27:09Z</sent-time>
+        <expiry-time>2026-04-08T10:27:09Z</expiry-time>
+        <validity-bgn-time-local tz="ACDT">2026-04-01T13:57:09+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="ACDT">2026-04-08T19:57:09+09:30</validity-end-time-local>
+        <status>O</status>
+        <service>HFW</service>
+        <sub-service>WFL</sub-service>
+        <product-type>W</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+			
+			
+            <text type="warning_title">Flood Warning for the Inland Rivers SA</text>
+            <text type="warning_subtitle"></text>
+  	        
+<text type="warning_advice">
+<p>Don't drive, walk, swim or play in floodwater because it is dangerous.</p>
+<p>Stay away from flooded drains, rivers, streams and waterways.</p>
+<p>Obey road closure signs. Plan ahead so you don&#39;t drive on flooded roads.</p>
+<p>Check the ABC and local media for updates. The situation can change quickly, so stay informed.</p>
+<p>For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.</p>
+</text>
+<text type="warning_advice_contact">
+<p>For emergency assistance call SES on telephone number 132 500. In life-threatening emergencies, call 000 (triple zero) immediately.
+
+</p>
+</text>
+            <text type="warning_next_issue">The next warning will be issued by 01:00 PM ACST on Wednesday 08 April 2026.</text>
+            <text type="product_footer">
+<p>This advice is also available by dialling 1300 659 219. Warning, rainfall and river information are available at http://www.bom.gov.au/australia/flood.</p>
+			</text>
+        </warning-info>
+        <area aac="SA_RC005" description="Inland Rivers SA" type="river-basin">
+            <!--===================-->
+            <!--NON-HAZARD ELEMENTS-->
+            <!--===================-->
+	    <forecast-period start-time-local="2026-04-01T13:57:09+10:30" end-time-local="2026-04-08T19:57:09+09:30" start-time-utc="2026-04-01T03:27:09Z" end-time-utc="2026-04-08T10:27:09Z">
+                
+				<element type="warning_sequence">15</element>
+                <text type="warning_situation">
+				<p>ELEVATED RIVER LEVELS CONTINUING ALONG THE WARBURTON RIVER AT POOTHAPOOTHA</p>
+<p>ELEVATED CREEK LEVELS CONTINUING ALONG THE LOWER COOPER CREEK AROUND INNAMINCKA</p>
+
+				<p/>
+				<p>River levels along the Warburton River at Poothapootha Waterhole are currently falling, however, further rises are expected over the coming weeks as flows continue to arrive from upstream in Queensland. Along the Diamantina River (QLD) at Birdsville, river levels remain elevated, and minor flooding is occurring.</p>
+<p/>
+<p>River levels further upstream in Queensland, including the Eyre Creek and Georgina River, remain elevated, and moderate to major flooding is occurring. Further river level rises and high flows are possible along the Warburton River in the coming weeks, as floodwaters continue flowing downstream into South Australia.</p>
+<p/>
+<p>Creek levels along the lower Cooper Creek around Innamincka are currently falling, however, further rises are expected over the coming weeks as flows continue to arrive from upstream in Queensland. Major flooding is easing along Cooper Creek at Windorah.</p>
+<p/>
+<p>Many roads and access tracks are impacted by flooding, in particular river and creek crossings. Transportation and movement of local communities and travellers are likely to be further impacted. Check road conditions before travelling.</p>
+
+				<p>Queensland flood warnings are current for the Georgina River, Eyre Creek, Diamantina River, Thomson River, and Cooper Creek.</p>
+
+                </text>
+                <element type="severity">Generalised</element>
+            </forecast-period>
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <hazard index="1" parent-aac="SA_RC005" phase="UPD" type="FLW" severity="UNCL" urgency="UNK" certainty="UNK" start-time-local="2026-04-01T13:57:09+10:30" end-time-local="2026-04-08T19:57:09+09:30" start-time-utc="2026-04-01T03:27:09Z" end-time-utc="2026-04-08T10:27:09Z">
+                <area-list>
+                    <area aac="SA_RC030" phase="UPD" description="Warburton" type="river-basin"/>
+
+                </area-list>
+                <priority>W</priority>
+                <text type="warning">Elevated river levels are occurring along the Warburton River at Poothapootha Waterhole. Further rises are expected over the coming weeks as upstream floodwaters arrive.</text>
+            </hazard>            <hazard index="2" parent-aac="SA_RC005" phase="UPD" type="FLW" severity="UNCL" urgency="UNK" certainty="UNK" start-time-local="2026-04-01T13:57:09+10:30" end-time-local="2026-04-08T19:57:09+09:30" start-time-utc="2026-04-01T03:27:09Z" end-time-utc="2026-04-08T10:27:09Z">
+                <area-list>
+                    <area aac="SA_RC031" phase="UPD" description="Cooper Creek" type="river-basin"/>
+
+                </area-list>
+                <priority>W</priority>
+                <text type="warning">Creek levels are elevated along lower Cooper Creek at Cullyamurra Waterhole, where the creek level is around 1.30 m above the Innamincka causeway and falling. Rises are expected over the coming weeks as upstream floodwaters arrive.</text>
+            </hazard>
+          </area>   
+        
+      
+  
+            <area aac="QLD_RO1087" description="Diamantina River at Birdsville" type="river-obs-site" parent-aac="SA_RC005">
+                <forecast-period start-time-local="2026-04-01T14:27:09+11:00" end-time-local="2026-04-08T20:27:09+10:00" start-time-utc="2026-04-01T03:27:09Z" end-time-utc="2026-04-08T10:27:09Z">
+                    <element type="obs_site_description">Diamantina River at Birdsville</element>
+                    <element type="obs_site_latitude">-25.9185</element>
+                    <element type="obs_site_longitude">139.3506</element>
+                    <element type="obs_river_height">5.89</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">1:10 pm Wed 01/04/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0074" description="Cooper Creek at Cullyamurra Waterhole" type="river-obs-site" parent-aac="SA_RC005">
+                <forecast-period start-time-local="2026-04-01T13:57:09+10:30" end-time-local="2026-04-08T19:57:09+09:30" start-time-utc="2026-04-01T03:27:09Z" end-time-utc="2026-04-08T10:27:09Z">
+                    <element type="obs_site_description">Cooper Creek at Cullyamurra Waterhole</element>
+                    <element type="obs_site_latitude">-27.7028</element>
+                    <element type="obs_site_longitude">140.8228</element>
+                    <element type="obs_river_height">2.90</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">12:40 pm Wed 01/04/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0075" description="Cooper Creek at NW Channel Upstream Coongie Lakes" type="river-obs-site" parent-aac="SA_RC005">
+                <forecast-period start-time-local="2026-04-01T13:57:09+10:30" end-time-local="2026-04-08T19:57:09+09:30" start-time-utc="2026-04-01T03:27:09Z" end-time-utc="2026-04-08T10:27:09Z">
+                    <element type="obs_site_description">Cooper Creek at NW Channel Upstream Coongie Lakes</element>
+                    <element type="obs_site_latitude">-27.1374</element>
+                    <element type="obs_site_longitude">140.0317</element>
+                    <element type="obs_river_height">4.90</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">12:40 pm Wed 01/04/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0073" description="Warburton River at Poothapootha Waterhole" type="river-obs-site" parent-aac="SA_RC005">
+                <forecast-period start-time-local="2026-04-01T13:57:09+10:30" end-time-local="2026-04-08T19:57:09+09:30" start-time-utc="2026-04-01T03:27:09Z" end-time-utc="2026-04-08T10:27:09Z">
+                    <element type="obs_site_description">Warburton River at Poothapootha Waterhole</element>
+                    <element type="obs_site_latitude">-27.0794</element>
+                    <element type="obs_site_longitude">138.7533</element>
+                    <element type="obs_river_height">5.29</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">11:50 am Wed 01/04/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>
+
+    </warning>
+</product>
