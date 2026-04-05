@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-04-05T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-05T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-04-05T06:30:03Z</sent-time>
+        <expiry-time>2026-04-05T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-05T16:00:03+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-09T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-05T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-06T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-05T16:00:03+09:30" end-time-local="2026-04-05T16:00:03+09:30" start-time-utc="2026-04-05T06:30:03Z" end-time-utc="2026-04-05T06:30:03Z">
+                <text type="synoptic_situation">A trough over western WA linking to a weak front south of the Bight will continue to move over western and southern parts of SA later Sunday into Monday. A high pressure will move south of the Bight early in the week, before another trough and upper level system develops in the west. and moves across mid to late in the week, with a vigorous cold front to follow later Thursday and into Friday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-06T00:00:00+09:30" end-time-local="2026-04-07T00:00:00+09:30" start-time-utc="2026-04-05T14:30:00Z" end-time-utc="2026-04-06T14:30:00Z">
+                <text type="forecast">High cloud and isolated showers about central and eastern parts, contracting eastwards during the morning. Showers to follow about the agricultural area, possibly reaching into the south of the Pastoral districts. Isolated showers and thunderstorms developing the the far west during the afternoon. Maximum temperatures above to well above average. Northeast to northwesterly winds ahead of a west to southwesterly change in the west and south, extending inland during the afternoon and evening. Winds fresh at times about coastal parts in the late afternoon and evening. Winds shifting southwest to southeasterly in the west.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-04-05T17:00:00+09:30" end-time-local="2026-04-06T00:00:00+09:30" start-time-utc="2026-04-05T07:30:00Z" end-time-utc="2026-04-05T14:30:00Z">
+                <text type="forecast">Areas of high cloud with isolated showers about western and central parts, extending to eastern parts of the agricultural area during the evening. Possible thunderstorms about the southwest and about western and central southern coastal parts. Generally southeast to northeasterly winds, ahead of a southerly change in the southwest during the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-07T00:00:00+09:30" end-time-local="2026-04-08T00:00:00+09:30" start-time-utc="2026-04-06T14:30:00Z" end-time-utc="2026-04-07T14:30:00Z">
+                <text type="forecast">Light showers about the southern agricultural area, mainly about windward coasts and ranges during the morning. Middle level cloud, isolated showers and possible thunderstorms about the southwest, extending across the west during the day, possibly reaching central and eastern parts of the northern agricultural area or south of the Pastoral districts in the evening. Mostly sunny in the far north. Maximum temperatures near average to slightly below average about the agricultural area, grading to above average in the north. Northeast to northwesterly winds in the north at times, with southwest to southeasterly winds otherwise.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-08T00:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-07T14:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Possible light showers about the southern agricultural area, mainly about southern coasts and ranges during the morning. Middle level cloud, isolated showers and possible thunderstorms about the west, the northern agricultural area and south of the pastoral districts, possibly extending into the southern agricultural area before contracting eastwards and clearing in the evening. Maximum temperatures slightly below average about the southeast, grading to above average in the north and west. Southeast to northeasterly winds at first, tending northeast to northwesterly throughout ahead of a west to southwesterly change in the west during the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers and thunderstorms about the agricultural area and south of the pastoral districts, increasing during the late afternoon and evening. Maximum temperatures generally above average, grading to below average about western coastal districts and well above average in the north and northeast. Freshening north to northwesterly winds ahead of a fresh west to southwesterly change extending throughout apart from the far northeast. Winds shifting southwest to southerly behind the change in the west.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Thursday: Generally less than 3mm about the agricultural area and south of the pastoral districts, increasing to 2 to 10 mm about the southwest and about the southern agricultural area. isolated falls of 10 to 30 mm possible with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
