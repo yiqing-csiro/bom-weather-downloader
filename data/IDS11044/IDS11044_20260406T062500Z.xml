@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11044</identifier>
+        <issue-time-utc>2026-04-06T06:25:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-06T15:55:00+09:30</issue-time-local>
+        <sent-time>2026-04-06T06:25:17Z</sent-time>
+        <expiry-time>2026-04-07T06:25:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-06T15:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-10T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-06T18:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-07T04:10:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-06T15:55:17+09:30" end-time-local="2026-04-06T15:55:17+09:30" start-time-utc="2026-04-06T06:25:17Z" end-time-utc="2026-04-06T06:25:17Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A cold front will pass over the southeast overnight followed by a high-pressure system building south of the state on Tuesday. The high will then move east on Wednesday allowing an upper trough to bring instability to southern parts of the state during the day, persisting into Thursday. The upper trough will precede a vigorous cold front that is forecast to move over South Australia Thursday afternoon. A cooler southwest to southerly flow will gradually moderate as a stronger high-pressure system moves in from the west from Friday to be south of the state on Sunday.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW004" description="Upper South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-06T15:00:00+09:30" end-time-local="2026-04-07T00:00:00+09:30" start-time-utc="2026-04-06T05:30:00Z" end-time-utc="2026-04-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower, most likely later tonight. Winds westerly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-07T00:00:00+09:30" end-time-local="2026-04-08T00:00:00+09:30" start-time-utc="2026-04-06T14:30:00Z" end-time-utc="2026-04-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the early morning. Winds westerly 15 to 20 km/h tending southwesterly 15 to 25 km/h before dawn then becoming light in the evening. Overnight temperatures falling to around 13 with daytime temperatures reaching the low 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:20am to 2:50pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-08T00:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-07T14:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds becoming northerly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Overnight temperatures falling to between 5 and 8 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers. The chance of a thunderstorm in the morning and afternoon. Winds northerly 15 to 20 km/h turning west to northwesterly 20 to 30 km/h during the morning. Overnight temperatures falling to between 12 and 15 with daytime temperatures reaching the mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers. Winds westerly 25 to 40 km/h. Overnight temperatures falling to between 11 and 14 with daytime temperatures reaching around 19.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT017" description="Keith" type="location" parent-aac="SA_PW004">
+            <forecast-period index="1" start-time-local="2026-04-07T00:00:00+09:30" end-time-local="2026-04-08T00:00:00+09:30" start-time-utc="2026-04-06T14:30:00Z" end-time-utc="2026-04-07T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-08T00:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-07T14:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">6</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT022" description="Bordertown" type="location" parent-aac="SA_PW004">
+            <forecast-period index="1" start-time-local="2026-04-07T00:00:00+09:30" end-time-local="2026-04-08T00:00:00+09:30" start-time-utc="2026-04-06T14:30:00Z" end-time-utc="2026-04-07T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <text type="precis">Possible morning shower.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-08T00:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-07T14:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">5</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Shower or two. Windy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT074" description="Meningie" type="location" parent-aac="SA_PW004">
+            <forecast-period index="1" start-time-local="2026-04-07T00:00:00+09:30" end-time-local="2026-04-08T00:00:00+09:30" start-time-utc="2026-04-06T14:30:00Z" end-time-utc="2026-04-07T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <text type="precis">Possible early shower.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-08T00:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-07T14:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Shower or two. Windy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
