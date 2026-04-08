@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11055</identifier>
+        <issue-time-utc>2026-04-08T07:34:45Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-08T17:04:45+09:30</issue-time-local>
+        <sent-time>2026-04-08T07:34:45Z</sent-time>
+        <expiry-time>2026-04-09T07:34:45Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-08T15:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-12T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-08T18:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-09T04:10:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region"/>
+        <area aac="SA_PW015" description="Mount Lofty Ranges" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, becoming less likely later this evening. The chance of a thunderstorm. Winds north to northwesterly 15 to 20 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. The chance of a thunderstorm in the morning and afternoon. Winds northwesterly 20 to 30 km/h increasing to 25 to 40 km/h in the middle of the day then turning westerly 25 to 35 km/h in the late afternoon. Overnight temperatures falling to around 16 with daytime temperatures reaching the low 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 3:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers. Winds westerly 25 to 40 km/h turning southwesterly 20 to 30 km/h in the late evening. Overnight temperatures falling to around 12 with daytime temperatures reaching between 15 and 18.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers. Winds southwesterly 25 to 35 km/h. Overnight temperatures falling to between 7 and 11 with daytime temperatures reaching between 14 and 17.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower, most likely in the morning and afternoon. Winds southwesterly 15 to 25 km/h tending southerly 15 to 20 km/h during the afternoon then becoming light during the evening. Overnight temperatures falling to between 8 and 12 with daytime temperatures reaching between 15 and 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW002" description="Yorke Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northerly 15 to 25 km/h turning northwesterly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds northwesterly 15 to 25 km/h turning westerly 25 to 40 km/h during the morning and early afternoon. Overnight temperatures falling to around 16 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:40am to 3:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers, most likely in the late afternoon and evening. Winds westerly 30 to 45 km/h turning southwesterly 25 to 40 km/h in the late afternoon. Overnight temperatures falling to around 14 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower, most likely in the morning. Winds southwesterly 25 to 35 km/h. Overnight temperatures falling to around 11 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Winds south to southwesterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to between 8 and 12 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW003" description="Kangaroo Island" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, becoming less likely later this evening. The chance of a thunderstorm. Winds northerly 15 to 20 km/h turning northwesterly in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the afternoon and evening. Winds northwesterly 20 to 30 km/h increasing to 40 km/h before turning westerly 25 to 35 km/h in the afternoon. Overnight temperatures falling to around 15 with daytime temperatures reaching the low 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:40am to 2:50pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers, most likely from the late morning. Winds westerly 30 to 45 km/h turning southwesterly 25 to 35 km/h in the late afternoon. Overnight temperatures falling to around 11 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds southwesterly 25 to 35 km/h. Overnight temperatures falling to around 10 with daytime temperatures reaching around 17.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to around 11 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW004" description="Upper South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds north to northeasterly 15 to 20 km/h becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the evening. The chance of a thunderstorm in the morning and afternoon. Winds north to northwesterly 15 to 20 km/h tending west to northwesterly 25 to 35 km/h during the morning. Overnight temperatures falling to around 14 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 2:40pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers, most likely in the late afternoon and evening. Winds westerly 30 to 45 km/h. Overnight temperatures falling to between 9 and 13 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 25 to 40 km/h. Overnight temperatures falling to between 5 and 10 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the morning and afternoon. Winds southwesterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to between 6 and 11 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW005" description="Lower South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers in the north, slight chance elsewhere. Winds northerly 15 to 20 km/h becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the north in the morning and afternoon. Winds north to northwesterly 15 to 25 km/h tending west to northwesterly 25 to 40 km/h during the day. Overnight temperatures falling to around 13 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 2:40pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Possible small hail in the south at night. Winds westerly 30 to 45 km/h. Overnight temperatures falling to around 10 with daytime temperatures reaching around 17.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers in the south, medium chance elsewhere. Winds west to southwesterly 25 to 40 km/h. Overnight temperatures falling to between 6 and 9 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to between 7 and 11 with daytime temperatures reaching around 17.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW006" description="Riverland" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower, becoming less likely later this evening. The chance of a thunderstorm. Winds northerly 15 to 20 km/h becoming light in the evening then becoming northerly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm. Light winds becoming northwesterly 15 to 20 km/h in the morning then tending westerly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to around 17 with daytime temperatures reaching the mid to high 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:20am to 2:50pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Winds westerly 25 to 35 km/h. Overnight temperatures falling to around 13 with daytime temperatures reaching between 19 and 22.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming southwesterly 25 to 35 km/h during the morning then becoming light during the evening. Overnight temperatures falling to around 8 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming south to southwesterly 15 to 25 km/h during the morning then becoming light during the evening. Overnight temperatures falling to around 8 with daytime temperatures reaching around 19.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW007" description="Murraylands" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers in the south, medium chance elsewhere. The chance of a thunderstorm. Winds northerly 15 to 20 km/h tending northeasterly in the late afternoon then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds northerly 15 to 20 km/h turning west to northwesterly 20 to 30 km/h during the morning and early afternoon. Overnight temperatures falling to around 16 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 2:50pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers. Winds westerly 25 to 40 km/h. Overnight temperatures falling to around 12 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds west to southwesterly 25 to 35 km/h becoming light during the evening. Overnight temperatures falling to around 8 with daytime temperatures reaching around 17.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 25 km/h during the morning then becoming light during the evening. Overnight temperatures falling to between 7 and 10 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW008" description="Mid North" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds north to northwesterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds northwesterly 15 to 20 km/h turning westerly 20 to 30 km/h in the late morning and early afternoon. Overnight temperatures falling to around 16 with daytime temperatures reaching 22 to 27.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 3:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers. Winds westerly 25 to 40 km/h turning southwesterly 15 to 25 km/h during the afternoon and evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching between 15 and 19.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower, most likely in the morning. Winds southwesterly 25 to 35 km/h becoming light during the evening. Overnight temperatures falling to between 6 and 11 with daytime temperatures reaching between 13 and 18.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the south, near zero chance elsewhere. Light winds becoming south to southwesterly 15 to 20 km/h during the morning then becoming light during the evening. Overnight temperatures falling to between 5 and 10 with daytime temperatures reaching between 15 and 19.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW009" description="Flinders" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower, becoming less likely later this evening. Winds northwest to northeasterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers south of Hawker, medium chance elsewhere. The chance of a thunderstorm in the morning and afternoon. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 25 to 40 km/h before dawn then tending northwest to southwesterly 30 to 45 km/h in the middle of the day. Overnight temperatures falling to between 16 and 22 with daytime temperatures reaching 25 to 33.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 3:10pm, UV Index predicted to reach 7 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower near the coast, near zero chance elsewhere. Winds southwesterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching between 17 and 23.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower south of Hawker, most likely in the morning. Near zero chance of rain elsewhere. Winds southwesterly 15 to 25 km/h turning southerly 20 to 30 km/h during the day. Overnight temperatures falling to between 7 and 11 with daytime temperatures reaching between 14 and 20.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower near the coast in the morning. Near zero chance of rain elsewhere. Winds southerly 15 to 25 km/h. Overnight temperatures falling to between 5 and 11 with daytime temperatures reaching between 16 and 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW010" description="West Coast" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Mostly clear. Slight chance of a shower south of Streaky Bay, near zero chance elsewhere. The chance of a thunderstorm. Winds northwest to southwesterly 20 to 25 km/h tending south to southwesterly 15 to 25 km/h in the late afternoon then becoming light in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers east of Ceduna, medium chance elsewhere. The chance of a thunderstorm in the morning. Light winds becoming west to southwesterly 20 to 30 km/h in the morning then tending south to southwesterly 15 to 25 km/h in the late evening. Overnight temperatures falling to around 16 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:50am to 3:20pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower east of Ceduna, near zero chance elsewhere. Winds southwesterly 25 to 35 km/h. Overnight temperatures falling to around 13 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds southwesterly 15 to 20 km/h turning southerly 20 to 30 km/h during the day then decreasing to 15 to 20 km/h during the evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching between 18 and 21.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming south to southeasterly 15 to 20 km/h during the day then becoming light during the evening. Overnight temperatures falling to between 8 and 12 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW011" description="Eastern Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds northwesterly 20 to 30 km/h becoming light in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds northwesterly 15 to 20 km/h becoming light before dawn then becoming westerly 20 to 30 km/h in the morning. Overnight temperatures falling to around 17 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 3:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds west to southwesterly 25 to 35 km/h. Overnight temperatures falling to around 12 with daytime temperatures reaching between 18 and 22.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds southwesterly 20 to 30 km/h. Overnight temperatures falling to around 10 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower near the coast in the morning. Near zero chance of rain elsewhere. Winds southwesterly 15 to 20 km/h turning southerly 15 to 25 km/h during the morning. Overnight temperatures falling to between 7 and 11 with daytime temperatures reaching around 19.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW012" description="Lower Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds northwesterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the morning. Winds northwesterly 15 to 25 km/h turning westerly 20 to 30 km/h before dawn then increasing to 25 to 40 km/h in the morning. Overnight temperatures falling to around 15 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:50am to 3:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers, most likely from the late morning. Winds westerly 25 to 40 km/h turning southwesterly in the late afternoon then decreasing to 20 to 30 km/h in the evening. Overnight temperatures falling to around 12 with daytime temperatures reaching around 19.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds southwesterly 20 to 30 km/h. Overnight temperatures falling to between 9 and 12 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Cloudy. Winds south to southwesterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to between 8 and 12 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW013" description="North West Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower south of Woomera, near zero chance elsewhere. The chance of a thunderstorm in the far west. Winds northwest to southwesterly 15 to 25 km/h tending northwest to northeasterly 15 to 20 km/h in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers south of Coober Pedy, most likely in the morning. Near zero chance of rain elsewhere. The chance of a thunderstorm south of Coober Pedy in the morning and afternoon. Winds northwest to northeasterly 15 to 20 km/h becoming northwesterly 20 to 30 km/h in the morning then tending southeast to southwesterly in the middle of the day. Overnight temperatures falling to between 16 and 23 with daytime temperatures reaching 26 to 37.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:20am to 3:40pm, UV Index predicted to reach 8 [Very High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds southeast to southwesterly 25 to 35 km/h. Overnight temperatures falling to between 12 and 18 with daytime temperatures reaching 21 to 27.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds south to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 9 and 12 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds south to southeasterly 15 to 20 km/h tending east to southeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to around 9 with daytime temperatures reaching 20 to 25.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW014" description="North East Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-08T15:00:00+09:30" end-time-local="2026-04-09T00:00:00+09:30" start-time-utc="2026-04-08T05:30:00Z" end-time-utc="2026-04-08T14:30:00Z">
+                <text type="forecast">Mostly clear. Slight chance of a shower south of Yunta, near zero chance elsewhere. Winds north to northwesterly 15 to 25 km/h tending north to northeasterly 15 to 20 km/h in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Mostly sunny. High chance of showers south of Yunta, most likely in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm south of Leigh Creek. Winds north to northeasterly 15 to 25 km/h tending northwesterly 25 to 40 km/h in the morning then shifting south to southwesterly 15 to 25 km/h during the afternoon and evening. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 32 to 38.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:10am to 3:20pm, UV Index predicted to reach 7 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds south to southwesterly 25 to 40 km/h. Overnight temperatures falling to between 14 and 21 with daytime temperatures reaching 23 to 34.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Mostly sunny. The chance of raised dust north of Oodnadatta in the morning and afternoon. Winds southerly 25 to 40 km/h. Overnight temperatures falling to between 10 and 16 with daytime temperatures reaching between 18 and 25.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">Sunny. Winds southerly 15 to 25 km/h turning southeasterly 25 to 35 km/h during the day. Overnight temperatures falling to between 7 and 13 with daytime temperatures reaching between 19 and 24.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
