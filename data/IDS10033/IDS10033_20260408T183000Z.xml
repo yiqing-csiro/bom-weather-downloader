@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-04-08T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-09T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-04-08T18:30:29Z</sent-time>
+        <expiry-time>2026-04-09T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-09T04:00:29+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-12T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-09T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-09T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-09T04:00:29+09:30" end-time-local="2026-04-09T04:00:29+09:30" start-time-utc="2026-04-08T18:30:29Z" end-time-utc="2026-04-08T18:30:29Z">
+                <text type="synoptic_situation">A cold front sweeps across southern SA today. This front will push the inland trough into the far north, exiting the state early Friday. A cooler southwest to southerly flow will gradually moderate in the wake of the front as a strong high pressure system moves in from the west from Friday, establishing in the Bight on Sunday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-04-09T05:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T19:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Showers and isolated thunderstorms extending about the agricultural area and south of the pastoral districts, increasing during the afternoon. Maximum temperatures above average to well above average in the north, grading to slightly below average about the west. Freshening north to northwesterly winds tending strong and gusty no and east of the ranges ahead of fresh southwesterly change extending into the far north by the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Showers about the southern agricultural area with isolated showers reaching the northern agricultural area and the West Coast. Maximum temperatures below average grading to slightly above average in the far northeast. Fresh southwesterly winds, tending strong and gusty about the coasts, moderating across the north and west during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Isolated showers about the southern agricultural area, possibly reaching inland parts of the northern agricultural area, easing and contracting to coastal fringes later in the day. Cloudy about the south, becoming mostly sunny in the north. Maximum temperatures well below average. South to southwesterly winds, fresh and gusty about the southeast moderating through the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">
+                    <p>Possible isolated light showers about the southern agricultural areas, otherwise mostly dry. Maximum temperatures well below average. Light to moderate south to southwesterly winds, tending southeasterly in the north.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: Less than 2 mm about the northern pastorals, 2 to 10 mm across the agricultural area, southern pastorals and the west. Isolated 10 to 20 mm over parts of the Yorke Peninsula and Mount Lofty Ranges. Isolated falls of 10 to 40 mm are possible across the agricultural areas with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
