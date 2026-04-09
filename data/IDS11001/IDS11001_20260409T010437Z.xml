@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11001</identifier>
+        <issue-time-utc>2026-04-09T01:04:37Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-09T10:34:37+09:30</issue-time-local>
+        <sent-time>2026-04-09T01:04:37Z</sent-time>
+        <expiry-time>2026-04-10T01:04:37Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-09T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-15T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-09T06:15:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-09T15:45:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FTW</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-09T10:34:38+09:30" end-time-local="2026-04-09T10:34:38+09:30" start-time-utc="2026-04-09T01:04:38Z" end-time-utc="2026-04-09T01:04:38Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT055" description="Whyalla" type="location" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-09T00:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-08T14:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="forecast">Partly cloudy. High chance of showers, becoming less likely in the late afternoon and evening. The chance of a thunderstorm in the late morning and afternoon. Winds westerly 15 to 20 km/h becoming light in the middle of the day then becoming westerly 15 to 25 km/h in the early afternoon.</text>
+                <text type="precis">Showers.</text>
+                <text type="probability_of_precipitation">80%</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 3:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="forecast">Partly cloudy. Winds westerly 15 to 20 km/h becoming light in the early morning then becoming southwesterly 20 to 30 km/h in the morning.</text>
+                <text type="precis">Partly cloudy.</text>
+                <text type="probability_of_precipitation">10%</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="precipitation_range">0 to 1 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds westerly 15 to 20 km/h turning south to southwesterly 20 to 30 km/h during the morning.</text>
+                <text type="precis">Possible shower.</text>
+                <text type="probability_of_precipitation">40%</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="precipitation_range">0 to 1 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="forecast">Cloudy. Medium chance of showers, most likely in the morning. Winds southwesterly 15 to 25 km/h tending southerly 20 to 30 km/h during the day.</text>
+                <text type="precis">Possible shower.</text>
+                <text type="probability_of_precipitation">40%</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-13T00:00:00+09:30" end-time-local="2026-04-14T00:00:00+09:30" start-time-utc="2026-04-12T14:30:00Z" end-time-utc="2026-04-13T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="forecast">Partly cloudy. Slight chance of a shower during the morning. Winds south to southeasterly 15 to 20 km/h.</text>
+                <text type="precis">Partly cloudy.</text>
+                <text type="probability_of_precipitation">20%</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-04-14T00:00:00+09:30" end-time-local="2026-04-15T00:00:00+09:30" start-time-utc="2026-04-13T14:30:00Z" end-time-utc="2026-04-14T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="forecast">Sunny. Light winds becoming south to southeasterly 15 to 20 km/h during the day.</text>
+                <text type="precis">Sunny.</text>
+                <text type="probability_of_precipitation">5%</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-04-15T00:00:00+09:30" end-time-local="2026-04-16T00:00:00+09:30" start-time-utc="2026-04-14T14:30:00Z" end-time-utc="2026-04-15T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="forecast">Sunny. Light winds becoming south to southeasterly 15 to 20 km/h during the morning.</text>
+                <text type="precis">Sunny.</text>
+                <text type="probability_of_precipitation">5%</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

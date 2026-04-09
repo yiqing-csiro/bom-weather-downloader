@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11063</identifier>
+        <issue-time-utc>2026-04-09T01:03:32Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-09T10:33:32+09:30</issue-time-local>
+        <sent-time>2026-04-09T01:03:32Z</sent-time>
+        <expiry-time>2026-04-10T01:03:32Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-09T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-11T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-09T06:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-09T15:30:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FCW</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-09T10:33:32+09:30" end-time-local="2026-04-09T10:33:32+09:30" start-time-utc="2026-04-09T01:03:32Z" end-time-utc="2026-04-09T01:03:32Z">
+                <text type="synoptic_situation">A cold front sweeps across southern SA today. This front will push the inland trough into the far north, exiting the state early Friday. A cooler southwest to southerly flow will gradually moderate in the wake of the front as a strong high pressure system moves in from the west from Friday, establishing in the Bight on Sunday.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones. Marine forecasts are also available on VHF and HF radio. View the radio schedule on www.bom.gov.au/marine</text>
+                <text type="postamble">Check the latest Coastal Waters Forecasts for information on wind, wave and weather conditions for neighbouring coastal zones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW003" description="Lower West Coast: Elliston to Cape Carnot" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-09T10:27:29+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-09T00:57:29Z" end-time-utc="2026-04-09T14:30:00Z">
+                <warning-summary type="marine_forecast">Strong Wind Warning for Thursday for Lower West Coast</warning-summary>
+                <text type="forecast_winds">Westerly 15 to 25 knots, reaching up to 30 knots offshore in the late evening.</text>
+                <text type="forecast_seas">1 to 1.5 metres, increasing to 1.5 to 2 metres during the afternoon.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 3 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the late morning and afternoon.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <warning-summary type="marine_forecast">Strong Wind Warning for Friday for Lower West Coast</warning-summary>
+                <text type="forecast_winds">Southwesterly 20 to 25 knots, reaching up to 30 knots early in the morning.</text>
+                <text type="forecast_seas">1.5 to 2.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 3 metres, increasing to 3 to 4 metres during the morning.</text>
+                <text type="forecast_weather">Cloudy. 60% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast_winds">Southwesterly 15 to 20 knots.</text>
+                <text type="forecast_seas">1.5 to 2 metres, decreasing to 1 to 1.5 metres during the afternoon.</text>
+                <text type="forecast_swell1">Southwesterly 3 to 4 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
