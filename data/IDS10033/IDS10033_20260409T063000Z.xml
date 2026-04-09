@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-04-09T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-09T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-04-09T06:30:02Z</sent-time>
+        <expiry-time>2026-04-09T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-09T16:00:02+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-13T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-09T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-10T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-09T16:00:02+09:30" end-time-local="2026-04-09T16:00:02+09:30" start-time-utc="2026-04-09T06:30:02Z" end-time-utc="2026-04-09T06:30:02Z">
+                <text type="synoptic_situation">A low pressure trough will move across SA on Thursday followed by a cold front in the south. The trough and front will clear to the east during Friday morning. Another trough will move across waters to the south during Friday then a high pressure system will move across waters south of WA on Saturday to be centred over the Bight on Sunday. This high will move slowly eastwards early next week and a weak cold front will move over southern coastal areas.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-10T00:00:00+09:30" end-time-local="2026-04-11T00:00:00+09:30" start-time-utc="2026-04-09T14:30:00Z" end-time-utc="2026-04-10T14:30:00Z">
+                <text type="forecast">Showers about the southern agricultural area and isolated showers over the northern agricultural area and the West Coast district. Maximum temperatures below average grading to slightly above average in the far northeast. Fresh west to southwesterly winds in the south, tending strong and gusty about the coasts, but southwest to southeasterly in the north.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-04-09T17:00:00+09:30" end-time-local="2026-04-10T00:00:00+09:30" start-time-utc="2026-04-09T07:30:00Z" end-time-utc="2026-04-09T14:30:00Z">
+                <text type="forecast">Showers and isolated thunderstorms over central and eastern parts of the agricultural area and the south of the pastoral districts, contracting eastwards during the afternoon and evening to clear late evening. Showers re-developing about the southern agricultural area late afternoon and evening. Fresh and gusty northwesterly winds ahead of a west to southwesterly change in the south, southwest to southeasterly in the north.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-11T00:00:00+09:30" end-time-local="2026-04-12T00:00:00+09:30" start-time-utc="2026-04-10T14:30:00Z" end-time-utc="2026-04-11T14:30:00Z">
+                <text type="forecast">Showers about the southern agricultural area and isolated showers about the northern agricultural area, easing and contracting to near southern coasts from late afternoon. Mostly sunny in the north. Maximum temperatures well below average. Southwesterly winds in the south, fresh and gusty near the coast, tending southwest to southeasterly in the north.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-12T00:00:00+09:30" end-time-local="2026-04-13T00:00:00+09:30" start-time-utc="2026-04-11T14:30:00Z" end-time-utc="2026-04-12T14:30:00Z">
+                <text type="forecast">
+                    <p>Patchy morning fog in the west. Isolated light showers about the southern agricultural area, contracting to near southern coasts from late afternoon. Dry elsewhere. Maximum temperatures well below average. Southwest to southeasterly winds, fresh at times near southern coasts.</p>
+                </text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-13T00:00:00+09:30" end-time-local="2026-04-14T00:00:00+09:30" start-time-utc="2026-04-12T14:30:00Z" end-time-utc="2026-04-13T14:30:00Z">
+                <text type="forecast">
+                    <p>Patchy morning fog about the agricultural area. Isolated light showers about the southern agricultural area, mostly about southern coastal districts. Dry elsewhere. Maximum temperatures below average. Light and variable winds in the south, tending moderate southeast to easterly in the north. Afternoon sea breezes near the coast.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Monday: 2 to 10 mm about the southern agricultural area and local falls of 10 to 20 mm, mostly about the Mount Lofty Ranges and Lower South East. Mostly less than 5 mm about the northern agricultural area, southern parts of the pastoral districts and the West Coast district, but isolated falls of 5 to 10 mm are possible. Isolated falls of 20 to 30 mm are possible with thunderstorms. Dry over northern parts of the pastoral districts.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
