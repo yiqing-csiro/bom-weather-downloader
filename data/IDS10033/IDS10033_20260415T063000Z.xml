@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-04-15T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-15T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-04-15T06:30:00Z</sent-time>
+        <expiry-time>2026-04-15T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-15T16:00:01+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-19T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-15T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-16T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-15T16:00:01+09:30" end-time-local="2026-04-15T16:00:01+09:30" start-time-utc="2026-04-15T06:30:01Z" end-time-utc="2026-04-15T06:30:01Z">
+                <text type="synoptic_situation">A high pressure system centred over NSW will allow a cold front to move across the far southeast of SA on Thursday. A second high pressure system is expected to move south of the Bight during Friday and Saturday ahead of another trough expected to brush the west and south on the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-16T00:00:00+09:30" end-time-local="2026-04-17T00:00:00+09:30" start-time-utc="2026-04-15T14:30:00Z" end-time-utc="2026-04-16T14:30:00Z">
+                <text type="forecast">Morning fog patches. Isolated showers about southern coastal districts, more frequent about the Lower South East district. Possible thunderstorms about the South East districts. Mostly sunny in the north. Maximum temperatures near or slightly above average. Northwesterly winds in the south, freshening near southern coasts, ahead of a southwesterly change in the afternoon. Generally light winds in the north.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-04-15T17:00:00+09:30" end-time-local="2026-04-16T00:00:00+09:30" start-time-utc="2026-04-15T07:30:00Z" end-time-utc="2026-04-15T14:30:00Z">
+                <text type="forecast">Showers about the Lower South East, and isolated showers possible about remaining southern coasts. Sunny in the north. Maximum temperatures slightly above average in the far southwest but near or slightly below average elsewhere. Mostly light northeast to northwesterly winds. Afternoon sea breezes near the coast.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-17T00:00:00+09:30" end-time-local="2026-04-18T00:00:00+09:30" start-time-utc="2026-04-16T14:30:00Z" end-time-utc="2026-04-17T14:30:00Z">
+                <text type="forecast">Possible morning fog patches about the agricultural area. Isolated light showers about the southern agricultural area, clearing during the evening. Isolated showers and possible thunderstorms developing in the far west. Maximum temperatures below average about the agricultural area but near or slightly above average elsewhere. South to southeasterly winds, tending southeast to northeasterly in the west.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-18T00:00:00+09:30" end-time-local="2026-04-19T00:00:00+09:30" start-time-utc="2026-04-17T14:30:00Z" end-time-utc="2026-04-18T14:30:00Z">
+                <text type="forecast">Early morning frost about the southeast. Isolated showers and possible thunderstorms extending over the West Coast district, possibly reaching Eyre Peninsula and Kangaroo Island towards midnight. Maximum temperatures below average in the east but above average in the west. Northeast to northwesterly winds, shifting southwest to southerly in the far southwest later.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-04-19T00:00:00+09:30" end-time-local="2026-04-20T00:00:00+09:30" start-time-utc="2026-04-18T14:30:00Z" end-time-utc="2026-04-19T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers and possible thunderstorms moving over the southern agricultural area, clearing later in the day. Dry across the north and west. Maximum temperatures above average, tending to near to slightly below average in the far northeast. Northerly winds ahead of a fresh southerly change extending from the west during the day.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: less than 2 mm about the southern agricultural area and West Coast district, increasing to local falls of 2 to 5 mm about southern coasts and ranges and the Lower South East district. Isolated falls of 5 to 10 mm are possible about the Lower South East.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
