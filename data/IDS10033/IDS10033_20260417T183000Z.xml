@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-04-17T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-18T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-04-17T18:30:25Z</sent-time>
+        <expiry-time>2026-04-18T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-18T04:00:25+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-21T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-18T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-18T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-18T04:00:25+09:30" end-time-local="2026-04-18T04:00:25+09:30" start-time-utc="2026-04-17T18:30:25Z" end-time-utc="2026-04-17T18:30:25Z">
+                <text type="synoptic_situation">A high pressure system south of the Bight extends a ridge over SA. The high will slowly move east over the weekend ahead of a cold front which will slip to the south of SA and weaken. The high will remain near stationary in the southern Tasman Sea, maintaining a ridge across the state early next week.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-04-18T05:00:00+09:30" end-time-local="2026-04-19T00:00:00+09:30" start-time-utc="2026-04-17T19:30:00Z" end-time-utc="2026-04-18T14:30:00Z">
+                <text type="forecast">Early morning frost about the southeast. Possible fog patches about the southern agricultural area. Isolated showers and possible thunderstorms extending over the West Coast district, possibly reaching Eyre Peninsula and Kangaroo Island towards midnight. Dry in the north. Maximum temperatures below average in the east but above average in the west. Northeast to northwesterly winds, shifting southwest to southerly in the far southwest in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-19T00:00:00+09:30" end-time-local="2026-04-20T00:00:00+09:30" start-time-utc="2026-04-18T14:30:00Z" end-time-utc="2026-04-19T14:30:00Z">
+                <text type="forecast">Isolated showers and possible thunderstorms moving across the agricultural area in the morning. Isolated showers persisting about southern coasts into the afternoon. Dry across the north and west. Maximum temperatures above average in the west and south, tending near average elsewhere. Northerly winds ahead of a southerly change extending from the west during the day.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-20T00:00:00+09:30" end-time-local="2026-04-21T00:00:00+09:30" start-time-utc="2026-04-19T14:30:00Z" end-time-utc="2026-04-20T14:30:00Z">
+                <text type="forecast">Dry apart from isolated early morning showers about southern coasts. Maximum temperatures above average in the west, tending near average elsewhere. Southeast to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-21T00:00:00+09:30" end-time-local="2026-04-22T00:00:00+09:30" start-time-utc="2026-04-20T14:30:00Z" end-time-utc="2026-04-21T14:30:00Z">
+                <text type="forecast">
+                    <p>Mostly dry with some patchy morning fog about the south. Maximum temperatures above average in the west and south, tending near average elsewhere. Northeast to northwesterly winds, tending fresh at times during the day in the west.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Tuesday: Up to 2 mm for the agricultural area and West Coast district, and up to 2 to 5 mm over southern coasts and ranges and reaching 10 mm in the Lower South East.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
