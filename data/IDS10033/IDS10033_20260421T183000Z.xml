@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-04-21T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-22T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-04-21T18:30:01Z</sent-time>
+        <expiry-time>2026-04-22T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-22T04:00:01+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-25T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-22T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-22T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-22T04:00:01+09:30" end-time-local="2026-04-22T04:00:01+09:30" start-time-utc="2026-04-21T18:30:01Z" end-time-utc="2026-04-21T18:30:01Z">
+                <text type="synoptic_situation">A strong high pressure system east of Tasmania will maintain a ridge over SA this week. A cold front is expected to weaken and slide across southern coasts during today. A second cold front may pass over the south again on Saturday with a high pressure system to follow over waters south of the Bight on Sunday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-04-22T05:00:00+09:30" end-time-local="2026-04-23T00:00:00+09:30" start-time-utc="2026-04-21T19:30:00Z" end-time-utc="2026-04-22T14:30:00Z">
+                <text type="forecast">Isolated light showers about southern coastal districts, contracting east and clearing by mid-late afternoon. Mostly sunny in the north. Maximum temperatures above average. East to southeasterly winds in the far northeast, otherwise northeast to northwesterly winds ahead of a south to southeasterly change extending across the south.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-23T00:00:00+09:30" end-time-local="2026-04-24T00:00:00+09:30" start-time-utc="2026-04-22T14:30:00Z" end-time-utc="2026-04-23T14:30:00Z">
+                <text type="forecast">Dry. Morning fog patches about eastern districts. Maximum temperatures above average. Northeast to northerly winds, but east to southeasterly in the far northeast.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-24T00:00:00+09:30" end-time-local="2026-04-25T00:00:00+09:30" start-time-utc="2026-04-23T14:30:00Z" end-time-utc="2026-04-24T14:30:00Z">
+                <text type="forecast">Dry. Cloud increasing across the west and south. Maximum temperatures above average. Northeast to northerly winds, freshening about the west and south during the day.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-25T00:00:00+09:30" end-time-local="2026-04-26T00:00:00+09:30" start-time-utc="2026-04-24T14:30:00Z" end-time-utc="2026-04-25T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers developing about western and southern coastal districts, possibly extending to remaining parts of the agricultural area later in the day. Maximum temperatures above average. Northeast to northwesterly winds freshening ahead of a southerly change moving over the west and south during the day.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: up to 2 mm about southern and western coastal areas, mostly occurring on Wednesday and Saturday.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
