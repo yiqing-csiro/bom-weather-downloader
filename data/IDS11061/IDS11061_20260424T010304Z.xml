@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11061</identifier>
+        <issue-time-utc>2026-04-24T01:03:04Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-24T10:33:04+09:30</issue-time-local>
+        <sent-time>2026-04-24T01:03:04Z</sent-time>
+        <expiry-time>2026-04-25T01:03:04Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-24T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-26T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-24T06:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-24T15:30:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FCW</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-24T10:33:05+09:30" end-time-local="2026-04-24T10:33:05+09:30" start-time-utc="2026-04-24T01:03:05Z" end-time-utc="2026-04-24T01:03:05Z">
+                <text type="synoptic_situation">A strong high pressure system over the Tasman Sea will maintain a ridge over SA. A cold front will pass over the south on Saturday, weakening and clearing in the east early Sunday. A new high pressure system will develop in the Bight on Sunday, drifting east early next week to merge with the strong high in the Tasman Sea.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones. Marine forecasts are also available on VHF and HF radio. View the radio schedule on www.bom.gov.au/marine</text>
+                <text type="postamble">Check the latest Coastal Waters Forecasts for information on wind, wave and weather conditions for neighbouring coastal zones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW001" description="Far West Coast: WA-SA Border to Fowlers Bay" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-24T10:30:40+09:30" end-time-local="2026-04-25T00:00:00+09:30" start-time-utc="2026-04-24T01:00:40Z" end-time-utc="2026-04-24T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 15 to 20 knots shifting south to southwesterly during the afternoon and evening.</text>
+                <text type="forecast_seas">1 to 2 metres, decreasing below 1.5 metres during the afternoon, then decreasing below 1 metre by early evening.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 metres inshore, increasing to 1.5 to 2 metres offshore.</text>
+                <text type="forecast_weather">Mostly sunny. The chance of a thunderstorm offshore.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-25T00:00:00+09:30" end-time-local="2026-04-26T00:00:00+09:30" start-time-utc="2026-04-24T14:30:00Z" end-time-utc="2026-04-25T14:30:00Z">
+                <text type="forecast_winds">South to southwesterly 10 to 15 knots tending south to southeasterly before dawn then turning southwesterly in the early afternoon.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers. The chance of a thunderstorm.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-26T00:00:00+09:30" end-time-local="2026-04-27T00:00:00+09:30" start-time-utc="2026-04-25T14:30:00Z" end-time-utc="2026-04-26T14:30:00Z">
+                <text type="forecast_winds">South to southwesterly 15 to 20 knots turning southeasterly 10 to 15 knots during the afternoon.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
