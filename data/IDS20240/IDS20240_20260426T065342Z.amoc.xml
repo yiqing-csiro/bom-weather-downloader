@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS20240</identifier>
+    <issue-time-utc>2026-04-26T06:53:42Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-04-26T16:23:42+09:30</issue-time-local>
+    <sent-time>2026-04-26T06:53:42Z</sent-time>
+    <expiry-time>2026-04-26T18:30:00Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-04-26T16:00:00+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-04-27T03:59:59+09:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSP</service>
+    <sub-service>WRW</sub-service>
+    <product-type>W</product-type>
+    <phase>CAN</phase>
+    <hazard index="1" parent-aac="SA_ME003" phase="CAN" type="RWA" severity="CAN" urgency="UNK" certainty="UNK" start-time-utc="2026-04-26T06:30:00Z" end-time-utc="2026-04-26T18:30:00Z">
+        <area-list>
+            <area aac="SA_ME003" phase="CAN" description="Adelaide" type="metropolitan"/>
+        </area-list>
+        <priority>W</priority>
+        <headline>Cancellation of Road Weather Alert for Adelaide</headline>
+    </hazard>
+</amoc>
