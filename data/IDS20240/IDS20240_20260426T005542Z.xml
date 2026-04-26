@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20240</identifier>
+        <issue-time-utc>2026-04-26T00:55:42Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-26T10:25:42+09:30</issue-time-local>
+        <sent-time>2026-04-26T00:55:42Z</sent-time>
+        <expiry-time>2026-04-26T12:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-26T10:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-04-26T21:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-26T07:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-26T17:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>WRW</sub-service>
+        <product-type>W</product-type>
+        <phase>REN</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+            <text type="warning_title">Road Weather Alert for Adelaide</text>
+            <text type="warning_advice">
+                <p>The SA Police advises that people should:</p>
+                <p>Slow down and take extra care.</p>
+                <p>Maintain a safe distance between you and the vehicle in front.</p>
+                <p>Turn on your headlights.</p>
+            </text>
+            <text type="warning_advice_contact">For information on any road closures, please contact your local council or the Police.</text>
+            <text type="warning_next_issue">The next alert will be issued by 5:00 pm CST Sunday.</text>
+        </warning-info>
+        <!---->
+        <!--locale[SA_ME003, allow-output=yes]-->
+        <!--hazards-exist="yes" non-warning-info-elements-exist="no"-->
+        <area aac="SA_ME003" description="Adelaide" type="metropolitan">
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <!--locale[SA_ME003]/period[variable]-->
+            <hazard index="1" parent-aac="SA_ME003" phase="REN" type="RWA" severity="STD" urgency="UNK" certainty="UNK" start-time-local="2026-04-26T10:00:00+09:30" end-time-local="2026-04-26T22:00:00+09:30" start-time-utc="2026-04-26T00:30:00Z" end-time-utc="2026-04-26T12:30:00Z">
+                <area-list>
+                    <area aac="SA_ME003" phase="REN" description="Adelaide" type="metropolitan"/>
+                </area-list>
+                <phenomenon-list>
+                    <phenomenon type="SL"/>
+                </phenomenon-list>
+                <priority>W</priority>
+                <text type="warning_phenomena">Road weather alert for slippery roads</text>
+                <text type="warning">Slippery roads will make driving conditions dangerous during Sunday in the Adelaide Area.</text>
+            </hazard>
+        </area>
+    </warning>
+</product>
