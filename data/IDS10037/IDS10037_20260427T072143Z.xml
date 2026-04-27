@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10037</identifier>
+        <issue-time-utc>2026-04-27T07:21:43Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-27T16:51:43+09:30</issue-time-local>
+        <sent-time>2026-04-27T07:21:43Z</sent-time>
+        <expiry-time>2026-04-28T07:21:43Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-27T15:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-04T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-27T18:20:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-28T03:50:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FCT</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region"/>
+        <area aac="SA_ME001" description="Adelaide" type="metropolitan" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-27T15:00:00+09:30" end-time-local="2026-04-28T00:00:00+09:30" start-time-utc="2026-04-27T05:30:00Z" end-time-utc="2026-04-27T14:30:00Z">
+                <text type="forecast">Clear. Light winds becoming easterly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-28T00:00:00+09:30" end-time-local="2026-04-29T00:00:00+09:30" start-time-utc="2026-04-27T14:30:00Z" end-time-utc="2026-04-28T14:30:00Z">
+                <text type="forecast">Mostly sunny. Light winds.</text>
+                <text type="fire_danger">
+                    <p>Mount Lofty Ranges: Moderate</p>
+                    <p>Adelaide Metropolitan: No Rating</p>
+                </text>
+                <text type="uv_alert">Sun protection 10:10am to 2:10pm, UV Index predicted to reach 4 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-04-29T00:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-28T14:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds east to northeasterly 15 to 20 km/h tending northwest to northeasterly in the middle of the day then tending northeasterly in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds northeasterly 15 to 20 km/h tending north to northwesterly 15 to 25 km/h during the morning then tending northeasterly 15 to 20 km/h during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds north to northeasterly 20 to 30 km/h tending north to northwesterly during the day then turning northeasterly 15 to 25 km/h during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds northeasterly 20 to 25 km/h turning northerly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers. The chance of a thunderstorm. Winds northerly 20 to 30 km/h turning northwesterly 25 to 35 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers. Winds west to northwesterly 25 to 35 km/h tending west to southwesterly 15 to 25 km/h during the day.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
