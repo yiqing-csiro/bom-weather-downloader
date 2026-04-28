@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-04-28T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-29T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-04-28T18:30:03Z</sent-time>
+        <expiry-time>2026-04-29T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-29T04:00:03+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-02T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-29T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-29T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-29T04:00:03+09:30" end-time-local="2026-04-29T04:00:03+09:30" start-time-utc="2026-04-28T18:30:03Z" end-time-utc="2026-04-28T18:30:03Z">
+                <text type="synoptic_situation">A strong high pressure system over the Tasman Sea will maintain a ridge across South Australia through to Friday. Northerly winds freshen on Friday ahead of a trough that is forecast to move across the far west Friday afternoon, then continue across the state during the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-04-29T05:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-28T19:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Mostly sunny. Possible early fog in the southeast. Maximum temperatures above average. East to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Mostly sunny. Maximum temperatures well above average. Northeast to northerly winds, fresh in the west during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Showers and possible thunderstorms developing west of about Ceduna. Maximum temperatures well above average. Northerly winds freshening in the west ahead of a southwesterly change moving across the west during the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">
+                    <p>A band of rain with possible thunderstorms about the west will move eastwards to reach eastern border districts during the afternoon. Isolated showers persisting about western and southern coasts. Maximum temperatures well above average with northerly winds ahead a west to southwesterly change in the west moving east to reach eastern border districts in the afternoon and evening, bringing below average temperatures.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: No rainfall through to midnight Thursday, then from Friday generally 2 to 5 mm extending throughout apart from the far north. 5 to 15 mm possible in parts of the West Coast district and agricultural areas.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
