@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11072</identifier>
+        <issue-time-utc>2026-04-29T12:00:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-29T21:30:00+09:30</issue-time-local>
+        <sent-time>2026-04-29T12:00:40Z</sent-time>
+        <expiry-time>2026-04-30T12:00:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-29T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-02T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-29T18:10:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-30T03:40:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FCW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-04-29T21:30:40+09:30" end-time-local="2026-04-29T21:30:40+09:30" start-time-utc="2026-04-29T12:00:40Z" end-time-utc="2026-04-29T12:00:40Z">
+                <text type="synoptic_situation">A strong high pressure system over the Tasman Sea will maintain a ridge across South Australia through to Friday. Northerly winds freshen on Friday ahead of a front that is forecast to move across the far west Friday afternoon, then continue across the state during the weekend. The low pressure system associated with this front is expected to cross south SA and bring a following trough across southern coasts late Sunday.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones. Marine forecasts are also available on VHF and HF radio. View the radio schedule on www.bom.gov.au/marine</text>
+                <text type="postamble">Check the latest Coastal Waters Forecasts for information on wind, wave and weather conditions for neighbouring coastal zones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW001" description="Far West Coast: WA-SA Border to Fowlers Bay" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 15 to 20 knots, reaching up to 25 knots offshore during the morning.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres during the morning, then decreasing to 1 metre during the afternoon.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northwest to northeasterly 10 to 15 knots tending west to southwesterly 15 to 25 knots in the middle of the day then increasing to 20 to 30 knots in the late evening.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 2 metres during the afternoon.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2 metres.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers. The chance of a thunderstorm from the late morning.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">Westerly 20 to 30 knots.</text>
+                <text type="forecast_seas">1.5 to 2.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2 metres inshore, increasing to 2 to 3 metres offshore during the afternoon or evening.</text>
+                <text type="forecast_weather">Partly cloudy. 95% chance of showers. The chance of a thunderstorm in the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW002" description="Upper West Coast: Fowlers Bay to Elliston" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 15 to 20 knots, reaching up to 25 knots south of Streaky Bay during the morning.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 2 metres during the morning, then decreasing below 1 metre by early evening.</text>
+                <text type="forecast_swell1">Southwesterly 2 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 25 knots turning west to northwesterly 10 to 15 knots in the early afternoon.</text>
+                <text type="forecast_seas">1 to 2 metres, decreasing to 1 metre by early evening.</text>
+                <text type="forecast_swell1">Southwesterly 2 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">Westerly 20 to 30 knots.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1.5 to 2.5 metres during the morning.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2 metres, increasing to 2 to 3 metres during the afternoon or evening.</text>
+                <text type="forecast_weather">Partly cloudy. 95% chance of showers. The chance of a thunderstorm in the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW003" description="Lower West Coast: Elliston to Cape Carnot" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots tending northerly 15 to 20 knots before dawn.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres during the morning, then decreasing to 1 metre by early evening.</text>
+                <text type="forecast_swell1">Southwesterly 2 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 25 knots turning northwesterly 10 to 15 knots in the late afternoon.</text>
+                <text type="forecast_seas">1 to 2 metres, decreasing to 1 metre by early evening.</text>
+                <text type="forecast_swell1">Southwesterly 2 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">West to northwesterly 20 to 30 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres, increasing to 2 to 2.5 metres during the morning.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2.5 metres, tending westerly 2.5 to 3 metres during the evening.</text>
+                <text type="forecast_weather">Partly cloudy. Near 100% chance of showers. The chance of a thunderstorm in the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW004" description="Central Coast" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">Northerly about 10 knots increasing to 15 to 20 knots before dawn. Winds reaching up to 25 knots in the west in the late morning and early afternoon.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 2 metres in the west during the morning.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 20 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the west at night.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 20 knots turning northwesterly 20 to 30 knots during the morning.</text>
+                <text type="forecast_seas">1 to 1.5 metres, increasing to 1.5 to 2.5 metres during the morning.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW008" description="South Central Coast" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northerly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">Northerly about 10 knots increasing to 15 to 20 knots before dawn.</text>
+                <text type="forecast_seas">Below 1 metre, increasing to 1 to 1.5 metres during the morning.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 25 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres, increasing to 1 to 2 metres west of Kangaroo Island.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">Northerly 20 to 30 knots turning northwesterly during the morning.</text>
+                <text type="forecast_seas">1.5 to 2.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW009" description="Upper South East Coast: Murray Mouth to Cape Jaffa" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 metres.</text>
+                <text type="forecast_weather">Mostly clear.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">Northerly 10 to 15 knots turning northeasterly in the evening. Winds reaching up to 20 knots offshore in the late evening.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 15 to 25 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 2 metres.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 20 to 30 knots turning northwesterly 15 to 20 knots during the day.</text>
+                <text type="forecast_seas">1.5 to 2 metres, decreasing below 1.5 metres during the evening.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2 metres.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW010" description="Lower South East Coast: Cape Jaffa to SA-VIC Border" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots tending northerly 15 to 20 knots before dawn.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres south of Beachport during the morning.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 20 knots turning northeasterly 15 to 25 knots in the evening.</text>
+                <text type="forecast_seas">1 to 2 metres, decreasing below 1.5 metres by early evening.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 20 to 25 knots increasing to 30 knots before tending north to northwesterly 15 to 20 knots during the day.</text>
+                <text type="forecast_seas">1.5 to 2.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2 metres.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW005" description="Spencer Gulf" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">South to southwesterly below 1 metre, increasing to 1 to 1.5 metres south of Cowell to Wallaroo.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres near the Yorke Peninsula coast.</text>
+                <text type="forecast_swell1">South to southwesterly below 1 metre, increasing to 1 to 1.5 metres south of Cowell to Wallaroo.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 15 to 25 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres, increasing to 1 to 2 metres near the Yorke Peninsula coast around midday.</text>
+                <text type="forecast_swell1">South to southwesterly below 1 metre, increasing to 1 to 1.5 metres south of Cowell to Wallaroo.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 25 knots tending northwesterly during the morning.</text>
+                <text type="forecast_seas">1 to 2 metres.</text>
+                <text type="forecast_swell1">South to southwesterly around 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy. 90% chance of showers. The chance of a thunderstorm.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW006" description="Gulf St Vincent" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 0.5 metres.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly 10 to 15 knots, reaching up to 20 knots near the Yorke Peninsula coast during the day.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres south of Port Vincent to Brighton.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">Northerly 20 to 25 knots turning northwesterly 15 to 20 knots during the morning.</text>
+                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the evening.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloudy. 90% chance of showers. The chance of a thunderstorm in the evening.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW007" description="Investigator Strait" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-04-29T21:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T11:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast_winds">Northeasterly about 10 knots.</text>
+                <text type="forecast_seas">Below 0.5 metres.</text>
+                <text type="forecast_swell1">West to southwesterly around 1 metre.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast_winds">North to northeasterly about 10 knots increasing to 15 to 20 knots before dawn.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly around 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 25 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres.</text>
+                <text type="forecast_swell1">West to southwesterly around 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast_winds">Northerly 15 to 25 knots turning northwesterly during the morning.</text>
+                <text type="forecast_seas">1 to 2 metres.</text>
+                <text type="forecast_swell1">West to southwesterly around 1 metre, increasing to 1 to 1.5 metres during the evening.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
