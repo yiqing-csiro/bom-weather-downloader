@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11039</identifier>
+        <issue-time-utc>2026-04-29T06:15:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-04-29T15:45:00+09:30</issue-time-local>
+        <sent-time>2026-04-29T06:15:27Z</sent-time>
+        <expiry-time>2026-04-30T06:15:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-04-29T15:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-06T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-04-29T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-04-30T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FTW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region"/>
+        <area aac="SA_PW001" description="Adelaide Metropolitan" type="public-district" parent-aac="SA_FA001"/>
+        <area aac="SA_PT001" description="Adelaide" type="location" parent-aac="SA_PW001">
+            <forecast-period index="0" start-time-local="2026-04-29T15:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T05:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Mostly clear. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds north to northeasterly 15 to 20 km/h turning northwesterly in the middle of the day then becoming light in the late afternoon.</text>
+                <text type="fire_danger">No Rating</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds north to northeasterly 15 to 25 km/h tending north to northwesterly 20 to 30 km/h in the middle of the day then tending north to northeasterly 15 to 25 km/h in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the evening. Winds northeasterly 20 to 25 km/h tending northerly during the morning then tending northwesterly 20 to 30 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers. Winds northwesterly 15 to 25 km/h increasing to 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers. The chance of a thunderstorm. Winds northwest to southwesterly 20 to 30 km/h becoming southwesterly 20 to 25 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-05T00:00:00+09:30" end-time-local="2026-05-06T00:00:00+09:30" start-time-utc="2026-05-04T14:30:00Z" end-time-utc="2026-05-05T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 20 km/h.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-06T00:00:00+09:30" end-time-local="2026-05-07T00:00:00+09:30" start-time-utc="2026-05-05T14:30:00Z" end-time-utc="2026-05-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Light winds becoming southwesterly 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW015" description="Mount Lofty Ranges" type="public-district" parent-aac="SA_FA001"/>
+        <area aac="SA_PT028" description="Mount Barker" type="location" parent-aac="SA_PW015">
+            <forecast-period index="0" start-time-local="2026-04-29T15:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T05:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Mostly clear. Winds northeasterly 15 to 20 km/h becoming light in the late afternoon then becoming northerly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds north to northwesterly 20 to 30 km/h becoming light in the early afternoon then becoming northerly 15 to 20 km/h in the late evening.</text>
+                <text type="fire_danger">High</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds northerly 20 to 25 km/h increasing to 25 to 40 km/h in the morning.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northerly 25 to 30 km/h tending northwesterly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. Winds northwesterly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds northwesterly 20 to 25 km/h tending westerly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-05T00:00:00+09:30" end-time-local="2026-05-06T00:00:00+09:30" start-time-utc="2026-05-04T14:30:00Z" end-time-utc="2026-05-05T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds westerly 15 to 20 km/h tending southwesterly during the morning.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-06T00:00:00+09:30" end-time-local="2026-05-07T00:00:00+09:30" start-time-utc="2026-05-05T14:30:00Z" end-time-utc="2026-05-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds westerly 15 to 20 km/h tending southwesterly during the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW005" description="Lower South East" type="public-district" parent-aac="SA_FA001"/>
+        <area aac="SA_PT030" description="Mount Gambier" type="location" parent-aac="SA_PW005">
+            <forecast-period index="0" start-time-local="2026-04-29T15:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T05:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds northerly 25 to 35 km/h becoming light in the late afternoon then becoming northerly 15 to 20 km/h in the late evening.</text>
+                <text type="fire_danger">High</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds northerly 25 to 35 km/h tending northeasterly 15 to 25 km/h in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northwest to northeasterly 25 to 35 km/h becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. The chance of a thunderstorm in the morning. Light winds becoming north to northwesterly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers. The chance of a thunderstorm. Winds north to northwesterly 20 to 30 km/h tending northwest to southwesterly during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-05T00:00:00+09:30" end-time-local="2026-05-06T00:00:00+09:30" start-time-utc="2026-05-04T14:30:00Z" end-time-utc="2026-05-05T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. Light winds becoming west to southwesterly 15 to 25 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-06T00:00:00+09:30" end-time-local="2026-05-07T00:00:00+09:30" start-time-utc="2026-05-05T14:30:00Z" end-time-utc="2026-05-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. Winds westerly 15 to 25 km/h tending southwesterly during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW006" description="Riverland" type="public-district" parent-aac="SA_FA001"/>
+        <area aac="SA_PT045" description="Renmark" type="location" parent-aac="SA_PW006">
+            <forecast-period index="0" start-time-local="2026-04-29T15:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T05:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Mostly clear. Winds northeasterly 15 to 20 km/h becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming northerly 15 to 25 km/h in the morning then becoming light in the late afternoon.</text>
+                <text type="fire_danger">Moderate</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming north to northeasterly 25 to 35 km/h in the morning.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 25 km/h tending northerly 25 to 35 km/h during the morning then turning west to northwesterly 15 to 25 km/h during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Light winds becoming northwesterly 15 to 25 km/h during the morning then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Winds northwesterly 15 to 25 km/h tending westerly during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-05T00:00:00+09:30" end-time-local="2026-05-06T00:00:00+09:30" start-time-utc="2026-05-04T14:30:00Z" end-time-utc="2026-05-05T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-06T00:00:00+09:30" end-time-local="2026-05-07T00:00:00+09:30" start-time-utc="2026-05-05T14:30:00Z" end-time-utc="2026-05-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Light winds becoming west to southwesterly 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW011" description="Eastern Eyre Peninsula" type="public-district" parent-aac="SA_FA001"/>
+        <area aac="SA_PT055" description="Whyalla" type="location" parent-aac="SA_PW011">
+            <forecast-period index="0" start-time-local="2026-04-29T15:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T05:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds northeasterly 15 to 20 km/h becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds northeasterly 15 to 20 km/h tending northerly 20 to 30 km/h before dawn.</text>
+                <text type="fire_danger">Moderate</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds northerly 25 to 40 km/h.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the evening. Winds northerly 25 to 30 km/h turning west to northwesterly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds west to northwesterly 25 to 35 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds northwesterly 15 to 25 km/h turning southwesterly 20 to 30 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-05T00:00:00+09:30" end-time-local="2026-05-06T00:00:00+09:30" start-time-utc="2026-05-04T14:30:00Z" end-time-utc="2026-05-05T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Light winds becoming south to southwesterly 15 to 25 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-06T00:00:00+09:30" end-time-local="2026-05-07T00:00:00+09:30" start-time-utc="2026-05-05T14:30:00Z" end-time-utc="2026-05-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 20 km/h turning southerly 15 to 25 km/h during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW012" description="Lower Eyre Peninsula" type="public-district" parent-aac="SA_FA001"/>
+        <area aac="SA_PT105" description="Port Lincoln" type="location" parent-aac="SA_PW012">
+            <forecast-period index="0" start-time-local="2026-04-29T15:00:00+09:30" end-time-local="2026-04-30T00:00:00+09:30" start-time-utc="2026-04-29T05:30:00Z" end-time-utc="2026-04-29T14:30:00Z">
+                <text type="forecast">Cloudy. Winds northeasterly 15 to 20 km/h becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-04-30T00:00:00+09:30" end-time-local="2026-05-01T00:00:00+09:30" start-time-utc="2026-04-29T14:30:00Z" end-time-utc="2026-04-30T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds northerly 25 to 35 km/h becoming light in the evening then becoming northerly 15 to 20 km/h in the late evening.</text>
+                <text type="fire_danger">Moderate</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-01T00:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the evening. Winds northerly 25 to 35 km/h becoming light in the evening then becoming northwesterly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the morning. Winds northwesterly 25 to 40 km/h.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers. Winds northwesterly 25 to 35 km/h tending westerly during the day then decreasing to 20 to 25 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds westerly 20 to 25 km/h tending southwesterly 25 to 35 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-05T00:00:00+09:30" end-time-local="2026-05-06T00:00:00+09:30" start-time-utc="2026-05-04T14:30:00Z" end-time-utc="2026-05-05T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Light winds becoming southwesterly 15 to 25 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-06T00:00:00+09:30" end-time-local="2026-05-07T00:00:00+09:30" start-time-utc="2026-05-05T14:30:00Z" end-time-utc="2026-05-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 25 km/h turning southerly 20 to 30 km/h later.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
