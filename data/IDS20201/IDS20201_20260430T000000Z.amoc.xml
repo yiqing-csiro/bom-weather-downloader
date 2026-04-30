@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS20201</identifier>
+    <issue-time-utc>2026-04-30T00:00:00Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-04-30T09:30:00+09:30</issue-time-local>
+    <sent-time>2026-04-30T00:00:03Z</sent-time>
+    <expiry-time>2026-05-01T14:30:00Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-05-01T00:00:00+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-05-01T23:59:59+09:30</validity-end-time-local>
+    <next-routine-issue-time-utc>2026-04-30T06:00:00Z</next-routine-issue-time-utc>
+    <next-routine-issue-time-local tz="CST">2026-04-30T15:30:00+09:30</next-routine-issue-time-local>
+    <status>O</status>
+    <service>WSM</service>
+    <sub-service>WMS</sub-service>
+    <product-type>W</product-type>
+    <phase>REN</phase>
+    <hazard index="1" parent-aac="SA_FA001" phase="REN" type="MWW" severity="STR" urgency="UNK" certainty="UNK" start-time-utc="2026-04-30T14:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+        <area-list>
+            <area aac="SA_MW001" phase="REN" description="Far West Coast: WA-SA Border to Fowlers Bay" type="coast"/>
+        </area-list>
+        <priority>W</priority>
+        <headline>Strong Wind Warning for coastal waters between WA-SA Border and Fowlers Bay for Friday</headline>
+    </hazard>
+</amoc>
