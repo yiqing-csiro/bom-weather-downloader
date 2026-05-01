@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-05-01T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-01T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-05-01T06:30:02Z</sent-time>
+        <expiry-time>2026-05-01T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-01T16:00:03+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-05T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-01T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-02T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-01T16:00:03+09:30" end-time-local="2026-05-01T16:00:03+09:30" start-time-utc="2026-05-01T06:30:03Z" end-time-utc="2026-05-01T06:30:03Z">
+                <text type="synoptic_situation">A strong high pressure system over the Tasman Sea extends northerly winds over SA. Winds will freshen ahead of a front that is forecast to move across the far west today then continue across the state during the weekend. The low pressure system associated with this front is expected to linger over waters to the south of the state and extend a trough over southern parts later Sunday and Monday. The low will then move over Bass Strait later Monday. A ridge will extend across SA from the west on Tuesday and a cold front will move across the south later Wednesday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-02T00:00:00+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-01T14:30:00Z" end-time-utc="2026-05-02T14:30:00Z">
+                <text type="forecast">A band of patchy rain with possible gusty thunderstorms about the west will move eastwards to reach eastern districts during the afternoon. Isolated showers persisting about western and southern coasts. Maximum temperatures well above average with fresh and gusty northerly winds ahead of a west to northwesterly change in the west moving east to reach eastern districts in the afternoon and evening, bringing below average temperatures. Winds becoming west to southwesterly in the north.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-05-01T17:00:00+09:30" end-time-local="2026-05-02T00:00:00+09:30" start-time-utc="2026-05-01T07:30:00Z" end-time-utc="2026-05-01T14:30:00Z">
+                <text type="forecast">Showers and possible thunderstorms developing west of a line Port Lincoln to Coober Pedy. Northerly winds freshening ahead of a southwesterly change extending across parts west of about Ceduna.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <text type="forecast">Showers about the southern agricultural area and West Coast district and isolated light showers about the northern agricultural area. Chance of a thunderstorm near western and southern coasts. Patchy rain and isolated thunderstorms in the northeast contracting eastwards. Maximum temperatures generally below average. Fresh west to northwesterly winds in the south, becoming gusty at times near the coasts. West to southwesterly winds in the north.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers about the agricultural area and West Coast district, possibly extending into the south of the pastoral districts. Showers mostly contracting to coastal districts during the evening. Maximum temperatures below average. Southwesterly winds extending throughout, gusty at times near southern coasts.</p>
+                </text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-05T00:00:00+09:30" end-time-local="2026-05-06T00:00:00+09:30" start-time-utc="2026-05-04T14:30:00Z" end-time-utc="2026-05-05T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers about the agricultural area and West Coast district, more frequent about the southern agricultural area. Maximum temperatures below average. Southwest to southeasterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Tuesday: generally less than 2 mm across the north of the pastoral districts, increasing 2 to 10 mm about the south of the pastoral districts and northern agricultural area. 5 to 15 mm across the West Coast district and southern agricultural area and higher falls of 15 to 30 mm possible over parts of the Mount Lofty Ranges and near western and southern coastal fringes. Isolated higher falls are possible with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
