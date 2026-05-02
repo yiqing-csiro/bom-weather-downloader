@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11067</identifier>
+        <issue-time-utc>2026-05-02T01:05:23Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-02T10:35:23+09:30</issue-time-local>
+        <sent-time>2026-05-02T01:05:23Z</sent-time>
+        <expiry-time>2026-05-03T01:05:23Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-02T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-04T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-02T06:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-02T15:30:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FCW</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-02T10:35:23+09:30" end-time-local="2026-05-02T10:35:23+09:30" start-time-utc="2026-05-02T01:05:23Z" end-time-utc="2026-05-02T01:05:23Z">
+                <text type="synoptic_situation">A strong high pressure system over the Tasman Sea extends northerly winds over SA. Winds will freshen ahead of a front that is forecast to move across the far west today then continue across the state during the weekend. The low pressure system associated with this front is expected to linger over waters to the south of the state and extend a trough over southern parts later Sunday and Monday. The low will then move over Bass Strait later Monday. A ridge will extend across SA from the west on Tuesday and a cold front will move across the south later Wednesday.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones. Marine forecasts are also available on VHF and HF radio. View the radio schedule on www.bom.gov.au/marine</text>
+                <text type="postamble">Check the latest Coastal Waters Forecasts for information on wind, wave and weather conditions for neighbouring coastal zones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW010" description="Lower South East Coast: Cape Jaffa to SA-VIC Border" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-02T10:33:06+09:30" end-time-local="2026-05-03T00:00:00+09:30" start-time-utc="2026-05-02T01:03:06Z" end-time-utc="2026-05-02T14:30:00Z">
+                <warning-summary type="marine_forecast">Strong Wind Warning for Saturday for Lower South East Coast</warning-summary>
+                <text type="forecast_winds">Northerly 15 to 25 knots, reaching up to 30 knots offshore in the late morning.</text>
+                <text type="forecast_seas">1.5 to 2.5 metres.</text>
+                <text type="forecast_swell1">Southwesterly 1.5 to 2 metres.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of rain. The chance of a thunderstorm south of Port MacDonnell in the late afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-03T00:00:00+09:30" end-time-local="2026-05-04T00:00:00+09:30" start-time-utc="2026-05-02T14:30:00Z" end-time-utc="2026-05-03T14:30:00Z">
+                <warning-summary type="marine_forecast">Strong Wind Warning for Sunday for Lower South East Coast</warning-summary>
+                <text type="forecast_winds">North to northwesterly 20 to 30 knots.</text>
+                <text type="forecast_seas">2 to 3 metres, increasing to 2.5 to 4 metres south of Beachport around midday.</text>
+                <text type="forecast_swell1">Westerly 2 to 3 metres inshore, increasing to 2 to 4 metres offshore during the morning.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers. The chance of a thunderstorm in the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-04T00:00:00+09:30" end-time-local="2026-05-05T00:00:00+09:30" start-time-utc="2026-05-03T14:30:00Z" end-time-utc="2026-05-04T14:30:00Z">
+                <text type="forecast_winds">North to northwesterly 25 to 30 knots shifting southwesterly 20 to 30 knots during the morning.</text>
+                <text type="forecast_seas">2 to 4 metres.</text>
+                <text type="forecast_swell1">Southwesterly 2 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy. Near 100% chance of showers. The chance of a thunderstorm in the morning.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
