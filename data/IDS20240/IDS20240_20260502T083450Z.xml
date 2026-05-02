@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20240</identifier>
+        <issue-time-utc>2026-05-02T08:34:50Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-02T18:04:50+09:30</issue-time-local>
+        <sent-time>2026-05-02T08:34:50Z</sent-time>
+        <expiry-time>2026-05-02T20:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-02T18:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-03T05:59:59+09:30</validity-end-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>WRW</sub-service>
+        <product-type>W</product-type>
+        <phase>CAN</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+            <text type="warning_title">
+                <p>Cancellation of</p>
+                <p>Road Weather Alert for Adelaide</p>
+            </text>
+            <text type="warning_advice_contact">For information on any road closures, please contact your local council or the Police.</text>
+            <text type="warning_next_issue">No further alerts will be issued for this event.</text>
+        </warning-info>
+        <!---->
+        <!--locale[SA_ME003, allow-output=yes]-->
+        <!--hazards-exist="yes" non-warning-info-elements-exist="no"-->
+        <area aac="SA_ME003" description="Adelaide" type="metropolitan">
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <!--locale[SA_ME003]/period[variable]-->
+            <hazard index="1" parent-aac="SA_ME003" phase="CAN" type="RWA" severity="CAN" urgency="UNK" certainty="UNK" start-time-local="2026-05-02T18:00:00+09:30" end-time-local="2026-05-03T06:00:00+09:30" start-time-utc="2026-05-02T08:30:00Z" end-time-utc="2026-05-02T20:30:00Z">
+                <area-list>
+                    <area aac="SA_ME003" phase="CAN" description="Adelaide" type="metropolitan"/>
+                </area-list>
+                <priority>W</priority>
+                <text type="warning_phenomena">Cancelled road weather alert</text>
+                <text type="warning">The road weather alert for the Adelaide Area has been cancelled, but the situation will continue to be monitored and further alerts will be issued if necessary.</text>
+            </hazard>
+        </area>
+    </warning>
+</product>
