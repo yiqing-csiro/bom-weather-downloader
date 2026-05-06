@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS20201-2026-05-06T12:00:03+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-05-06T12:00:03+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-05-04T18:10:03+00:00,2026-05-04T18:10:03+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-05-05T00:00:01+00:00,2026-05-05T00:00:01+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-05-05T06:00:06+00:00,2026-05-05T06:00:06+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-05-05T12:00:04+00:00,2026-05-05T12:00:04+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-05-05T18:10:03+00:00,2026-05-05T18:10:03+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-05-06T00:00:01+00:00,2026-05-06T00:00:01+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-05-06T06:00:03+00:00,2026-05-06T06:00:03+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Wind</event>
+        <urgency>Unknown</urgency>
+        <severity>Moderate</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>wind</value>
+        </eventCode>
+        <effective>2026-05-06T11:30:00+00:00</effective>
+        <expires>2026-05-06T14:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Strong Wind Warning for coastal waters between Murray Mouth and SA-VIC Border and for Central Coast, South Central Coast, Spencer Gulf, Gulf St Vincent and Investigator Strait for 06 May</headline>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Central Coast, South Central Coast, Spencer Gulf, Gulf St Vincent, Investigator Strait, Upper South East Coast and Lower South East Coast</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW004</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW005</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW006</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW007</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW010</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Wind</event>
+        <urgency>Unknown</urgency>
+        <severity>Moderate</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>wind</value>
+        </eventCode>
+        <effective>2026-05-06T14:30:00+00:00</effective>
+        <expires>2026-05-07T14:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Strong Wind Warning for coastal waters between Murray Mouth and SA-VIC Border and for South Central Coast for 07 May</headline>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: South Central Coast, Upper South East Coast and Lower South East Coast</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW010</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Wind</event>
+        <urgency>Unknown</urgency>
+        <severity>Minor</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>wind</value>
+        </eventCode>
+        <effective>2026-05-06T11:30:00+00:00</effective>
+        <expires>2026-05-06T14:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Cancellation of Wind Warning for coastal waters between St Kilda and Sellicks Beach for 06 May</headline>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Adelaide Metropolitan Waters</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW011</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
