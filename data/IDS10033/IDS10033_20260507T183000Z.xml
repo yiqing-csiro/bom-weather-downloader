@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-05-07T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-08T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-05-07T18:30:22Z</sent-time>
+        <expiry-time>2026-05-08T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-08T04:00:22+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-11T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-08T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-08T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-08T04:00:22+09:30" end-time-local="2026-05-08T04:00:22+09:30" start-time-utc="2026-05-07T18:30:22Z" end-time-utc="2026-05-07T18:30:22Z">
+                <text type="synoptic_situation">A high pressure system south of Western Australia will move slowly eastwards south of the Bight during the next few days. The high will then move eastwards early next week to be centred southeast of Tasmania late Tuesday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-05-08T05:00:00+09:30" end-time-local="2026-05-09T00:00:00+09:30" start-time-utc="2026-05-07T19:30:00Z" end-time-utc="2026-05-08T14:30:00Z">
+                <text type="forecast">Isolated light showers about the southern agricultural area and near western coasts. Maximum temperatures below average. Southwest to southeasterly winds, fresh at times near the coast.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-09T00:00:00+09:30" end-time-local="2026-05-10T00:00:00+09:30" start-time-utc="2026-05-08T14:30:00Z" end-time-utc="2026-05-09T14:30:00Z">
+                <text type="forecast">Patchy morning fog about the South East and Murray districts. Isolated light showers about the southern agricultural area and near far western coasts. Maximum temperatures below average. South to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-10T00:00:00+09:30" end-time-local="2026-05-11T00:00:00+09:30" start-time-utc="2026-05-09T14:30:00Z" end-time-utc="2026-05-10T14:30:00Z">
+                <text type="forecast">Patchy morning fog in the west. Isolated light showers about the southern agricultural area and near far western coasts. Maximum temperatures below average. South to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-11T00:00:00+09:30" end-time-local="2026-05-12T00:00:00+09:30" start-time-utc="2026-05-10T14:30:00Z" end-time-utc="2026-05-11T14:30:00Z">
+                <text type="forecast">
+                    <p>Patchy morning fog in the west. Isolated light showers about the southern and western coasts. Maximum temperatures near or below average. Southeast to easterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Monday: less than 2 mm across the far northeast, the northern agricultural area and far south of the pastoral districts, increasing to 2 to 5 mm across the southern agricultural area. Higher totals of 5 to 10 mm are possible across windward coasts and ranges.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
