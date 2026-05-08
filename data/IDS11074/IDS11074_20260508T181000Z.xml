@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11074</identifier>
+        <issue-time-utc>2026-05-08T18:10:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-09T03:40:00+09:30</issue-time-local>
+        <sent-time>2026-05-08T18:10:45Z</sent-time>
+        <expiry-time>2026-05-09T18:10:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-09T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-11T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-09T00:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-09T09:30:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FCW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-09T03:40:46+09:30" end-time-local="2026-05-09T03:40:46+09:30" start-time-utc="2026-05-08T18:10:46Z" end-time-utc="2026-05-08T18:10:46Z">
+                <text type="synoptic_situation">A strong high pressure system south of Western Australia will move east slowly over the weekend to be near Tasmania early next week.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones. Marine forecasts are also available on VHF and HF radio. View the radio schedule on www.bom.gov.au/marine</text>
+                <text type="postamble">Check the latest Coastal Waters Forecasts for information on wind, wave and weather conditions for neighbouring coastal zones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW005" description="Spencer Gulf" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-09T03:00:00+09:30" end-time-local="2026-05-10T00:00:00+09:30" start-time-utc="2026-05-08T17:30:00Z" end-time-utc="2026-05-09T14:30:00Z">
+                <text type="forecast_winds">Southerly 10 to 15 knots turning southeasterly in the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">South to southwesterly 1 to 1.5 metres, increasing to 1 to 2 metres south of Cowell to Wallaroo.</text>
+                <text type="forecast_weather">Cloudy. 50% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-10T00:00:00+09:30" end-time-local="2026-05-11T00:00:00+09:30" start-time-utc="2026-05-09T14:30:00Z" end-time-utc="2026-05-10T14:30:00Z">
+                <text type="forecast_winds">Southeasterly 10 to 15 knots turning easterly in the late evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">South to southwesterly around 1 metre, increasing to 1 to 1.5 metres south of Cowell to Wallaroo.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-11T00:00:00+09:30" end-time-local="2026-05-12T00:00:00+09:30" start-time-utc="2026-05-10T14:30:00Z" end-time-utc="2026-05-11T14:30:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots turning south to southeasterly during the day then tending east to southeasterly during the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">South to southwesterly around 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW006" description="Gulf St Vincent" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-09T03:00:00+09:30" end-time-local="2026-05-10T00:00:00+09:30" start-time-utc="2026-05-08T17:30:00Z" end-time-utc="2026-05-09T14:30:00Z">
+                <text type="forecast_winds">Southerly 10 to 15 knots turning southeasterly in the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloudy. 60% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-10T00:00:00+09:30" end-time-local="2026-05-11T00:00:00+09:30" start-time-utc="2026-05-09T14:30:00Z" end-time-utc="2026-05-10T14:30:00Z">
+                <text type="forecast_winds">East to southeasterly below 10 knots tending south to southeasterly 10 to 15 knots in the middle of the day then tending east to southeasterly in the late evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southeast to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-11T00:00:00+09:30" end-time-local="2026-05-12T00:00:00+09:30" start-time-utc="2026-05-10T14:30:00Z" end-time-utc="2026-05-11T14:30:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots turning south to southeasterly during the day then tending east to southeasterly during the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southeast to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW004" description="Central Coast" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-09T03:00:00+09:30" end-time-local="2026-05-10T00:00:00+09:30" start-time-utc="2026-05-08T17:30:00Z" end-time-utc="2026-05-09T14:30:00Z">
+                <text type="forecast_winds">Southerly 10 to 15 knots turning southeasterly in the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southwesterly 2.5 to 3 metres, tending southerly 2.5 metres by early evening.</text>
+                <text type="forecast_weather">Cloudy. 60% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-10T00:00:00+09:30" end-time-local="2026-05-11T00:00:00+09:30" start-time-utc="2026-05-09T14:30:00Z" end-time-utc="2026-05-10T14:30:00Z">
+                <text type="forecast_winds">Southeasterly 10 to 15 knots turning easterly in the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southerly 1.5 to 2.5 metres.</text>
+                <text type="forecast_weather">Cloudy. 60% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-11T00:00:00+09:30" end-time-local="2026-05-12T00:00:00+09:30" start-time-utc="2026-05-10T14:30:00Z" end-time-utc="2026-05-11T14:30:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southerly 1.5 to 2 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW007" description="Investigator Strait" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-09T03:00:00+09:30" end-time-local="2026-05-10T00:00:00+09:30" start-time-utc="2026-05-08T17:30:00Z" end-time-utc="2026-05-09T14:30:00Z">
+                <text type="forecast_winds">Southerly 10 to 15 knots turning southeasterly in the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 1 metre, increasing to 1 to 2 metres through the Backstairs Passage.</text>
+                <text type="forecast_weather">Cloudy. 50% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-10T00:00:00+09:30" end-time-local="2026-05-11T00:00:00+09:30" start-time-utc="2026-05-09T14:30:00Z" end-time-utc="2026-05-10T14:30:00Z">
+                <text type="forecast_winds">Southeasterly about 10 knots increasing to 10 to 15 knots in the early afternoon.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southerly 1 to 1.5 metres through the Backstairs Passage.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-11T00:00:00+09:30" end-time-local="2026-05-12T00:00:00+09:30" start-time-utc="2026-05-10T14:30:00Z" end-time-utc="2026-05-11T14:30:00Z">
+                <text type="forecast_winds">East to southeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Southerly 1 to 1.5 metres through the Backstairs Passage.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
