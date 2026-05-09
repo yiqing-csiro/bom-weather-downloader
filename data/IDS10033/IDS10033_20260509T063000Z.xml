@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-05-09T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-09T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-05-09T06:30:03Z</sent-time>
+        <expiry-time>2026-05-09T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-09T16:00:04+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-13T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-09T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-10T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-09T16:00:04+09:30" end-time-local="2026-05-09T16:00:04+09:30" start-time-utc="2026-05-09T06:30:04Z" end-time-utc="2026-05-09T06:30:04Z">
+                <text type="synoptic_situation">A strong high pressure system south of Western Australia will move east slowly over the weekend to be near Tasmania early next week. A trough is expected to develop across northern SA early next week.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-10T00:00:00+09:30" end-time-local="2026-05-11T00:00:00+09:30" start-time-utc="2026-05-09T14:30:00Z" end-time-utc="2026-05-10T14:30:00Z">
+                <text type="forecast">Mostly dry, apart from some isolated light showers about the southern agricultural area and near far western coasts. Possible morning fog about the ranges. Maximum temperatures near average. South to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-05-09T17:00:00+09:30" end-time-local="2026-05-10T00:00:00+09:30" start-time-utc="2026-05-09T07:30:00Z" end-time-utc="2026-05-09T14:30:00Z">
+                <text type="forecast">Isolated light showers about the southern agricultural area and near far western coasts. South to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-11T00:00:00+09:30" end-time-local="2026-05-12T00:00:00+09:30" start-time-utc="2026-05-10T14:30:00Z" end-time-utc="2026-05-11T14:30:00Z">
+                <text type="forecast">Mostly dry, with some isolated showers developing in the afternoon about the far north. Maximum temperatures near average. East to southeast winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-12T00:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-11T14:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Patchy morning fog in the west and southeast. Isolated showers and possible thunderstorms across the far north, extending south into central districts during the day. Maximum temperatures near average, tending slightly above average in the south. East to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers east of around Coober Pedy. Maximum temperatures near average, tending slightly above average in the south. East to southeasterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Wednesday: less than 2 mm across the agricultural areas, increasing to 2 to 5 mm across windward coasts and ranges. 5 to 10 mm across the North East Pastoral district, with isolated falls up to 20 mm possible.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
