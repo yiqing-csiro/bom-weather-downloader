@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10037</identifier>
+        <issue-time-utc>2026-05-11T11:46:44Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-11T21:16:44+09:30</issue-time-local>
+        <sent-time>2026-05-11T11:46:44Z</sent-time>
+        <expiry-time>2026-05-12T11:46:44Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-11T21:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-18T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-11T18:20:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-12T03:50:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FCT</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region"/>
+        <area aac="SA_ME001" description="Adelaide" type="metropolitan" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-11T21:00:00+09:30" end-time-local="2026-05-12T00:00:00+09:30" start-time-utc="2026-05-11T11:30:00Z" end-time-utc="2026-05-11T14:30:00Z">
+                <text type="forecast">Clear. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-12T00:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-11T14:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog about the hills and southern suburbs. Light winds becoming easterly 15 to 20 km/h in the evening.</text>
+                <text type="uv_alert">Sun protection 11:00am to 1:20pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Winds easterly 15 to 20 km/h becoming light in the early morning then becoming east to northeasterly 15 to 20 km/h in the morning.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds northeasterly 15 to 20 km/h becoming light during the afternoon then becoming northeasterly 15 to 20 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light during the afternoon then becoming northeasterly 15 to 20 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2026-05-17T00:00:00+09:30" end-time-local="2026-05-18T00:00:00+09:30" start-time-utc="2026-05-16T14:30:00Z" end-time-utc="2026-05-17T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2026-05-18T00:00:00+09:30" end-time-local="2026-05-19T00:00:00+09:30" start-time-utc="2026-05-17T14:30:00Z" end-time-utc="2026-05-18T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Light winds becoming southwesterly 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
