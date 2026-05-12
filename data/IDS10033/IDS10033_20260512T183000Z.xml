@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-05-12T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-13T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-05-12T18:30:25Z</sent-time>
+        <expiry-time>2026-05-13T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-13T04:00:25+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-16T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-13T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-13T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-13T04:00:25+09:30" end-time-local="2026-05-13T04:00:25+09:30" start-time-utc="2026-05-12T18:30:25Z" end-time-utc="2026-05-12T18:30:25Z">
+                <text type="synoptic_situation">A strong high pressure system near Tasmania is slowly moving east, reaching the Tasman Sea later today. A trough of low pressure lies across the northeast. Another trough moves into the far west late on Friday and continues across SA over the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-05-13T05:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T19:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Patchy morning fog about the west, as well as on and east of the ranges. Isolated showers east of around Coober Pedy, increasing to scattered showers about the northeast. Possible thunderstorms about the northeast and central districts. Maximum temperatures near average, tending slightly above average in the south. East to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Isolated showers east of around Coober Pedy. Possible thunderstorms about the far northeast. Maximum temperatures near average, tending slightly above average in the south. East to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Isolated showers, increasing to scattered showers about central districts. Possible thunderstorms about the North East Pastoral district. Maximum temperatures near average, tending slightly above average in the south. Northeast to northwesterly winds, ahead of a southerly change in the far west later.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers, increasing to scattered showers about central and eastern districts. Possible thunderstorms. Maximum temperatures near to below average. Northeast to northwesterly winds, ahead of a southerly change in the west reaching central districts in the afternoon and evening.</p>
+                    <p/>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: 1 to 5 mm, local falls of 5 to 15 mm across the North East Pastoral and central districts with isolated falls up to 40 mm possible with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
