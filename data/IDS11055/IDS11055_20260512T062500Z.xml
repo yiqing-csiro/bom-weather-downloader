@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11055</identifier>
+        <issue-time-utc>2026-05-12T06:25:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-12T15:55:00+09:30</issue-time-local>
+        <sent-time>2026-05-12T06:25:59Z</sent-time>
+        <expiry-time>2026-05-13T06:25:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-12T15:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-16T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-12T18:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-13T04:10:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region"/>
+        <area aac="SA_PW015" description="Mount Lofty Ranges" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming easterly 15 to 20 km/h in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds east to northeasterly 15 to 20 km/h. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching between 19 and 23.</text>
+                <text type="uv_alert">Sun protection 10:50am to 1:20pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower, most likely in the morning and afternoon. Winds northeasterly 15 to 20 km/h becoming light in the late afternoon then becoming northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching between 19 and 23.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northeasterly 15 to 20 km/h turning northerly 15 to 25 km/h during the day. Overnight temperatures falling to between 12 and 15 with daytime temperatures reaching between 19 and 23.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northerly 15 to 20 km/h tending northwesterly during the day then becoming light during the afternoon. Overnight temperatures falling to around 13 with daytime temperatures reaching between 17 and 21.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW002" description="Yorke Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Mostly clear. Winds southeasterly 15 to 20 km/h becoming light in the evening then becoming easterly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of a thunderstorm in the north in the morning and afternoon. Winds easterly 15 to 25 km/h. Overnight temperatures falling to around 12 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="uv_alert">Sun protection 11:00am to 1:30pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Mostly sunny. Slight chance of a shower. Winds northeasterly 15 to 20 km/h becoming light in the early afternoon then becoming northeasterly 15 to 20 km/h in the evening. Overnight temperatures falling to around 13 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northeasterly 15 to 20 km/h turning northerly 15 to 25 km/h during the day. Overnight temperatures falling to around 14 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the north in the afternoon. Winds northerly 15 to 20 km/h tending northwesterly during the day then becoming light during the afternoon. Overnight temperatures falling to around 14 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW003" description="Kangaroo Island" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 9 and 12 with daytime temperatures reaching the low 20s.</text>
+                <text type="uv_alert">Sun protection 11:20am to 1:10pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds north to northeasterly 15 to 20 km/h becoming light in the late afternoon then becoming northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to around 12 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northerly 15 to 25 km/h. Overnight temperatures falling to around 14 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers, most likely in the morning and afternoon. Winds northerly 15 to 20 km/h tending northwesterly during the day then becoming light during the afternoon. Overnight temperatures falling to around 13 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW004" description="Upper South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds easterly 15 to 20 km/h becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds east to northeasterly 15 to 25 km/h becoming light in the late evening. Overnight temperatures falling to around 11 with daytime temperatures reaching the low 20s.</text>
+                <text type="uv_alert">Sun protection 11:20am to 12:50pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds becoming northeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 11 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers. Winds northeasterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to around 11 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h during the morning then becoming light during the afternoon. Overnight temperatures falling to around 13 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW005" description="Lower South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Mostly clear. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds northeasterly 15 to 25 km/h tending easterly 15 to 20 km/h in the late afternoon then becoming light in the evening. Overnight temperatures falling to around 10 with daytime temperatures reaching the low 20s.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h in the morning. Overnight temperatures falling to around 11 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northeasterly 15 to 25 km/h turning northerly 15 to 20 km/h during the afternoon. Overnight temperatures falling to around 11 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers. Winds northerly 15 to 25 km/h becoming light during the afternoon. Overnight temperatures falling to around 12 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW006" description="Riverland" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of fog in the morning, mainly in the west. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 10 with daytime temperatures reaching the low 20s.</text>
+                <text type="uv_alert">Sun protection 10:50am to 1:10pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Medium chance of showers, most likely in the morning. Mostly sunny afternoon. Light winds becoming east to northeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day. Overnight temperatures falling to around 10 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the afternoon and evening. Light winds becoming north to northeasterly 15 to 25 km/h during the morning then becoming light during the afternoon. Overnight temperatures falling to between 9 and 12 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds north to northeasterly 15 to 20 km/h becoming light during the afternoon. Overnight temperatures falling to around 12 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW007" description="Murraylands" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds easterly 15 to 20 km/h becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Winds east to northeasterly 15 to 25 km/h becoming light in the late evening. Overnight temperatures falling to around 10 with daytime temperatures reaching the low 20s.</text>
+                <text type="uv_alert">Sun protection 11:10am to 1:10pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Medium chance of showers, most likely in the morning. Mostly sunny afternoon. Light winds becoming northeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 10 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the afternoon and evening. Winds northeasterly 15 to 25 km/h becoming light during the afternoon. Overnight temperatures falling to around 11 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds north to northeasterly 15 to 25 km/h becoming light during the afternoon. Overnight temperatures falling to around 13 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW008" description="Mid North" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds easterly 15 to 20 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog in the east. Slight chance of a shower. The chance of a thunderstorm in the west in the morning and afternoon. Winds east to northeasterly 15 to 25 km/h. Overnight temperatures falling to between 8 and 12 with daytime temperatures reaching 20 to 25.</text>
+                <text type="uv_alert">Sun protection 10:50am to 1:40pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds northeasterly 15 to 25 km/h becoming light in the late afternoon then becoming east to northeasterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 8 and 12 with daytime temperatures reaching between 19 and 24.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds north to northeasterly 15 to 25 km/h becoming light during the afternoon then becoming north to northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching between 19 and 24.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northerly 15 to 20 km/h tending northwesterly during the day then becoming light during the afternoon. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching between 18 and 22.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW009" description="Flinders" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds east to southeasterly 15 to 20 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the afternoon. The chance of a thunderstorm west of the ranges in the morning and afternoon. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 8 and 14 with daytime temperatures reaching between 18 and 24.</text>
+                <text type="uv_alert">Sun protection 10:30am to 1:50pm, UV Index predicted to reach 4 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the early morning. Winds east to southeasterly 15 to 25 km/h tending east to northeasterly during the morning. Overnight temperatures falling to between 8 and 14 with daytime temperatures reaching between 18 and 23.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm north of Hawker in the evening. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly during the day then becoming light during the afternoon. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching between 17 and 21.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW010" description="West Coast" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Clear. Winds southeast to southwesterly 15 to 20 km/h becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Mostly sunny. The chance of morning fog. Slight chance of a shower south of Streaky Bay, near zero chance elsewhere. The chance of a thunderstorm east of Ceduna in the morning and afternoon. Light winds becoming east to northeasterly 15 to 20 km/h in the morning then tending east to southeasterly in the late afternoon. Overnight temperatures falling to around 9 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="uv_alert">Sun protection 10:50am to 2:10pm, UV Index predicted to reach 4 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower south of Streaky Bay, near zero chance elsewhere. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 10 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers east of Ceduna, slight chance elsewhere. The chance of a thunderstorm in the evening. Winds north to northeasterly 15 to 25 km/h tending north to northwesterly during the day then becoming light during the afternoon. Overnight temperatures falling to around 14 with daytime temperatures reaching the low to high 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the afternoon. The chance of a thunderstorm in the afternoon. Light winds becoming south to southwesterly 15 to 20 km/h during the morning then becoming light during the evening. Overnight temperatures falling to around 12 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW011" description="Eastern Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Mostly clear. Winds southeasterly 15 to 20 km/h becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the morning and afternoon. Light winds becoming northeast to southeasterly 15 to 20 km/h in the morning. Overnight temperatures falling to around 11 with daytime temperatures reaching the mid 20s.</text>
+                <text type="uv_alert">Sun protection 10:50am to 1:40pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 12 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers, most likely in the afternoon and evening. Winds northerly 15 to 25 km/h. Overnight temperatures falling to around 14 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northerly 15 to 20 km/h tending northwesterly during the morning then becoming light during the day. Overnight temperatures falling to around 14 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW012" description="Lower Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Clear. Winds east to southeasterly 15 to 20 km/h becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Light winds becoming northeasterly 15 to 20 km/h in the morning then tending easterly in the early afternoon. Overnight temperatures falling to around 11 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="uv_alert">Sun protection 11:10am to 1:30pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 11 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers. Winds north to northeasterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to around 14 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the afternoon. The chance of a thunderstorm in the afternoon. Winds northerly 15 to 20 km/h tending northwest to southwesterly during the day then becoming light during the afternoon. Overnight temperatures falling to around 13 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW013" description="North West Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Mostly clear. Winds southeasterly 15 to 20 km/h becoming light in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Mostly sunny. Slight chance of a shower east of Stuart Highway, most likely in the afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm south of Woomera in the morning and afternoon. The chance of morning fog south of Coober Pedy. Winds east to southeasterly 15 to 20 km/h becoming light in the early morning then becoming east to southeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 7 and 13 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="uv_alert">Sun protection 10:20am to 2:30pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower east of Stuart Highway, near zero chance elsewhere. Light winds becoming east to northeasterly 15 to 20 km/h in the morning then becoming light in the late evening. Overnight temperatures falling to between 9 and 12 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers east of Coober Pedy, slight chance elsewhere. The chance of a thunderstorm east of Stuart Highway in the evening. Winds north to northeasterly 15 to 25 km/h tending north to northwesterly during the day then tending north to northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 12 and 15 with daytime temperatures reaching the low to high 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers east of Coober Pedy, medium chance elsewhere. The chance of a thunderstorm in the afternoon. Winds northwest to northeasterly 15 to 20 km/h tending northwest to southwesterly during the day then tending southeast to southwesterly during the afternoon. Overnight temperatures falling to between 11 and 14 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW014" description="North East Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower north of Leigh Creek, near zero chance elsewhere. The chance of a thunderstorm north of Leigh Creek. Winds east to southeasterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog south of Yunta. High chance of showers in the far northeast, medium chance elsewhere. The chance of a thunderstorm east of Leigh Creek. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="uv_alert">Sun protection 10:10am to 2:10pm, UV Index predicted to reach 4 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers in the far northeast, slight chance elsewhere. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers south of Yunta, medium chance elsewhere. The chance of a thunderstorm in the evening. Winds east to northeasterly 20 to 30 km/h tending north to northeasterly during the day then becoming light during the evening. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers. The chance of a thunderstorm. Winds northeasterly 15 to 25 km/h tending northerly during the day then becoming light during the afternoon. Overnight temperatures falling to between 12 and 17 with daytime temperatures reaching 20 to 25.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

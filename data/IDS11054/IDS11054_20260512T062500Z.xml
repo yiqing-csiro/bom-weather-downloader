@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11054</identifier>
+        <issue-time-utc>2026-05-12T06:25:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-12T15:55:00+09:30</issue-time-local>
+        <sent-time>2026-05-12T06:25:55Z</sent-time>
+        <expiry-time>2026-05-13T06:25:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-12T15:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-16T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-12T18:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-13T04:10:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-12T15:55:55+09:30" end-time-local="2026-05-12T15:55:55+09:30" start-time-utc="2026-05-12T06:25:55Z" end-time-utc="2026-05-12T06:25:55Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A strong high pressure system near Tasmania is slowly moving east, reaching the Tasman Sea by tomorrow. A trough of low pressure lies across the northeast. Another trough moves into the far west late on Friday and continues across SA over the weekend.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW014" description="North East Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-12T15:00:00+09:30" end-time-local="2026-05-13T00:00:00+09:30" start-time-utc="2026-05-12T05:30:00Z" end-time-utc="2026-05-12T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower north of Leigh Creek, near zero chance elsewhere. The chance of a thunderstorm north of Leigh Creek. Winds east to southeasterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog south of Yunta. High chance of showers in the far northeast, medium chance elsewhere. The chance of a thunderstorm east of Leigh Creek. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the low to mid 20s.</text>
+                <text type="uv_alert">Sun protection 10:10am to 2:10pm, UV Index predicted to reach 4 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers in the far northeast, slight chance elsewhere. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers south of Yunta, medium chance elsewhere. The chance of a thunderstorm in the evening. Winds east to northeasterly 20 to 30 km/h tending north to northeasterly during the day then becoming light during the evening. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Cloudy. High chance of showers. The chance of a thunderstorm. Winds northeasterly 15 to 25 km/h tending northerly during the day then becoming light during the afternoon. Overnight temperatures falling to between 12 and 17 with daytime temperatures reaching 20 to 25.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT021" description="Leigh Creek" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Showers increasing.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT024" description="Marree" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Showers easing.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT027" description="Moomba" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT038" description="Oodnadatta" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT058" description="Yunta" type="location" parent-aac="SA_PW014">
+            <forecast-period index="1" start-time-local="2026-05-13T00:00:00+09:30" end-time-local="2026-05-14T00:00:00+09:30" start-time-utc="2026-05-12T14:30:00Z" end-time-utc="2026-05-13T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Showers increasing.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
