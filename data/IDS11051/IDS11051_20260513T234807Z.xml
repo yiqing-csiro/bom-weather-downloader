@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11051</identifier>
+        <issue-time-utc>2026-05-13T23:48:07Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-14T09:18:07+09:30</issue-time-local>
+        <sent-time>2026-05-13T23:48:07Z</sent-time>
+        <expiry-time>2026-05-14T23:48:07Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-14T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-17T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-14T06:25:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-14T15:55:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-14T09:18:08+09:30" end-time-local="2026-05-14T09:18:08+09:30" start-time-utc="2026-05-13T23:48:08Z" end-time-utc="2026-05-13T23:48:08Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A strong high pressure system in the Tasman Sea is slowly moving east. A trough of low pressure lies across the northeast and will remain near stationary. A cold front will move east across the Southern Ocean over the weekend, with the trough also starting to move east ahead of it.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW011" description="Eastern Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-14T00:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T14:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <text type="forecast">Mostly sunny. Slight chance of a shower. Winds north to northeasterly 15 to 25 km/h becoming light in the late afternoon. Daytime maximum temperatures in the low to mid 20s.</text>
+                <text type="uv_alert">Sun protection 10:50am to 1:30pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <text type="forecast">Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 20 km/h turning northerly 20 to 30 km/h during the morning. Overnight temperatures falling to around 14 with daytime temperatures reaching between 19 and 23.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <text type="forecast">Partly cloudy. Very high chance of showers. A thunderstorm likely in the afternoon and evening. Winds northerly 15 to 20 km/h tending northwesterly 15 to 25 km/h during the morning then becoming light during the afternoon. Overnight temperatures falling to around 13 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-17T00:00:00+09:30" end-time-local="2026-05-18T00:00:00+09:30" start-time-utc="2026-05-16T14:30:00Z" end-time-utc="2026-05-17T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog. Medium chance of showers, most likely in the morning and afternoon. Light winds. Overnight temperatures falling to around 11 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT055" description="Whyalla" type="location" parent-aac="SA_PW011">
+            <forecast-period index="0" start-time-local="2026-05-14T09:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T23:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Showers. Storm developing.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-17T00:00:00+09:30" end-time-local="2026-05-18T00:00:00+09:30" start-time-utc="2026-05-16T14:30:00Z" end-time-utc="2026-05-17T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT007" description="Cleve" type="location" parent-aac="SA_PW011">
+            <forecast-period index="0" start-time-local="2026-05-14T09:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T23:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Showers. Possible storm.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Showers. Afternoon storm.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-17T00:00:00+09:30" end-time-local="2026-05-18T00:00:00+09:30" start-time-utc="2026-05-16T14:30:00Z" end-time-utc="2026-05-17T14:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT069" description="Kimba" type="location" parent-aac="SA_PW011">
+            <forecast-period index="0" start-time-local="2026-05-14T09:00:00+09:30" end-time-local="2026-05-15T00:00:00+09:30" start-time-utc="2026-05-13T23:30:00Z" end-time-utc="2026-05-14T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-15T00:00:00+09:30" end-time-local="2026-05-16T00:00:00+09:30" start-time-utc="2026-05-14T14:30:00Z" end-time-utc="2026-05-15T14:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Showers. Possible storm.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-16T00:00:00+09:30" end-time-local="2026-05-17T00:00:00+09:30" start-time-utc="2026-05-15T14:30:00Z" end-time-utc="2026-05-16T14:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Showers. Afternoon storm.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-17T00:00:00+09:30" end-time-local="2026-05-18T00:00:00+09:30" start-time-utc="2026-05-16T14:30:00Z" end-time-utc="2026-05-17T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
