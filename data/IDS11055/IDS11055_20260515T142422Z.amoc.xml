@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS11055</identifier>
+    <issue-time-utc>2026-05-15T14:24:22Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-05-15T23:54:22+09:30</issue-time-local>
+    <sent-time>2026-05-15T14:24:22Z</sent-time>
+    <expiry-time>2026-05-16T14:24:22Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-05-16T00:00:00+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-05-19T23:59:59+09:30</validity-end-time-local>
+    <next-routine-issue-time-utc>2026-05-15T18:40:00Z</next-routine-issue-time-utc>
+    <next-routine-issue-time-local tz="CST">2026-05-16T04:10:00+09:30</next-routine-issue-time-local>
+    <status>O</status>
+    <service>WSP</service>
+    <sub-service>FDS</sub-service>
+    <product-type>F</product-type>
+    <phase>UPD</phase>
+</amoc>
