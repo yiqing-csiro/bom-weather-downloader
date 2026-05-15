@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS21033</identifier>
+    <issue-time-utc>2026-05-15T08:04:44Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-05-15T17:34:44+09:30</issue-time-local>
+    <sent-time>2026-05-15T08:04:44Z</sent-time>
+    <expiry-time>2026-05-15T13:04:41Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-05-15T17:34:41+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-05-15T22:34:40+09:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSW</service>
+    <sub-service>WST</sub-service>
+    <product-type>W</product-type>
+    <phase>NEW</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="NEW" type="STW" severity="STD" urgency="UNK" certainty="UNK" start-time-utc="2026-05-15T08:04:41Z" end-time-utc="2026-05-15T13:04:41Z">
+        <area-list>
+            <area aac="SA_PW013" phase="NEW" description="North West Pastoral" type="public-district"/>
+            <area aac="SA_PW010" phase="NEW" description="West Coast" type="public-district"/>
+            <area aac="SA_PW011" phase="NEW" description="Eastern Eyre Peninsula" type="public-district"/>
+        </area-list>
+        <phenomenon-list>
+            <phenomenon type="R"/>
+        </phenomenon-list>
+        <priority>W</priority>
+        <headline>Severe Thunderstorm Warning for Heavy Rainfall for North West Pastoral, West Coast and Eastern Eyre Peninsula forecast districts</headline>
+    </hazard>
+</amoc>
