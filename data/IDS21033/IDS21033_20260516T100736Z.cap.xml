@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21033-2026-05-16T10:07:36+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-05-16T10:07:36+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS21033-2026-05-16T06:56:37+00:00,2026-05-16T06:56:37+00:00 CAP.Message@bom.gov.au,AusBoM-IDS21033-2026-05-16T09:05:45+00:00,2026-05-16T09:05:45+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Thunderstorm</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <effective>2026-05-16T10:07:33+00:00</effective>
+        <expires>2026-05-16T15:07:33+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Thunderstorm Warning for North West Pastoral, North East Pastoral, Flinders, Mount Lofty Ranges and Adelaide Metropolitan forecast districts</headline>
+        <description>
+          Severe thunderstorms are likely to produce large hailstones, heavy rainfall that may lead to flash flooding and damaging winds over the next several hours in parts of the North West Pastoral, Flinders and North East Pastoral districts. 
+          
+          Severe thunderstorms are likely to produce heavy rainfall that may lead to flash flooding over the next several hours in the Adelaide Metropolitan and parts of the Mount Lofty Ranges districts. Locations which may be affected include Adelaide.  
+          
+          
+          Severe thunderstorms are no longer occurring in the Eastern Eyre Peninsula, Yorke Peninsula and Mid North districts and the warning for these districts is CANCELLED.
+           
+          
+          37.2 MM WAS RECORDED AT WOOMERA IN THE 30 MINUTES TO 5:30 PM.
+          98 km/h wind gust was recorded at Woomera at 5:35 pm
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Secure or put away loose items around your property.
+* Move cars under cover or away from trees.
+* Keep clear of fallen power lines.
+* Don't drive, ride or walk through flood water.
+* Keep clear of creeks and storm drains.
+* Stay indoors, away from windows, while storms are nearby.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Adelaide Metropolitan, Mount Lofty Ranges, Flinders, North West Pastoral and North East Pastoral</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW013</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW014</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW015</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW001</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Thunderstorm</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <effective>2026-05-16T10:07:33+00:00</effective>
+        <expires>2026-05-16T15:07:33+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Cancellation of Severe Thunderstorm Warning for Yorke Peninsula, Mid North and Eastern Eyre Peninsula forecast districts</headline>
+        <description/>
+        <instruction>The State Emergency Service advises that people should:
+* Secure or put away loose items around your property.
+* Move cars under cover or away from trees.
+* Keep clear of fallen power lines.
+* Don't drive, ride or walk through flood water.
+* Keep clear of creeks and storm drains.
+* Stay indoors, away from windows, while storms are nearby.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Yorke Peninsula, Mid North and Eastern Eyre Peninsula forecast districts</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW002</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW011</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
