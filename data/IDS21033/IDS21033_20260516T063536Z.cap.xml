@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21033-2026-05-16T06:35:36+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-05-16T06:35:36+00:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Thunderstorm</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <effective>2026-05-16T06:35:31+00:00</effective>
+        <expires>2026-05-16T11:35:31+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Thunderstorm Warning for Yorke Peninsula forecast district</headline>
+        <description>
+          Severe thunderstorms are likely to produce heavy rainfall that may lead to flash flooding in the warning area over the next several hours. Locations which may be affected include Maitland, Kadina and Ardrossan.  
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Don't drive, ride or walk through flood water.
+* Keep clear of creeks and storm drains.
+* Stay indoors, away from windows, while storms are nearby.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Yorke Peninsula</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW002</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
