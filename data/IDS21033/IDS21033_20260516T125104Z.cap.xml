@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21033-2026-05-16T12:51:04+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-05-16T12:51:04+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS21033-2026-05-16T09:05:45+00:00,2026-05-16T09:05:45+00:00 CAP.Message@bom.gov.au,AusBoM-IDS21033-2026-05-16T10:07:36+00:00,2026-05-16T10:07:36+00:00 CAP.Message@bom.gov.au,AusBoM-IDS21033-2026-05-16T11:01:42+00:00,2026-05-16T11:01:42+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Thunderstorm</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <effective>2026-05-16T12:50:59+00:00</effective>
+        <expires>2026-05-16T17:50:59+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Thunderstorm Warning for North West Pastoral and North East Pastoral forecast districts</headline>
+        <description>
+          Severe thunderstorms are likely to produce heavy rainfall that may lead to flash flooding and damaging winds in the warning area over the next several hours. Locations which may be affected include Marree.  
+          
+          
+          Severe thunderstorms are no longer occurring in the Eastern Eyre Peninsula and Flinders districts and the warning for these districts is CANCELLED.
+           
+          
+          37.2 MM WAS RECORDED AT WOOMERA IN THE 30 MINUTES TO 5:30 PM.
+          28 mm was recorded at Glenelg in the 30 minutes to 8:00 pm.
+          27.8 mm was recorded at Patawalonga Lake in the 30 minutes to 8:00 pm.
+          24.6 mm was recorded at Adelaide Airport in the 30 minutes to 8:00 pm.
+          98 km/h wind gust was recorded at Woomera at 5:35 pm
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Secure or put away loose items around your property.
+* Move cars under cover or away from trees.
+* Keep clear of fallen power lines.
+* Don't drive, ride or walk through flood water.
+* Keep clear of creeks and storm drains.
+* Stay indoors, away from windows, while storms are nearby.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: North West Pastoral and North East Pastoral</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW013</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW014</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Thunderstorm</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <effective>2026-05-16T12:50:59+00:00</effective>
+        <expires>2026-05-16T17:50:59+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Cancellation of Severe Thunderstorm Warning for Flinders and Eastern Eyre Peninsula forecast districts</headline>
+        <description/>
+        <instruction>The State Emergency Service advises that people should:
+* Secure or put away loose items around your property.
+* Move cars under cover or away from trees.
+* Keep clear of fallen power lines.
+* Don't drive, ride or walk through flood water.
+* Keep clear of creeks and storm drains.
+* Stay indoors, away from windows, while storms are nearby.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Flinders and Eastern Eyre Peninsula forecast districts</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW011</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
