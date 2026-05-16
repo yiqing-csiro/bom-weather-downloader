@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS21033</identifier>
+    <issue-time-utc>2026-05-16T08:35:38Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-05-16T18:05:38+09:30</issue-time-local>
+    <sent-time>2026-05-16T08:35:38Z</sent-time>
+    <expiry-time>2026-05-16T13:35:33Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-05-16T18:05:33+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-05-16T23:05:32+09:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSW</service>
+    <sub-service>WST</sub-service>
+    <product-type>W</product-type>
+    <phase>UPD</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="UPD" type="STW" severity="STD" urgency="UNK" certainty="UNK" start-time-utc="2026-05-16T08:35:33Z" end-time-utc="2026-05-16T13:35:33Z">
+        <area-list>
+            <area aac="SA_PW013" phase="REN" description="North West Pastoral" type="public-district"/>
+            <area aac="SA_PW014" phase="NEW" description="North East Pastoral" type="public-district"/>
+            <area aac="SA_PW011" phase="REN" description="Eastern Eyre Peninsula" type="public-district"/>
+            <area aac="SA_PW009" phase="NEW" description="Flinders" type="public-district"/>
+            <area aac="SA_PW008" phase="NEW" description="Mid North" type="public-district"/>
+            <area aac="SA_PW002" phase="REN" description="Yorke Peninsula" type="public-district"/>
+        </area-list>
+        <phenomenon-list>
+            <phenomenon type="W"/>
+            <phenomenon type="LH"/>
+            <phenomenon type="R"/>
+        </phenomenon-list>
+        <priority>W</priority>
+        <headline>Severe Thunderstorm Warning for Damaging Winds, Large Hail and Heavy Rainfall for North West Pastoral, North East Pastoral, Eastern Eyre Peninsula, Flinders, Mid North and Yorke Peninsula forecast districts</headline>
+    </hazard>
+    <hazard index="2" parent-aac="SA_EV001" phase="CAN" type="STW" severity="CAN" urgency="UNK" certainty="UNK" start-time-utc="2026-05-16T08:35:33Z" end-time-utc="2026-05-16T13:35:33Z">
+        <area-list>
+            <area aac="SA_PW010" phase="CAN" description="West Coast" type="public-district"/>
+        </area-list>
+        <priority>W</priority>
+        <headline>Cancellation of Severe Thunderstorm Warning for West Coast forecast district</headline>
+    </hazard>
+</amoc>
