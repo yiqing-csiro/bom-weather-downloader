@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-05-22T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-23T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-05-22T18:30:24Z</sent-time>
+        <expiry-time>2026-05-23T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-23T04:00:24+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-26T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-23T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-23T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-23T04:00:24+09:30" end-time-local="2026-05-23T04:00:24+09:30" start-time-utc="2026-05-22T18:30:24Z" end-time-utc="2026-05-22T18:30:24Z">
+                <text type="synoptic_situation">A high pressure ridge over the east will begin to weaken as a cold enters the west of the SA early today. This front is expected to reach eastern districts later on Sunday with an associated low pressure system developing off the southern coasts. The low is expected to move across the southeast on Monday then eastwards into NSW by Tuesday with a trough lingering across the south of SA.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-05-23T05:00:00+09:30" end-time-local="2026-05-24T00:00:00+09:30" start-time-utc="2026-05-22T19:30:00Z" end-time-utc="2026-05-23T14:30:00Z">
+                <text type="forecast">Isolated showers in the west, possibly reaching central parts in the evening. Showers becoming scattered about western coasts during the afternoon. Possible thunderstorms about the far west. Maximum temperatures near to below average. Northeast to northwesterly winds, with a south to southwesterly change moving across western districts during the day, fresh at times near the coast.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-24T00:00:00+09:30" end-time-local="2026-05-25T00:00:00+09:30" start-time-utc="2026-05-23T14:30:00Z" end-time-utc="2026-05-24T14:30:00Z">
+                <text type="forecast">Isolated showers extending statewide, tending scattered about the southern agricultural area and western coasts. Maximum temperatures below average. North to northwesterly winds, ahead of a south to southwesterly change about the west extending throughout by the evening, freshening near the coasts.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-25T00:00:00+09:30" end-time-local="2026-05-26T00:00:00+09:30" start-time-utc="2026-05-24T14:30:00Z" end-time-utc="2026-05-25T14:30:00Z">
+                <text type="forecast">Possible isolated showers across most districts, becoming scattered about windward coasts and ranges. Isolated thunderstorms about the North East Pastoral, West Coast and southern parts of the North West Pastoral district. Maximum temperatures below average. Southwest to southeasterly winds fresh at times about the coast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-26T00:00:00+09:30" end-time-local="2026-05-27T00:00:00+09:30" start-time-utc="2026-05-25T14:30:00Z" end-time-utc="2026-05-26T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers across the southern pastorals and agricultural areas, becoming scattered about windward coasts and the south east. Isolated thunderstorms possible over the North East Pastoral District. Maximum temperatures below average. Southwest to southeasterly winds fresh at times about the coast.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Tuesday: less than 2 mm about the far northeast, 1 to 5 mm about the northern agricultural area and south of the pastoral districts, increasing to 5 to 15 mm about western coasts and the southern agricultural area. Isolated falls of 15 mm are also possible in the North West Pastoral district with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
