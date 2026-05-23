@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10036</identifier>
+        <issue-time-utc>2026-05-23T00:00:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-23T09:30:00+09:30</issue-time-local>
+        <sent-time>2026-05-23T00:01:14Z</sent-time>
+        <expiry-time>2026-05-24T00:00:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-23T05:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-26T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-23T06:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-23T15:30:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FLW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-23T09:31:14+09:30" end-time-local="2026-05-23T09:31:14+09:30" start-time-utc="2026-05-23T00:01:14Z" end-time-utc="2026-05-23T00:01:14Z">
+                <text type="synoptic_situation">A high pressure ridge over the east will begin to weaken as a cold enters the west of the SA early today. This front is expected to reach eastern districts later on Sunday with an associated low pressure system developing off the southern coasts. The low is expected to move across the southeast on Monday then eastwards into NSW by Tuesday with a trough lingering across the south of SA.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW011" description="Adelaide Metropolitan Waters" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-05-23T09:00:00+09:30" end-time-local="2026-05-24T00:00:00+09:30" start-time-utc="2026-05-22T23:30:00Z" end-time-utc="2026-05-23T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-24T00:00:00+09:30" end-time-local="2026-05-25T00:00:00+09:30" start-time-utc="2026-05-23T14:30:00Z" end-time-utc="2026-05-24T14:30:00Z">
+                <text type="forecast_winds">Northeasterly 10 to 15 knots, reaching up to 20 knots south of Port Noarlunga during the morning. Winds turning north to northwesterly in the late morning and early afternoon.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloudy. Near 100% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-25T00:00:00+09:30" end-time-local="2026-05-26T00:00:00+09:30" start-time-utc="2026-05-24T14:30:00Z" end-time-utc="2026-05-25T14:30:00Z">
+                <text type="forecast_winds">Northerly 10 to 15 knots shifting east to southeasterly below 10 knots during the day.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 60% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-26T00:00:00+09:30" end-time-local="2026-05-27T00:00:00+09:30" start-time-utc="2026-05-25T14:30:00Z" end-time-utc="2026-05-26T14:30:00Z">
+                <text type="forecast_winds">East to southeasterly below 10 knots tending south to southeasterly 10 to 15 knots during the afternoon.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 60% chance of showers.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
