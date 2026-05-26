@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-05-26T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-26T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-05-26T06:29:59Z</sent-time>
+        <expiry-time>2026-05-26T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-26T16:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-05-30T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-26T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-27T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-26T16:00:00+09:30" end-time-local="2026-05-26T16:00:00+09:30" start-time-utc="2026-05-26T06:30:00Z" end-time-utc="2026-05-26T06:30:00Z">
+                <text type="synoptic_situation">A low pressure system lies north of Kangaroo Island and is expected to move north and over the Eyre Peninsula and towards the Flinders district today, weakening as it moves into NSW on Wednesday. A weak ridge of high pressure begins to move across SA mid week. A cold front is expected to move over the west and southeast of SA on Friday. A high pressure system moves into the west on Saturday and then moves into the north on Sunday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-27T00:00:00+09:30" end-time-local="2026-05-28T00:00:00+09:30" start-time-utc="2026-05-26T14:30:00Z" end-time-utc="2026-05-27T14:30:00Z">
+                <text type="forecast">Isolated showers, becoming less likely during the afternoon and evening. Possible thunderstorms about the far northeast. Chance of morning fog patches on and east of the ranges. Maximum temperatures near to below average. Southwest to southeasterly winds, tending northwesterly in the far northeast during the morning.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-05-26T17:00:00+09:30" end-time-local="2026-05-27T00:00:00+09:30" start-time-utc="2026-05-26T07:30:00Z" end-time-utc="2026-05-26T14:30:00Z">
+                <text type="forecast">Showers across most districts, less likely across the far north. Isolated thunderstorms possible over Eyre Peninsula, Flinders and southern parts of the pastoral districts and near the eastern border. East to southeasterly about central and southeastern districts, tending west to southwesterly about the west and north. Winds fresh at times about the coasts.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-28T00:00:00+09:30" end-time-local="2026-05-29T00:00:00+09:30" start-time-utc="2026-05-27T14:30:00Z" end-time-utc="2026-05-28T14:30:00Z">
+                <text type="forecast">Morning fog patches about the agricultural area and western districts. Isolated light showers about southern coasts and ranges. Maximum temperatures near to below average. Southwest to southeasterly winds, tending northerly in the west.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-29T00:00:00+09:30" end-time-local="2026-05-30T00:00:00+09:30" start-time-utc="2026-05-28T14:30:00Z" end-time-utc="2026-05-29T14:30:00Z">
+                <text type="forecast">Morning fog patches about the agricultural area. Isolated showers about western coasts and the southern agricultural area tending scattered about southern and central coasts. Maximum temperatures near to below average. Light winds becoming northwesterly ahead of a westerly change moving across western and central districts.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-05-30T00:00:00+09:30" end-time-local="2026-05-31T00:00:00+09:30" start-time-utc="2026-05-29T14:30:00Z" end-time-utc="2026-05-30T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers about agricultural area, western coasts and south of the pastoral districts, tending scattered about southern and central coasts. Maximum temperature below average. West to southwesterly winds extending throughout, fresh at times about the coasts.</p>
+                    <p/>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: widespread 1 to 5 mm increasing to 5 to 15 mm across the agricultural area, western coasts, parts of the Flinders and North East Pastoral districts.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
