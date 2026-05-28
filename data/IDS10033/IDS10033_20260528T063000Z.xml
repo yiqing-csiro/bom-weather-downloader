@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-05-28T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-05-28T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-05-28T06:30:05Z</sent-time>
+        <expiry-time>2026-05-28T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-05-28T16:00:05+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-01T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-05-28T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-05-29T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-05-28T16:00:05+09:30" end-time-local="2026-05-28T16:00:05+09:30" start-time-utc="2026-05-28T06:30:05Z" end-time-utc="2026-05-28T06:30:05Z">
+                <text type="synoptic_situation">A weak ridge of high pressure across SA on Thursday ahead of a series of cold fronts moving across the south on Friday and Saturday. A weak high pressure system moves across from west on Sunday, followed by a significant low pressure system moving south of the Bight Monday and into western Bass Strait on Tuesday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-05-29T00:00:00+09:30" end-time-local="2026-05-30T00:00:00+09:30" start-time-utc="2026-05-28T14:30:00Z" end-time-utc="2026-05-29T14:30:00Z">
+                <text type="forecast">Morning fog patches about the agricultural areas and southern pastoral districts. Isolated showers about western coasts and the southern agricultural area, becoming more frequent about the southern coasts and the southeast during the day. Possible thunderstorms about southern coasts. Maximum temperatures near average, grading to slightly below average in the east. Variable winds becoming northwesterly ahead of a west to southwesterly change moving across western and central districts, reaching eastern districts late.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-05-28T17:00:00+09:30" end-time-local="2026-05-29T00:00:00+09:30" start-time-utc="2026-05-28T07:30:00Z" end-time-utc="2026-05-28T14:30:00Z">
+                <text type="forecast">Mostly dry and cloudy with light variable winds</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-05-30T00:00:00+09:30" end-time-local="2026-05-31T00:00:00+09:30" start-time-utc="2026-05-29T14:30:00Z" end-time-utc="2026-05-30T14:30:00Z">
+                <text type="forecast">Showers about the agricultural areas, western coasts and south of the Pastoral districts. Maximum temperatures slightly below average, grading to near average in the north. West to southwesterly winds extending throughout, fresh at times about the coasts. Winds tending southwest to southerly in the west later.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-05-31T00:00:00+09:30" end-time-local="2026-06-01T00:00:00+09:30" start-time-utc="2026-05-30T14:30:00Z" end-time-utc="2026-05-31T14:30:00Z">
+                <text type="forecast">Isolated showers about the southern agricultural area, mainly about windward coasts and ranges. Showers developing about the west during the afternoon. Maximum temperatures below average, grading to above average in the northwest. West to southwesterly winds, fresh at times about the central and eastern coasts, tending north to northeasterly across western districts.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-06-01T00:00:00+09:30" end-time-local="2026-06-02T00:00:00+09:30" start-time-utc="2026-05-31T14:30:00Z" end-time-utc="2026-06-01T14:30:00Z">
+                <text type="forecast">
+                    <p>Gusty showers and patchy rain about the agricultural area, and south of the Pastoral districts. Possible thunderstorms about the west coast and agricultural areas. Maximum temperatures generally above average. Freshening northerly winds, shifting north to northwesterly ahead of a fresh to strong and gusty westerly change in the west, reaching central districts at night.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Monday: Less than 5 mm about the Pastoral districts south of about Coober Pedy to Leigh Creek, increasing to 2 to 10 mm about the agricultural area, 5 to 15 mm about the southern agricultural area and increasing to 15 to 30 mm about the Mount Lofty Ranges, Kangaroo Island and the South East, with isolated falls in these areas of 30 to 40 mm.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
