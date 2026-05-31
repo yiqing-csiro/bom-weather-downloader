@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21037-2026-05-31T13:06:29+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-05-31T13:06:29+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS21037-2026-05-31T07:11:05+00:00,2026-05-31T07:11:05+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Weather</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-05-31T13:06:27+00:00</effective>
+        <expires>2026-05-31T21:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Weather Warning for North West Pastoral, North East Pastoral, West Coast, Eastern Eyre Peninsula, Lower Eyre Peninsula, Flinders, Mid North, Yorke Peninsula, Mount Lofty Ranges, Kangaroo Island, Riverland, Murraylands, Upper South East, Lower South East and Adelaide Metropolitan forecast districts</headline>
+        <description>
+          DAMAGING WIND GUSTS to 90 km/h are possible across western and central parts of the state from late Monday morning, including Adelaide and the Mt Lofty Ranges.
+          
+          DAMAGING WINDS averaging 60 to 70 km/h with gusts to 100 km/h become likely about the West Coast, Eyre Peninsula and Yorke Peninsula during Monday afternoon, extending to the remainder of the warning area, including Adelaide and the southeast, during Monday evening.
+          
+          DAMAGING WINDS are expected to ease over coastal and low lying areas, including Adelaide, during Tuesday morning, and then gradually ease over the Flinders Ranges and Mt Lofty Ranges during Tuesday afternoon and evening.
+          
+          Locations which may be affected include Adelaide, Port Lincoln, Strathalbyn, Maitland, Whyalla, Mount Gambier, Ceduna and Port Augusta.  
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Move vehicles under cover or away from trees;
+* Secure or put away loose items around your property.
+* Stay indoors, away from windows, while conditions are severe.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Adelaide Metropolitan, Mount Lofty Ranges, West Coast, Lower Eyre Peninsula, Eastern Eyre Peninsula, Yorke Peninsula, Flinders, Mid North, Kangaroo Island, Riverland, Murraylands, Upper South East, Lower South East, North West Pastoral and North East Pastoral</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW013</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW014</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW010</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW011</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW012</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW002</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW015</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW003</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW006</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW007</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW004</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW005</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW001</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
