@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-01T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-01T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-01T06:30:04Z</sent-time>
+        <expiry-time>2026-06-01T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-01T16:00:05+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-05T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-01T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-02T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-01T16:00:05+09:30" end-time-local="2026-06-01T16:00:05+09:30" start-time-utc="2026-06-01T06:30:05Z" end-time-utc="2026-06-01T06:30:05Z">
+                <text type="synoptic_situation">A significant low pressure system over waters to the south of SA extends a series of fronts over the state before moving eastwards and reaching western Bass Strait Tuesday afternoon. A weak low pressure system moves over waters to the south on Wednesday extending a cold front over coastal parts late Wednesday into Thursday. A high pressure system develops over western and northern parts on Friday and a cold front embedded in the southwesterly flow clips the south.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-02T00:00:00+09:30" end-time-local="2026-06-03T00:00:00+09:30" start-time-utc="2026-06-01T14:30:00Z" end-time-utc="2026-06-02T14:30:00Z">
+                <text type="forecast">Gusty showers, possible thunderstorms and patchy rain about central and eastern districts. Isolated showers about the south of the pastoral districts and West Coast, though scattered about coastal parts with possible thunderstorms. Maximum temperatures generally above average. A fresh to strong and gusty westerly change extending throughout, damaging winds possible. Winds easing from the west later. Sustained gale force winds will lead to abnormally high tides across all coasts during the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-01T17:00:00+09:30" end-time-local="2026-06-02T00:00:00+09:30" start-time-utc="2026-06-01T07:30:00Z" end-time-utc="2026-06-01T14:30:00Z">
+                <text type="forecast">Gusty showers, possible thunderstorms broadly south of a line from Coober Pedy to Marree, tending to patchy rain at times in the east. Fresh to strong and gusty northwesterly winds ahead of a fresh to strong and gusty westerly change in the west, reaching central districts at night. Damaging winds possible.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-03T00:00:00+09:30" end-time-local="2026-06-04T00:00:00+09:30" start-time-utc="2026-06-02T14:30:00Z" end-time-utc="2026-06-03T14:30:00Z">
+                <text type="forecast">Showers about the West Coast and agricultural area, possibly reaching the south of the pastoral districts. Possible thunderstorms near western coasts and about Kangaroo Island. Maximum temperatures near average. Fresh and gusty westerly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-04T00:00:00+09:30" end-time-local="2026-06-05T00:00:00+09:30" start-time-utc="2026-06-03T14:30:00Z" end-time-utc="2026-06-04T14:30:00Z">
+                <text type="forecast">Showers about the West Coast and agricultural area, possibly reaching the south of the pastoral districts. Possible thunderstorms near western coasts and Kangaroo Island. Maximum temperatures below average grading to slightly above average in the north. West to southwesterly winds, turning southwest to southerly during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-06-05T00:00:00+09:30" end-time-local="2026-06-06T00:00:00+09:30" start-time-utc="2026-06-04T14:30:00Z" end-time-utc="2026-06-05T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers about the west coast and agricultural areas, mainly about windward slopes and ranges. Maximum temperatures below average to near average. Southwest to southerly winds, shifting west to southwesterly about the agricultural area during the afternoon and evening.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Friday: Less than 5 mm about the south of the Pastoral districts, increasing to 2 to 10 mm about the northern agricultural area and Flinders district, 10 to 25 mm about the southern agricultural area and increasing further to 25 to 40 mm about the Mount Lofty Ranges, Kangaroo Island and the South East, with isolated falls in these areas of 40 to 60 mm.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
