@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21137-2026-06-01T12:59:04+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-06-01T12:59:04+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS21137-2026-06-01T06:31:55+00:00,2026-06-01T06:31:55+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Weather</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-06-01T12:59:01+00:00</effective>
+        <expires>2026-06-01T21:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Coastal Hazard Warning for West Coast, Eastern Eyre Peninsula, Lower Eyre Peninsula, Flinders, Mid North, Yorke Peninsula, Mount Lofty Ranges, Kangaroo Island, Murraylands, Upper South East, Lower South East and Adelaide Metropolitan forecast districts</headline>
+        <description>
+          ABNORMALLY HIGH TIDES which may lead to sea water flooding of low-lying coastal areas are possible between Head of the Bight and the SA/VIC border, including Kangaroo Island. Tides are likely to rise well above the normal high tide mark during the Tuesday afternoon high tide.
+          
+          Locations which may be affected include Ceduna, Elliston, Port Lincoln, Port Pirie, Port Wakefield, Adelaide Metro Beaches, Victor Harbor, Kingston SE, Robe, and Port MacDonnell.
+          
+          
+          A separate warning for DAMAGING WINDS is also current. For more details, refer to https://www.bom.gov.au/weather-and-climate/warnings-and-alerts
+        </description>
+        <instruction>The State Emergency Service advises the following:
+* Unusually high tides are dangerous to swimmers, surfers and rock fishers. Stay away from coastal areas until conditions subside.
+* Know your limitations around beaches, tidal rivers and creeks. Monitor warnings and conditions. Supervise children at all times.
+* If you have a moored boat or watercraft, check that your mooring and lines are secure.
+* Be aware that unusually high tides could cause flooding at the coast.
+* You should never walk, ride or drive through floodwater.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Adelaide Metropolitan, Mount Lofty Ranges, West Coast, Lower Eyre Peninsula, Eastern Eyre Peninsula, Yorke Peninsula, Flinders, Mid North, Kangaroo Island, Murraylands, Upper South East and Lower South East</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW010</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW011</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW012</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW002</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW015</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW003</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW007</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW004</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW005</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW001</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
