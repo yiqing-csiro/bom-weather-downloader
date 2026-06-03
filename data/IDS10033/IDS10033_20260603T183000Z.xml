@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-03T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-04T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-03T18:30:24Z</sent-time>
+        <expiry-time>2026-06-04T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-04T04:00:24+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-07T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-04T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-04T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-04T04:00:24+09:30" end-time-local="2026-06-04T04:00:24+09:30" start-time-utc="2026-06-03T18:30:24Z" end-time-utc="2026-06-03T18:30:24Z">
+                <text type="synoptic_situation">A significant low pressure system west of Tasmania continues to move east whilst a second weak low pressure system moves over waters to the south of the South Australia. A high pressure system over WA extends a ridge over western and northern parts today, before it moves into western SA on Friday, as a cold front embedded in a southwesterly flow clips the south. The high pressure system continues to move slowly eastwards over the weekend, reaching the Tasman Sea late Sunday evening.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-04T05:00:00+09:30" end-time-local="2026-06-05T00:00:00+09:30" start-time-utc="2026-06-03T19:30:00Z" end-time-utc="2026-06-04T14:30:00Z">
+                <text type="forecast">Showers about the West Coast and agricultural area, possibly reaching the south of the Pastoral districts. Showers most likely about windward coasts and ranges. Maximum temperatures below average grading to slightly above average in the north. West to southwesterly winds, turning southwest to southerly during the day. Fresh to strong and gusty about far southern coasts.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-05T00:00:00+09:30" end-time-local="2026-06-06T00:00:00+09:30" start-time-utc="2026-06-04T14:30:00Z" end-time-utc="2026-06-05T14:30:00Z">
+                <text type="forecast">Isolated fog patches in the west. Showers about the west coast and agricultural areas, mainly about windward coasts and ranges. Maximum temperatures below average though near average about the agricultural area. Southwest to southerly winds, shifting west to southwesterly about the agricultural area during the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-06T00:00:00+09:30" end-time-local="2026-06-07T00:00:00+09:30" start-time-utc="2026-06-05T14:30:00Z" end-time-utc="2026-06-06T14:30:00Z">
+                <text type="forecast">Isolated fog patches in the west. Light showers about the southern agricultural area, contracting to southern coasts during the afternoon and evening. Maximum temperatures slightly above average grading to below average in the far north. Light winds tending northeast to northerly about the north and west and westerly about the southeast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-07T00:00:00+09:30" end-time-local="2026-06-08T00:00:00+09:30" start-time-utc="2026-06-06T14:30:00Z" end-time-utc="2026-06-07T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated fog patches about central and eastern districts. Light showers about coastal parts, southern ranges and the southeast, contracting to southern coasts during the afternoon and evening. Maximum temperatures slightly above average grading to below average in the far north. Light winds tending northeast to northerly during the day.</p>
+                    <p/>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: Less than 5 mm about the south of the Pastoral districts, increasing to 2 to 10 mm about the agricultural area and Flinders district, and 10 to 25 mm about central and southern windward coasts and ranges.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
