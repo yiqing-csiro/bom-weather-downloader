@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-06T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-07T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-06T18:30:00Z</sent-time>
+        <expiry-time>2026-06-07T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-07T04:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-10T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-07T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-07T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-07T04:00:00+09:30" end-time-local="2026-06-07T04:00:00+09:30" start-time-utc="2026-06-06T18:30:00Z" end-time-utc="2026-06-06T18:30:00Z">
+                <text type="synoptic_situation">A high pressure system over western NSW will continue to move eastwards to be centred over the Tasman Sea by Monday. Northerly winds freshen over the state on Tuesday ahead of a weakening cold front mid-week.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-07T05:00:00+09:30" end-time-local="2026-06-08T00:00:00+09:30" start-time-utc="2026-06-06T19:30:00Z" end-time-utc="2026-06-07T14:30:00Z">
+                <text type="forecast">Fog patches about central and eastern districts. Mainly dry, apart from isolated light showers about southeastern coasts during the morning. Maximum temperatures above average in the south and west, grading to below average in the northeast. Light winds in the east at first tending northeast to northerly from the west during the day.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-08T00:00:00+09:30" end-time-local="2026-06-09T00:00:00+09:30" start-time-utc="2026-06-07T14:30:00Z" end-time-utc="2026-06-08T14:30:00Z">
+                <text type="forecast">Isolated fog patches about eastern parts of the northern agricultural area. Mostly dry, apart from possible light showers in the far northeast. Maximum temperatures generally above average. Northeast to northwesterly winds, freshening in the west.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-09T00:00:00+09:30" end-time-local="2026-06-10T00:00:00+09:30" start-time-utc="2026-06-08T14:30:00Z" end-time-utc="2026-06-09T14:30:00Z">
+                <text type="forecast">Dry apart from isolated showers developing about the west and the northeast. Maximum temperatures above average. Freshening north to northwesterly winds, shifting west to southwesterly in the far southwest in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-10T00:00:00+09:30" end-time-local="2026-06-11T00:00:00+09:30" start-time-utc="2026-06-09T14:30:00Z" end-time-utc="2026-06-10T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers about the west and the agricultural area, easing later. Dry apart from isolated showers developing about the far west and the northeast. Maximum temperatures above average, tending below average in the southwest. North to northwesterly winds, ahead of a cooler west to southwesterly change about western and central parts, extending throughout apart from the far northeast during the day.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Wednesday: Generally less than 5 mm about the southern agricultural area, in the northeast and the southwest. Isolated falls of 2 to 10 mm possible.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
