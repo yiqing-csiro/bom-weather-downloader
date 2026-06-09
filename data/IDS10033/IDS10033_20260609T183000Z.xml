@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-09T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-10T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-09T18:30:02Z</sent-time>
+        <expiry-time>2026-06-10T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-10T04:00:02+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-13T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-10T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-10T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-10T04:00:02+09:30" end-time-local="2026-06-10T04:00:02+09:30" start-time-utc="2026-06-09T18:30:02Z" end-time-utc="2026-06-09T18:30:02Z">
+                <text type="synoptic_situation">A high pressure system over the Tasman Sea is responsible for a ridge hovering over the north of the state. The ridge will persist into tomorrow. Northerly winds will freshen ahead of a cold front expected overnight Friday or Saturday morning.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-10T05:00:00+09:30" end-time-local="2026-06-11T00:00:00+09:30" start-time-utc="2026-06-09T19:30:00Z" end-time-utc="2026-06-10T14:30:00Z">
+                <text type="forecast">Showers about the agricultural area, contracting eastwards and clearing later. Maximum temperatures near average about western and central agricultural areas grading to well above average across the far north. North to northwesterly winds, shifting westerly about southern districts, easing and becoming light inland later.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-11T00:00:00+09:30" end-time-local="2026-06-12T00:00:00+09:30" start-time-utc="2026-06-10T14:30:00Z" end-time-utc="2026-06-11T14:30:00Z">
+                <text type="forecast">Dry, apart from isolated showers developing west of about Ceduna. Maximum temperatures above average grading to well above average in the far north. Winds becoming northeast to northerly and freshening in the west.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-12T00:00:00+09:30" end-time-local="2026-06-13T00:00:00+09:30" start-time-utc="2026-06-11T14:30:00Z" end-time-utc="2026-06-12T14:30:00Z">
+                <text type="forecast">Showers in the far west, extending over western and central agricultural areas during the evening, possible reaching eastern agricultural districts late evening. Maximum temperatures above to well above average. Fresh northeast to northwesterly winds extending throughout ahead of a west to southwesterly change moving across the far west late in the day.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-13T00:00:00+09:30" end-time-local="2026-06-14T00:00:00+09:30" start-time-utc="2026-06-12T14:30:00Z" end-time-utc="2026-06-13T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers contracting east and clearing by late evening. Maximum temperatures near to above average grading to well above average in the northeast, and slightly below average in the far west.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: Generally less than 5 mm about Pastoral districts, increasing to areas of 5 to 15 mm about the agricultural area and West Coast district. Isolated falls of 15 to 25 mm possible about southern coasts and ranges and the west coast of Eyre Peninsula.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
