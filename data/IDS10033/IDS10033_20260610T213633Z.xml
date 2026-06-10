@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-10T21:36:33Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-11T07:06:33+09:30</issue-time-local>
+        <sent-time>2026-06-10T21:36:33Z</sent-time>
+        <expiry-time>2026-06-11T12:36:33Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-11T05:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-14T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-11T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-11T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-11T07:06:33+09:30" end-time-local="2026-06-11T07:06:33+09:30" start-time-utc="2026-06-10T21:36:33Z" end-time-utc="2026-06-10T21:36:33Z">
+                <text type="synoptic_situation">A trough will weaken over far eastern parts of SA this morning as a ridge of high pressure builds over the state. A cold front will move across the Bight on Friday with a weak high pressure system developing over southern Australia over the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-11T07:00:00+09:30" end-time-local="2026-06-12T00:00:00+09:30" start-time-utc="2026-06-10T21:30:00Z" end-time-utc="2026-06-11T14:30:00Z">
+                <text type="forecast">Dry, apart from isolated showers developing west of about Ceduna in the morning and extending across the southern Eyre Peninsula and Kangaroo Island during the afternoon. Possible thunderstorms about the far west. Maximum temperatures above average grading to well above average in the north. East to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-12T00:00:00+09:30" end-time-local="2026-06-13T00:00:00+09:30" start-time-utc="2026-06-11T14:30:00Z" end-time-utc="2026-06-12T14:30:00Z">
+                <text type="forecast">Showers in the far west, extending over western and central agricultural areas during the evening, possibly reaching eastern agricultural districts late evening. Maximum temperatures above to well above average. Fresh northeast to northwesterly winds ahead of a west to southwesterly change moving across the far west late in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-13T00:00:00+09:30" end-time-local="2026-06-14T00:00:00+09:30" start-time-utc="2026-06-12T14:30:00Z" end-time-utc="2026-06-13T14:30:00Z">
+                <text type="forecast">Showers across most districts, contracting to eastern and northern districts in the afternoon. Maximum temperatures near average grading to well above average in the northeast. Northeast to northwesterly winds ahead of a south of southeasterly change extending into the North East Pastoral district during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-14T00:00:00+09:30" end-time-local="2026-06-15T00:00:00+09:30" start-time-utc="2026-06-13T14:30:00Z" end-time-utc="2026-06-14T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers across the pastoral districts, becoming more frequent about the North West Pastoral and West Coast districts during the day. Maximum temperatures near average grading to above average in the north. Southeast to northeasterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: Generally less than 3 mm about the pastoral districts, increasing to 5 to 15 mm south of around Coober Pedy, with isolated falls of 15 to 25 mm possible about the southern agricultural area.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
