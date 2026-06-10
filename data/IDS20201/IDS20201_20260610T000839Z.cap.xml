@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS20201-2026-06-10T00:08:39+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-06-10T00:08:39+00:00</sent>
+    <status>Actual</status>
+    <msgType>Cancel</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-06-08T18:10:03+00:00,2026-06-08T18:10:03+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-06-09T00:01:33+00:00,2026-06-09T00:01:33+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-06-09T06:00:00+00:00,2026-06-09T06:00:00+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20201-2026-06-09T18:10:00+00:00,2026-06-09T18:10:00+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Wind</event>
+        <urgency>Unknown</urgency>
+        <severity>Minor</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>wind</value>
+        </eventCode>
+        <effective>2026-06-09T23:30:00+00:00</effective>
+        <expires>2026-06-10T14:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Cancellation of Wind Warning for coastal waters between Murray Mouth and SA-VIC Border and for South Central Coast for 10 June</headline>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: South Central Coast, Upper South East Coast and Lower South East Coast</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_MW010</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
