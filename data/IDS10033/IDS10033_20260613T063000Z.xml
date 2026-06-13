@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-13T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-13T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-13T06:30:04Z</sent-time>
+        <expiry-time>2026-06-13T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-13T16:00:04+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-17T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-13T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-14T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-13T16:00:04+09:30" end-time-local="2026-06-13T16:00:04+09:30" start-time-utc="2026-06-13T06:30:04Z" end-time-utc="2026-06-13T06:30:04Z">
+                <text type="synoptic_situation">A cold front over SA will move into the northeast tonight. A weak high pressure system will immediately follow the cold front and drift eastwards across waters to the south of SA during Sunday, then move to the Tasman Sea on Monday. A northerly flow across South Australia will increase ahead of a slow-moving low pressure system that is expected to track along the SA coast next week.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-14T00:00:00+09:30" end-time-local="2026-06-15T00:00:00+09:30" start-time-utc="2026-06-13T14:30:00Z" end-time-utc="2026-06-14T14:30:00Z">
+                <text type="forecast">Isolated showers across the Pastoral districts, becoming more frequent about the North West Pastoral during the day and extending into the West Coast during the evening. Morning fog patches on and east of the ranges. Possible thunderstorms about the far west later. Maximum temperatures slightly below average grading to above average in the north. Light winds tending southeast to northeasterly.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-13T17:00:00+09:30" end-time-local="2026-06-14T00:00:00+09:30" start-time-utc="2026-06-13T07:30:00Z" end-time-utc="2026-06-13T14:30:00Z">
+                <text type="forecast">A band of showers or patchy rain clearing from the south and contracting to the Pastoral and Flinders districts in the evening. Remaining dry in the far northeast. North to northwesterly winds in the northeast easing ahead of a southerly change extending into the northeast tonight.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-15T00:00:00+09:30" end-time-local="2026-06-16T00:00:00+09:30" start-time-utc="2026-06-14T14:30:00Z" end-time-utc="2026-06-15T14:30:00Z">
+                <text type="forecast">Showers about the south of the North West Pastoral district and the West Coast, tending to patchy rain and extending into central and southeastern districts during the day. Possible thunderstorms about the west. Maximum temperatures near average grading to above average in the north. North to northeasterly winds ahead of a west to southwesterly change moving across the far west late in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-16T00:00:00+09:30" end-time-local="2026-06-17T00:00:00+09:30" start-time-utc="2026-06-15T14:30:00Z" end-time-utc="2026-06-16T14:30:00Z">
+                <text type="forecast">Areas of rain and isolated thunderstorms over western parts and the southern agricultural area, tending to isolated showers over the Flinders district and the south of the North East Pastoral district. Maximum temperatures near to above average. Freshening northerly winds ahead of a westerly change moving over the far west later.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-06-17T00:00:00+09:30" end-time-local="2026-06-18T00:00:00+09:30" start-time-utc="2026-06-16T14:30:00Z" end-time-utc="2026-06-17T14:30:00Z">
+                <text type="forecast">
+                    <p>Areas of rain and isolated thunderstorms, less likely in the far northeast and clearing from the far west. Maximum temperatures above average lowering to slightly below average in the far west. Northeast to northwesterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Wednesday: Generally 10 to 30 mm grading to 2 to 10 mm northeast of about Pukatja/Ernabella to Yunta, and dry about the far northeast. Areas of 30 to 60 mm are likely in a band from the far west of the North West Pastoral district stretching over western and central agricultural areas including the Adelaide Hills.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
