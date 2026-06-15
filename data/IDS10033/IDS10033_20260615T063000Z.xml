@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-15T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-15T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-15T06:30:01Z</sent-time>
+        <expiry-time>2026-06-15T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-15T16:00:02+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-19T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-15T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-16T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-15T16:00:02+09:30" end-time-local="2026-06-15T16:00:02+09:30" start-time-utc="2026-06-15T06:30:02Z" end-time-utc="2026-06-15T06:30:02Z">
+                <text type="synoptic_situation">A high pressure system centred over the Tasman Sea extends a ridge over the northeast of SA. A low pressure system will develop over the Bight on Monday then will remain slow-moving until later Thursday when it will move eastwards. An associated cold front will move across SA during Wednesday followed by a second front later Thursday. A high pressure ridge will move across from the west over the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-16T00:00:00+09:30" end-time-local="2026-06-17T00:00:00+09:30" start-time-utc="2026-06-15T14:30:00Z" end-time-utc="2026-06-16T14:30:00Z">
+                <text type="forecast">Areas of rain and showers over western parts and the agricultural area, tending to isolated showers over the Flinders district and the south of the North East Pastoral district. Isolated thunderstorms in the west, possibly reaching western parts of Lower Eyre Peninsula and Kangaroo Island. Maximum temperatures mostly above average. Freshening north to northeasterly winds ahead of a westerly change moving over the far west later.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-15T17:00:00+09:30" end-time-local="2026-06-16T00:00:00+09:30" start-time-utc="2026-06-15T07:30:00Z" end-time-utc="2026-06-15T14:30:00Z">
+                <text type="forecast">Showers about the south of the North West Pastoral district and the West Coast district, tending to patchy rain and extending into central and southeastern districts during the day. Possible thunderstorms in the west, more likely in the far west. North to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-17T00:00:00+09:30" end-time-local="2026-06-18T00:00:00+09:30" start-time-utc="2026-06-16T14:30:00Z" end-time-utc="2026-06-17T14:30:00Z">
+                <text type="forecast">Areas of rain and showers, less likely in the far northeast and gradually clearing from the west. Showers re-developing about western coasts late afternoon and evening. Isolated thunderstorms in the west and possibly about Yorke and Fleurieu Peninsulas and Kangaroo Island. Maximum temperatures below average in the far west but mostly above average elsewhere. Northeast to northwesterly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-18T00:00:00+09:30" end-time-local="2026-06-19T00:00:00+09:30" start-time-utc="2026-06-17T14:30:00Z" end-time-utc="2026-06-18T14:30:00Z">
+                <text type="forecast">Rain and isolated thunderstorms becoming confined to the northeast early morning then slowly contracting eastwards. Showers re-developing across the West Coast district then gradually extending over remaining western and central agricultural districts during the day and reaching eastern agricultural districts in the evening. Isolated thunderstorms near western and southern coasts. Maximum temperatures near average about eastern border areas but below average elsewhere. North to northeasterly winds turning west to northwesterly then shifting west to southwesterly in the west.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-06-19T00:00:00+09:30" end-time-local="2026-06-20T00:00:00+09:30" start-time-utc="2026-06-18T14:30:00Z" end-time-utc="2026-06-19T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers about western districts and the agricultural area and isolated showers possible about the Flinders district and southern parts of the pastoral districts. Possible thunderstorms near western coasts. Maximum temperatures near average about eastern districts in the south but below average elsewhere. West to southwesterly winds gradually extending throughout.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Friday will be highly dependent on the movement of the low: generally 10 to 40 mm grading to 5 to 20 mm northeast of Pukatja/Ernabella to Yunta, increasing to areas of 40 to 70 mm over the south of the North West Pastoral district, West Coast district and the southern agricultural area. Isolated higher totals in excess of 70 mm are possible in the west and near southern coasts and ranges.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
