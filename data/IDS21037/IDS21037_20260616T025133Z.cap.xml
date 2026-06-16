@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21037-2026-06-16T02:51:33+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-06-16T02:51:33+00:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Weather</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-06-16T02:51:30+00:00</effective>
+        <expires>2026-06-16T09:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Weather Warning for North West Pastoral, West Coast, Eastern Eyre Peninsula and Lower Eyre Peninsula forecast districts</headline>
+        <description>
+          HEAVY RAINFALL which may lead to FLASH FLOODING is possible for the North West Pastoral from early Wednesday morning, extending to the West Coast later in the morning and the Eyre Peninsula by the afternoon. Six-hour rainfall totals between 30 to 45 mm are possible, with localised falls up to 60 mm.
+          
+          Rainfall is forecast to ease below warning thresholds by late Wednesday evening.
+          Locations which may be affected include Port Lincoln, Ceduna, Wudinna, Cleve, Elliston, Tarcoola, Streaky Bay, Cummins, Tumby Bay and Kimba.  
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Don't drive, ride or walk through flood water;
+* Keep clear of creeks and storm drains;
+* Stay indoors, away from windows, while conditions are severe.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: West Coast, Lower Eyre Peninsula, Eastern Eyre Peninsula and North West Pastoral</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW013</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW010</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW011</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW012</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
