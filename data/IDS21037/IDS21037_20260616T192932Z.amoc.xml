@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS21037</identifier>
+    <issue-time-utc>2026-06-16T19:29:32Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-06-17T04:59:32+09:30</issue-time-local>
+    <sent-time>2026-06-16T19:29:32Z</sent-time>
+    <expiry-time>2026-06-17T03:30:00Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-06-17T04:59:27+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-06-17T12:59:59+09:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSW</service>
+    <sub-service>WSW</sub-service>
+    <product-type>W</product-type>
+    <phase>REN</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="REN" type="SWW" severity="STD" urgency="UNK" certainty="UNK" start-time-utc="2026-06-16T19:29:27Z" end-time-utc="2026-06-17T03:30:00Z">
+        <area-list>
+            <area aac="SA_PW013" phase="REN" description="North West Pastoral" type="public-district"/>
+            <area aac="SA_PW010" phase="REN" description="West Coast" type="public-district"/>
+            <area aac="SA_PW011" phase="REN" description="Eastern Eyre Peninsula" type="public-district"/>
+            <area aac="SA_PW012" phase="REN" description="Lower Eyre Peninsula" type="public-district"/>
+        </area-list>
+        <phenomenon-list>
+            <phenomenon type="R"/>
+        </phenomenon-list>
+        <priority>W</priority>
+        <headline>Severe Weather Warning for Heavy Rainfall for North West Pastoral, West Coast, Eastern Eyre Peninsula and Lower Eyre Peninsula forecast districts</headline>
+    </hazard>
+</amoc>
