@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-17T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-17T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-17T06:30:01Z</sent-time>
+        <expiry-time>2026-06-17T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-17T16:00:01+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-21T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-17T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-18T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-17T16:00:01+09:30" end-time-local="2026-06-17T16:00:01+09:30" start-time-utc="2026-06-17T06:30:01Z" end-time-utc="2026-06-17T06:30:01Z">
+                <text type="synoptic_situation">A cold front over South Australia will continue to move east overnight to clear the state by midday Thursday. A second cold front will move across the west Thursday afternoon reaching central and eastern parts early Friday morning. A cooler, fresh southerly flow following the second front will gradually ease as a high pressure system drifts in from the west for the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-18T00:00:00+09:30" end-time-local="2026-06-19T00:00:00+09:30" start-time-utc="2026-06-17T14:30:00Z" end-time-utc="2026-06-18T14:30:00Z">
+                <text type="forecast">Rain and isolated thunderstorms over eastern districts, clearing in the morning. Showers extending across western agricultural districts, reaching central agricultural districts later in the evening. Isolated thunderstorms near western and southern coasts. Maximum temperatures near average about eastern border areas but below average elsewhere. Northwest to westerly winds, shifting west to southwesterly in the west. Strong at times near the coast.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-17T17:00:00+09:30" end-time-local="2026-06-18T00:00:00+09:30" start-time-utc="2026-06-17T07:30:00Z" end-time-utc="2026-06-17T14:30:00Z">
+                <text type="forecast">Areas of rain and possible thunderstorms moving over central and eastern parts tonight, clearing from the west. Isolated showers to follow about western coasts. Isolated thunderstorms in the west and possibly over central districts. Northeast to northwesterly winds shifting west to northwesterly following the rain.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-19T00:00:00+09:30" end-time-local="2026-06-20T00:00:00+09:30" start-time-utc="2026-06-18T14:30:00Z" end-time-utc="2026-06-19T14:30:00Z">
+                <text type="forecast">Showers about western districts and the agricultural area with isolated showers reaching the Flinders and Pastoral districts, contracting to the southern agricultural area and easing by evening. Possible thunderstorms near southern coasts early. Maximum temperatures mostly below average. West to southwesterly winds gradually extending throughout. Fresh about the coast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-20T00:00:00+09:30" end-time-local="2026-06-21T00:00:00+09:30" start-time-utc="2026-06-19T14:30:00Z" end-time-utc="2026-06-20T14:30:00Z">
+                <text type="forecast">Isolated showers mainly about the southern agricultural area, possibly reaching southern parts of the pastoral districts and far west. Areas on early morning fog inland. Maximum temperatures below average. Southwest to southerly winds tending south to southeasterly later.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-06-21T00:00:00+09:30" end-time-local="2026-06-22T00:00:00+09:30" start-time-utc="2026-06-20T14:30:00Z" end-time-utc="2026-06-21T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated coastal showers clearing during the morning. Areas of morning fog inland. Maximum temperatures below average. Light winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: generally 10 to 40 mm lowering to less than 5 mm about the far west of the North West Pastoral district. Areas of 40 to 70 mm are likely over southern coastal areas and the southern Mount Lofty Ranges with isolated higher falls in these parts.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
