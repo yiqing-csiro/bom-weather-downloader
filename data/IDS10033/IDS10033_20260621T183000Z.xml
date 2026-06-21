@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-06-21T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-06-22T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-06-21T18:30:24Z</sent-time>
+        <expiry-time>2026-06-22T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-06-22T04:00:24+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-06-25T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-06-22T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-06-22T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-06-22T04:00:24+09:30" end-time-local="2026-06-22T04:00:24+09:30" start-time-utc="2026-06-21T18:30:24Z" end-time-utc="2026-06-21T18:30:24Z">
+                <text type="synoptic_situation">A high pressure system centred south of SA will move slowly eastwards today to be centred over NSW later in the day. A cold front will move across southern coastal districts late Tuesday or early Wednesday then a new high will move across waters to the south mid-week to be centred over Tasmania on Thursday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-06-22T05:00:00+09:30" end-time-local="2026-06-23T00:00:00+09:30" start-time-utc="2026-06-21T19:30:00Z" end-time-utc="2026-06-22T14:30:00Z">
+                <text type="forecast">Isolated light showers possible near southern coasts. A cold morning with areas of fog and frost. Maximum temperatures below average. Light winds tending west to northwesterly in the south.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-06-23T00:00:00+09:30" end-time-local="2026-06-24T00:00:00+09:30" start-time-utc="2026-06-22T14:30:00Z" end-time-utc="2026-06-23T14:30:00Z">
+                <text type="forecast">Isolated showers near southern coasts. Areas of morning fog about the Agricultural Area and frost about parts of the Flinders, Mid North and Murray districts. Maximum temperatures below average. West to northwesterly winds in the south. Southeast to northeasterly winds in the north.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-06-24T00:00:00+09:30" end-time-local="2026-06-25T00:00:00+09:30" start-time-utc="2026-06-23T14:30:00Z" end-time-utc="2026-06-24T14:30:00Z">
+                <text type="forecast">Isolated showers about southern coastal districts. Areas of morning fog and patchy frost about central and eastern districts. Maximum temperatures below average. East to southeasterly winds, tending northeasterly in the far west.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-06-25T00:00:00+09:30" end-time-local="2026-06-26T00:00:00+09:30" start-time-utc="2026-06-24T14:30:00Z" end-time-utc="2026-06-25T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers about parts of the southern coastal districts and over the Nullarbor Plain. Areas of morning fog about the eastern districts. Maximum temperatures below average. East to southeasterly winds, tending northeasterly in the far west.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Thursday: less than 2 mm about the south of the pastoral, Flinders and West Coast districts, and for the Agricultural Areas. Isolated totals of 5-15 mm are possible near southern coasts.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
