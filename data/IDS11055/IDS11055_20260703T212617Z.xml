@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11055</identifier>
+        <issue-time-utc>2026-07-03T21:26:17Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-07-04T06:56:17+09:30</issue-time-local>
+        <sent-time>2026-07-03T21:26:17Z</sent-time>
+        <expiry-time>2026-07-04T21:26:17Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-07-04T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-07-07T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-07-04T06:25:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-07-04T15:55:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region"/>
+        <area aac="SA_PW015" description="Mount Lofty Ranges" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. Patchy morning fog in the north. Medium chance of showers, most likely in the late morning and afternoon. Light winds. Daytime maximum temperatures between 11 and 15.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower about the southern Fleurieu Peninsula in the early morning. Near zero chance of rain elsewhere. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to between 4 and 7 with daytime temperatures reaching between 10 and 13.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog in the north. Light winds becoming east to northeasterly 15 to 20 km/h during the morning then becoming light during the day. Overnight temperatures falling to around 4 with daytime temperatures reaching between 11 and 14.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog on the eastern slopes. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the afternoon. Overnight temperatures falling to around 6 with daytime temperatures reaching between 13 and 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW002" description="Yorke Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog. Slight chance of a shower. Light winds becoming southeasterly 15 to 20 km/h in the evening. Daytime maximum temperatures around 15.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower in the south in the early morning. Near zero chance of rain elsewhere. Winds easterly 15 to 20 km/h becoming light in the late afternoon then becoming easterly 15 to 20 km/h in the evening. Overnight temperatures falling to around 7 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then tending easterly during the evening. Overnight temperatures falling to between 3 and 6 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds easterly 15 to 20 km/h becoming light during the day then becoming easterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to around 6 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW003" description="Kangaroo Island" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Light winds becoming south to southeasterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon. Daytime maximum temperatures around 15.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the evening. Overnight temperatures falling to around 8 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds. Overnight temperatures falling to around 6 with daytime temperatures reaching around 13.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning. Overnight temperatures falling to between 5 and 8 with daytime temperatures reaching around 15.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW004" description="Upper South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Light winds becoming south to southwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Daytime maximum temperatures around 15.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming east to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Overnight temperatures falling to around 5 with daytime temperatures reaching around 13.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog near the eastern border. Light winds becoming east to northeasterly 15 to 20 km/h during the morning then becoming light during the day. Overnight temperatures falling to around 3 with daytime temperatures reaching around 15.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">The chance of morning fog. The chance of morning frost near the eastern border. Mostly sunny afternoon. Light winds. Overnight temperatures falling to around 4 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW005" description="Lower South East" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Winds southwesterly 15 to 20 km/h tending southerly in the middle of the day then becoming light in the late afternoon. Daytime maximum temperatures around 14.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the south, near zero chance elsewhere. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon. Overnight temperatures falling to around 5 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog in the south. Light winds. Overnight temperatures falling to around 3 with daytime temperatures reaching around 15.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">The chance of morning fog. The chance of morning frost near the eastern border. Mostly sunny afternoon. Light winds. Overnight temperatures falling to around 4 with daytime temperatures reaching around 15.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW006" description="Riverland" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog. Slight chance of a shower. Light winds. Daytime maximum temperatures around 15.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 7 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the afternoon. Overnight temperatures falling to around 4 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">The chance of morning fog. Mostly sunny afternoon. Light winds. Overnight temperatures falling to around 5 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW007" description="Murraylands" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog. Slight chance of a shower. Light winds becoming southerly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon. Daytime maximum temperatures around 15.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming east to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Overnight temperatures falling to around 5 with daytime temperatures reaching around 13.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the afternoon. Overnight temperatures falling to around 4 with daytime temperatures reaching around 15.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">The chance of morning fog. Mostly sunny afternoon. Light winds. Overnight temperatures falling to around 4 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW008" description="Mid North" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. Patchy morning fog. Slight chance of a shower. Light winds. Daytime maximum temperatures between 11 and 14.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the east, near zero chance elsewhere. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to around 5 with daytime temperatures reaching between 10 and 14.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Winds easterly 15 to 20 km/h becoming light during the afternoon then becoming easterly 15 to 20 km/h during the evening. Overnight temperatures falling to around 3 with daytime temperatures reaching between 11 and 15.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Winds easterly 15 to 20 km/h. Overnight temperatures falling to around 5 with daytime temperatures reaching between 12 and 17.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW009" description="Flinders" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog south of Hawker. Slight chance of a shower on and east of the ranges, near zero chance elsewhere. Light winds becoming southeasterly 15 to 20 km/h in the morning. Daytime maximum temperatures between 11 and 16.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower on and east of the ranges, near zero chance elsewhere. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to around 5 with daytime temperatures reaching between 10 and 15.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog south of Hawker. Patches of morning frost on and east of the ranges. Winds east to southeasterly 15 to 25 km/h. Overnight temperatures falling to between 1 and 4 with daytime temperatures reaching between 11 and 16.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog on and east of the ranges. Winds easterly 20 to 30 km/h. Overnight temperatures falling to between 4 and 8 with daytime temperatures reaching between 14 and 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW010" description="West Coast" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog. Slight chance of a shower. Light winds. Daytime maximum temperatures around 16.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming east to northeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to around 6 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Cloudy. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the afternoon then becoming light during the evening. Overnight temperatures falling to around 6 with daytime temperatures reaching between 14 and 17.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog south of Streaky Bay. Slight chance of a shower in the evening. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the afternoon. Overnight temperatures falling to between 3 and 6 with daytime temperatures reaching around 15.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW011" description="Eastern Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog. Slight chance of a shower. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Daytime maximum temperatures around 15.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the late afternoon. Overnight temperatures falling to between 5 and 8 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening. Overnight temperatures falling to around 4 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the afternoon. Overnight temperatures falling to between 3 and 6 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW012" description="Lower Eyre Peninsula" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower. Light winds. Daytime maximum temperatures around 16.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the morning. Winds easterly 15 to 25 km/h becoming light in the evening. Overnight temperatures falling to between 6 and 9 with daytime temperatures reaching around 15.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Cloudy. Light winds becoming easterly 15 to 20 km/h during the day. Overnight temperatures falling to between 4 and 7 with daytime temperatures reaching around 14.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds easterly 15 to 20 km/h becoming light during the afternoon then becoming easterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 3 and 6 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW013" description="North West Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog south of Woomera. Light winds becoming east to southeasterly 15 to 25 km/h in the morning. Daytime maximum temperatures around 16.</text>
+                <text type="uv_alert">Sun protection 11:20am to 1:40pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 25 km/h in the early morning. Overnight temperatures falling to between 5 and 8 with daytime temperatures reaching around 16.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the afternoon. Overnight temperatures falling to around 5 with daytime temperatures reaching between 14 and 17.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers east of Coober Pedy, slight chance elsewhere. Winds east to southeasterly 15 to 20 km/h becoming light during the evening. Overnight temperatures falling to between 3 and 6 with daytime temperatures reaching between 15 and 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW014" description="North East Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-07-04T00:00:00+09:30" end-time-local="2026-07-05T00:00:00+09:30" start-time-utc="2026-07-03T14:30:00Z" end-time-utc="2026-07-04T14:30:00Z">
+                <text type="forecast">Cloudy. The chance of morning fog south of Yunta. Slight chance of a shower about the Gammon Ranges, near zero chance elsewhere. Winds southeasterly 15 to 25 km/h. Daytime maximum temperatures between 14 and 18.</text>
+                <text type="uv_alert">Sun protection 11:40am to 12:50pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-05T00:00:00+09:30" end-time-local="2026-07-06T00:00:00+09:30" start-time-utc="2026-07-04T14:30:00Z" end-time-utc="2026-07-05T14:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower south of Yunta, near zero chance elsewhere. Winds southeasterly 25 to 35 km/h. Overnight temperatures falling to between 6 and 9 with daytime temperatures reaching between 13 and 18.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-06T00:00:00+09:30" end-time-local="2026-07-07T00:00:00+09:30" start-time-utc="2026-07-05T14:30:00Z" end-time-utc="2026-07-06T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog south of Yunta. Winds southeasterly 20 to 30 km/h. Overnight temperatures falling to between 3 and 7 with daytime temperatures reaching between 15 and 19.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-07T00:00:00+09:30" end-time-local="2026-07-08T00:00:00+09:30" start-time-utc="2026-07-06T14:30:00Z" end-time-utc="2026-07-07T14:30:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog south of Yunta. Slight chance of a shower west of Leigh Creek, near zero chance elsewhere. Winds east to southeasterly 25 to 35 km/h. Overnight temperatures falling to between 5 and 10 with daytime temperatures reaching between 16 and 23.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
