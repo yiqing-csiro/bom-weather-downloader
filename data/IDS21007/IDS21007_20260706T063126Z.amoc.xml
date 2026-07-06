@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS21007</identifier>
+    <issue-time-utc>2026-07-06T06:31:26Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-07-06T16:01:26+09:30</issue-time-local>
+    <sent-time>2026-07-06T06:31:26Z</sent-time>
+    <expiry-time>2026-07-07T05:30:00Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-07-06T15:00:00+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-07-07T14:59:59+09:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSP</service>
+    <sub-service>WFR</sub-service>
+    <product-type>W</product-type>
+    <phase>REN</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="REN" type="FRW" severity="STD" urgency="UNK" certainty="UNK" start-time-utc="2026-07-06T05:30:00Z" end-time-utc="2026-07-07T05:30:00Z">
+        <area-list>
+            <area aac="SA_PW005" phase="REN" description="Lower South East" type="public-district"/>
+        </area-list>
+        <priority>W</priority>
+        <headline>Frost Warning for Lower South East forecast district</headline>
+    </hazard>
+</amoc>
