@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-07-08T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-07-09T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-07-08T18:30:23Z</sent-time>
+        <expiry-time>2026-07-09T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-07-09T04:00:23+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-07-12T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-07-09T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-07-09T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-07-09T04:00:23+09:30" end-time-local="2026-07-09T04:00:23+09:30" start-time-utc="2026-07-08T18:30:23Z" end-time-utc="2026-07-08T18:30:23Z">
+                <text type="synoptic_situation">A high pressure system centred near Tasmania extends a ridge over SA. A weak trough over northern SA will move slowly eastwards throughout today. A cold front will move across the south during Saturday followed by another front near southern coasts on Sunday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-07-09T05:00:00+09:30" end-time-local="2026-07-10T00:00:00+09:30" start-time-utc="2026-07-08T19:30:00Z" end-time-utc="2026-07-09T14:30:00Z">
+                <text type="forecast">Morning fog patches about the agricultural area, in the west and over the Eyre and Fleurieu Peninsulas. Early frost in the South East districts. Showers about central parts of the pastoral districts and the West Coast district, mostly contracting to the North East Pastoral district during the evening. Chance of a thunderstorm in the far northeast. Maximum temperatures below average. Southeast to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-10T00:00:00+09:30" end-time-local="2026-07-11T00:00:00+09:30" start-time-utc="2026-07-09T14:30:00Z" end-time-utc="2026-07-10T14:30:00Z">
+                <text type="forecast">Morning fog patches about the agricultural area and in the pastoral districts and possible frost patches about the South East districts. Showers about the North East Pastoral district easing during the afternoon. Isolated showers developing about the agricultural area and west coast late afternoon and evening. Maximum temperatures below average. Light winds, tending northeast to northwesterly during the day.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-11T00:00:00+09:30" end-time-local="2026-07-12T00:00:00+09:30" start-time-utc="2026-07-10T14:30:00Z" end-time-utc="2026-07-11T14:30:00Z">
+                <text type="forecast">Isolated showers about the North East Pastoral district contracting eastwards to mostly clear by early afternoon. Showers extending across the agricultural area during the morning and early afternoon and isolated showers about the far south of the pastoral districts. Maximum temperatures mostly below average. North to northwesterly winds freshening ahead of a west to southwesterly change.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-12T00:00:00+09:30" end-time-local="2026-07-13T00:00:00+09:30" start-time-utc="2026-07-11T14:30:00Z" end-time-utc="2026-07-12T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers about the southern agricultural area and isolated showers near the west coast and about the northern agricultural area. Maximum temperatures mostly below average. West to southwesterly winds easing in the evening and tending west to northwesterly.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: 2 to 5 mm east of a line from Coober Pedy to Ceduna, increasing to 5 to 15 mm about the southern agricultural area and parts of the pastoral districts north of about Ceduna to Leigh Creek. Isolated falls of 15 to 25 mm are possible about central parts of the pastoral districts in the far north and near southern coasts.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
