@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS20242</identifier>
+    <issue-time-utc>2026-07-09T20:02:43Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-07-10T05:32:43+09:30</issue-time-local>
+    <sent-time>2026-07-09T20:02:43Z</sent-time>
+    <expiry-time>2026-07-11T14:30:00Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-07-10T05:32:00+09:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CST">2026-07-11T23:59:59+09:30</validity-end-time-local>
+    <next-routine-issue-time-utc>2026-07-10T01:30:00Z</next-routine-issue-time-utc>
+    <next-routine-issue-time-local tz="CST">2026-07-10T11:00:00+09:30</next-routine-issue-time-local>
+    <status>O</status>
+    <service>WSP</service>
+    <sub-service>WSG</sub-service>
+    <product-type>W</product-type>
+    <phase>NEW</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="NEW" type="SHW" severity="STD" urgency="UNK" certainty="UNK" start-time-utc="2026-07-09T20:02:00Z" end-time-utc="2026-07-11T14:30:00Z">
+        <area-list>
+            <area aac="SA_PW008" phase="NEW" description="Mid North" type="public-district"/>
+            <area aac="SA_PW015" phase="NEW" description="Mount Lofty Ranges" type="public-district"/>
+            <area aac="SA_PW004" phase="NEW" description="Upper South East" type="public-district"/>
+            <area aac="SA_PW005" phase="NEW" description="Lower South East" type="public-district"/>
+        </area-list>
+        <priority>W</priority>
+        <headline>Warning to Sheep Graziers for Mid North, Mount Lofty Ranges, Upper South East and Lower South East forecast districts</headline>
+    </hazard>
+</amoc>
