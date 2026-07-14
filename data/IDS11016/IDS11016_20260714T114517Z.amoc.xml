@@ -7,11 +7,11 @@
         <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
         <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
     </source>
-    <identifier>IDS11002</identifier>
-    <issue-time-utc>2026-07-14T11:45:31Z</issue-time-utc>
-    <issue-time-local tz="CST">2026-07-14T21:15:31+09:30</issue-time-local>
-    <sent-time>2026-07-14T11:45:31Z</sent-time>
-    <expiry-time>2026-07-15T11:45:31Z</expiry-time>
+    <identifier>IDS11016</identifier>
+    <issue-time-utc>2026-07-14T11:45:17Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-07-14T21:15:17+09:30</issue-time-local>
+    <sent-time>2026-07-14T11:45:17Z</sent-time>
+    <expiry-time>2026-07-15T11:45:17Z</expiry-time>
     <validity-bgn-time-local tz="CST">2026-07-14T21:00:00+09:30</validity-bgn-time-local>
     <validity-end-time-local tz="CST">2026-07-21T23:59:59+09:30</validity-end-time-local>
     <next-routine-issue-time-utc>2026-07-14T18:30:00Z</next-routine-issue-time-utc>
