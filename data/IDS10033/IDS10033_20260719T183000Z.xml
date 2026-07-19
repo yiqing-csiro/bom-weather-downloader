@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-07-19T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-07-20T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-07-19T18:30:26Z</sent-time>
+        <expiry-time>2026-07-20T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-07-20T04:00:27+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-07-23T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-07-20T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-07-20T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-07-20T04:00:27+09:30" end-time-local="2026-07-20T04:00:27+09:30" start-time-utc="2026-07-19T18:30:27Z" end-time-utc="2026-07-19T18:30:27Z">
+                <text type="synoptic_situation">A high pressure system over Victoria extends a ridge over South Australia, with the ridge expected to weaken during Tuesday. A trough will develop in the west on Tuesday, ahead of a cold front that is expected to extend over southern parts during Wednesday. Another ridge will extend over the west of the state later Wednesday, with a high centre expected to build over the Bight by Thursday evening.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-07-20T05:00:00+09:30" end-time-local="2026-07-21T00:00:00+09:30" start-time-utc="2026-07-19T19:30:00Z" end-time-utc="2026-07-20T14:30:00Z">
+                <text type="forecast">Dry. Areas of morning fog on and east of the ranges. Maximum temperatures slightly above average. Northeast to northwesterly winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-21T00:00:00+09:30" end-time-local="2026-07-22T00:00:00+09:30" start-time-utc="2026-07-20T14:30:00Z" end-time-utc="2026-07-21T14:30:00Z">
+                <text type="forecast">Dry, apart from a possible late light shower about western Kangaroo Island. Maximum temperatures slightly above average. North to northwesterly winds, shifting southwest to southerly about the west in the afternoon and remaining southern parts during the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-22T00:00:00+09:30" end-time-local="2026-07-23T00:00:00+09:30" start-time-utc="2026-07-21T14:30:00Z" end-time-utc="2026-07-22T14:30:00Z">
+                <text type="forecast">Isolated showers extending to the agricultural districts during the morning, before mostly contracting to coastal areas in the evening. Dry otherwise. Maximum temperatures above average about pastoral districts, tending slightly below average in the agricultural districts. Southwest to southerly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-23T00:00:00+09:30" end-time-local="2026-07-24T00:00:00+09:30" start-time-utc="2026-07-22T14:30:00Z" end-time-utc="2026-07-23T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers about the southeast and coastal areas. Dry otherwise. Maximum temperatures above average about pastoral districts, tending slightly below average in the agricultural districts. Southwest to southerly winds, fresh at times about the southeast coast and the pastoral districts.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Thursday: Mostly dry until Wednesday, from when totals of up to 5 mm are possible about southern agricultural area and up to 2 mm are possible about northern agricultural areas.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
