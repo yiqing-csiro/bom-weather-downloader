@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-07-22T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-07-22T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-07-22T06:29:58Z</sent-time>
+        <expiry-time>2026-07-22T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-07-22T15:59:59+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-07-26T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-07-22T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-07-23T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-07-22T15:59:59+09:30" end-time-local="2026-07-22T15:59:59+09:30" start-time-utc="2026-07-22T06:29:59Z" end-time-utc="2026-07-22T06:29:59Z">
+                <text type="synoptic_situation">A trough over southern South Australia will weaken overnight, with a ridge of high pressure to build over the west of the State later. A high pressure system will slowly approach South Australia on Thursday, then move over the State on Friday and Saturday. The high is expected to move to the north of South Australia during Sunday, with a trough to build over the west of the State in the evening.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-23T00:00:00+09:30" end-time-local="2026-07-24T00:00:00+09:30" start-time-utc="2026-07-22T14:30:00Z" end-time-utc="2026-07-23T14:30:00Z">
+                <text type="forecast">Morning frost patches about the northern agricultural area and Flinders district. Isolated showers about the southern agricultural area and West Coast district, mostly contracting to near southern and western coasts in the evening. Maximum temperatures below average. Southwest to southeasterly winds, locally fresh at times.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-07-22T17:00:00+09:30" end-time-local="2026-07-23T00:00:00+09:30" start-time-utc="2026-07-22T07:30:00Z" end-time-utc="2026-07-22T14:30:00Z">
+                <text type="forecast">Isolated showers about the agricultural area, mostly contracting to coastal districts in the evening. Southwest to southerly winds, fresh at times about southern coasts.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-24T00:00:00+09:30" end-time-local="2026-07-25T00:00:00+09:30" start-time-utc="2026-07-23T14:30:00Z" end-time-utc="2026-07-24T14:30:00Z">
+                <text type="forecast">Morning frost patches about the northern agricultural area and Flinders district. Isolated light showers about the southern agricultural area and West Coast district, mostly contracting to southern coastal districts in the evening. Maximum temperatures below average. West to southwesterly winds in the south. Southeasterly winds over the pastoral districts, fresh at times in the far north.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-25T00:00:00+09:30" end-time-local="2026-07-26T00:00:00+09:30" start-time-utc="2026-07-24T14:30:00Z" end-time-utc="2026-07-25T14:30:00Z">
+                <text type="forecast">
+                    <p>Patchy morning fog east of the ranges and frost patches about the northern agricultural area and Flinders district. Showers extending over the southern agricultural area during the morning then becoming isolated during the evening. Maximum temperatures below average. Northwest to southwesterly winds in the south. East to southeasterly winds in the north.</p>
+                </text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-07-26T00:00:00+09:30" end-time-local="2026-07-27T00:00:00+09:30" start-time-utc="2026-07-25T14:30:00Z" end-time-utc="2026-07-26T14:30:00Z">
+                <text type="forecast">
+                    <p>Morning frost patches about the northern agricultural area and Flinders district. Isolated showers about the southern agricultural area. Maximum temperatures near average about southern coastal districts but below average elsewhere. Northwesterly winds in the south but generally light and variable winds in the north.</p>
+                    <p/>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: generally 5 to 10 mm about the southern agricultural area but falls of 10 to 15 mm are possible about the Mount Lofty Ranges, Kangaroo Island and the Lower South East districts. Isolated falls of 15 to 20 mm are possible about the Mount Lofty Ranges. Less than 2 mm is likely elsewhere although isolated falls of 2 to 5 mm are possible about parts of the northern agricultural area and near the west coast.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
