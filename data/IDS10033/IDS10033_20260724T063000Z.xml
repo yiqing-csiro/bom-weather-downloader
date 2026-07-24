@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-07-24T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-07-24T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-07-24T06:30:03Z</sent-time>
+        <expiry-time>2026-07-24T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-07-24T16:00:03+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-07-28T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-07-24T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-07-25T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-07-24T16:00:03+09:30" end-time-local="2026-07-24T16:00:03+09:30" start-time-utc="2026-07-24T06:30:03Z" end-time-utc="2026-07-24T06:30:03Z">
+                <text type="synoptic_situation">A high pressure system centred over the Bight will slowly drift northeastwards on Saturday. A weak trough embedded in the southwesterly flow around the high will clip the southeast of the State early Saturday. The high will move north over South Australia on Sunday and eastern states early next week, with a cold front pushing over the west of the State on Monday and move over remaining parts on Tuesday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-25T00:00:00+09:30" end-time-local="2026-07-26T00:00:00+09:30" start-time-utc="2026-07-24T14:30:00Z" end-time-utc="2026-07-25T14:30:00Z">
+                <text type="forecast">Patchy morning frost about the northern agricultural area, Flinders district and parts of the Pastoral districts. Showers extending over the southern agricultural area during the morning then becoming isolated during the evening. Chance of an isolated shower about the northern agricultural area. Maximum temperatures generally below average. Northwest to southwesterly winds in the south, fresh at times near southern coasts. East to southeasterly winds in the north.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-07-24T17:00:00+09:30" end-time-local="2026-07-25T00:00:00+09:30" start-time-utc="2026-07-24T07:30:00Z" end-time-utc="2026-07-24T14:30:00Z">
+                <text type="forecast">Isolated light showers mostly about southern coastal parts. West to southwesterly winds in the south, fresh near southern coasts. Southeasterly winds over the Pastoral districts.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-26T00:00:00+09:30" end-time-local="2026-07-27T00:00:00+09:30" start-time-utc="2026-07-25T14:30:00Z" end-time-utc="2026-07-26T14:30:00Z">
+                <text type="forecast">Morning frost patches about the northern agricultural area, Flinders district and parts of the Pastoral districts. Morning fog patches about Eyre Peninsula and on and east of the ranges. Isolated light showers about the southern agricultural area, mostly about southern coasts and ranges. Maximum temperatures near average about southeastern parts but below average elsewhere. West to northwesterly winds in the south but generally light and variable winds in the north.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-27T00:00:00+09:30" end-time-local="2026-07-28T00:00:00+09:30" start-time-utc="2026-07-26T14:30:00Z" end-time-utc="2026-07-27T14:30:00Z">
+                <text type="forecast">Morning frost patches about the northern agricultural area, Flinders district and parts of the Pastoral districts. Morning fog patches about the agricultural area. Dry apart from possible showers about southern coastal districts during the morning and again in the evening. Maximum temperatures below average in the far north but near average elsewhere. North to northwesterly winds freshening in the south, then shifting west to southwesterly in the west later</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-07-28T00:00:00+09:30" end-time-local="2026-07-29T00:00:00+09:30" start-time-utc="2026-07-27T14:30:00Z" end-time-utc="2026-07-28T14:30:00Z">
+                <text type="forecast">
+                    <p>Showers about the southern agricultural area, extending to the northern agricultural area and possibly the south of the Pastoral districts during the day. Maximum temperatures near average in the northeast, grading to below average elsewhere. North to northwesterly winds, shifting southwest to southerly from the west during the day, fresh at times about the southeast.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Tuesday: Less than 2 mm about the northern agricultural area and south of the Pastoral districts, increasing to 2 to 10 mm about the southern agricultural area, with falls of 5 to 15 mm possible about the Mount Lofty Ranges, western coasts of Kangaroo Island and the Lower South East districts, with isolated falls of 10 to 20 mm possible.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
