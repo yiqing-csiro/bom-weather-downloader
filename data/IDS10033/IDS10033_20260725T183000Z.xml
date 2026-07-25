@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-07-25T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-07-26T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-07-25T18:30:02Z</sent-time>
+        <expiry-time>2026-07-26T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-07-26T04:00:03+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-07-29T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-07-26T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-07-26T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-07-26T04:00:03+09:30" end-time-local="2026-07-26T04:00:03+09:30" start-time-utc="2026-07-25T18:30:03Z" end-time-utc="2026-07-25T18:30:03Z">
+                <text type="synoptic_situation">A strong high pressure system centred over the state will slowly drift east and weaken over the weekend. A cold front will move up through the Bight and over southern SA on Monday, with a new high pressure system moving into the Bight mid next week.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-07-26T05:00:00+09:30" end-time-local="2026-07-27T00:00:00+09:30" start-time-utc="2026-07-25T19:30:00Z" end-time-utc="2026-07-26T14:30:00Z">
+                <text type="forecast">Morning frost patches about the northern agricultural area, Flinders district and parts of the Pastoral districts. Morning fog patches about Eyre Peninsula and on and east of the ranges. Isolated light showers about the southern agricultural area, mostly about southern coasts and ranges and becoming less likely in the evening. Maximum temperatures near average about the south but below average elsewhere. Southwest to southeasterly winds, tending north to northeasterly in the west during the day.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-07-27T00:00:00+09:30" end-time-local="2026-07-28T00:00:00+09:30" start-time-utc="2026-07-26T14:30:00Z" end-time-utc="2026-07-27T14:30:00Z">
+                <text type="forecast">Morning frost patches about the northern agricultural area, Flinders district and parts of the Pastoral districts. Morning fog patches about the agricultural area. Mostly dry morning, with showers developing about southern coastal districts during the afternoon and evening. Maximum temperatures near average. North to northwesterly winds, becoming fresh during the day in the south. Winds tending west to southwesterly in the west during the day.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-07-28T00:00:00+09:30" end-time-local="2026-07-29T00:00:00+09:30" start-time-utc="2026-07-27T14:30:00Z" end-time-utc="2026-07-28T14:30:00Z">
+                <text type="forecast">Morning frost patches about the pastoral districts. Showers about the southern agricultural area, extending to the northern agricultural area and possibly the south of the Pastoral districts during the day. Maximum temperatures below average in the west, near average elsewhere. North to northwesterly, shifting southwest to southerly from the west during the day, fresh at times about the southeast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-07-29T00:00:00+09:30" end-time-local="2026-07-30T00:00:00+09:30" start-time-utc="2026-07-28T14:30:00Z" end-time-utc="2026-07-29T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers about the coasts and ranges. Maximum temperatures near to below average. Southwest to southeasterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Wednesday: Less than 2 mm about the northern agricultural area and south of the Pastoral districts, increasing to 2 to 10 mm about the southern agricultural area, with falls of 10 to 20 mm possible about the Mount Lofty Ranges.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
