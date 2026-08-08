@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21037-2026-08-08T18:35:33+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-08-08T18:35:33+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS21037-2026-08-08T13:24:11+00:00,2026-08-08T13:24:11+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Weather</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-08-08T18:35:28+00:00</effective>
+        <expires>2026-08-09T03:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Weather Warning for North East Pastoral, West Coast, Lower Eyre Peninsula, Flinders, Mid North and Yorke Peninsula forecast districts</headline>
+        <description>
+          DAMAGING WINDS averaging 55 to 65 km/h with peak gusts of around 90 km/h are possible about the western and southern Eyre Peninsula from late Sunday morning, extending to the northern Yorke Peninsula from Sunday afternoon, before easing below warning thresholds by late Sunday evening.
+          
+          DAMAGING WINDS averaging 60 to 70 km/h with peak gusts of around 100 km/h are likely about the Flinders Ranges from late Sunday afternoon, easing below warning thresholds during Monday morning.
+          Locations which may be affected include Port Lincoln, Ceduna, Hawker, Elliston, Jamestown and Kadina.  
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Move vehicles under cover or away from trees;
+* Secure or put away loose items around your property.
+* Stay indoors, away from windows, while conditions are severe.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: West Coast, Lower Eyre Peninsula, Yorke Peninsula, Flinders, Mid North and North East Pastoral</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW014</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW010</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW012</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW002</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
