@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS20242-2026-08-09T19:15:22+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-08-09T19:15:22+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-08-08T18:37:33+00:00,2026-08-08T18:37:33+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-08-09T01:02:42+00:00,2026-08-09T01:02:42+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-08-09T07:47:37+00:00,2026-08-09T07:47:37+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-08-09T13:15:50+00:00,2026-08-09T13:15:50+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Sheep Grazier Warning</event>
+        <urgency>Unknown</urgency>
+        <severity>Moderate</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>sheepWarning</value>
+        </eventCode>
+        <effective>2026-08-09T19:13:00+00:00</effective>
+        <expires>2026-08-10T14:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Warning to Sheep Graziers for North West Pastoral, North East Pastoral, West Coast, Flinders, Mid North, Yorke Peninsula and Mount Lofty Ranges forecast districts</headline>
+        <description>Sheep graziers are warned that cold temperatures, showers and southwesterly winds are expected during Monday morning. Areas likely to be affected include the Flinders, Mid North and North East Pastoral forecast districts and parts of the Mount Lofty Ranges, West Coast, Yorke Peninsula and North West Pastoral forecast districts. There is a risk of losses of lambs and sheep exposed to these conditions.</description>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Mount Lofty Ranges, West Coast, Yorke Peninsula, Flinders, Mid North, North West Pastoral and North East Pastoral forecast districts</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW013</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW014</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW010</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW002</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW015</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Sheep Grazier Warning</event>
+        <urgency>Unknown</urgency>
+        <severity>Minor</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>sheepWarning</value>
+        </eventCode>
+        <effective>2026-08-09T19:13:00+00:00</effective>
+        <expires>2026-08-10T14:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Cancellation of Warning to Sheep Graziers for Riverland, Murraylands and Upper South East forecast districts</headline>
+        <description>The Warning to Sheep Graziers for the Riverland, Murraylands and Upper South East forecast districts has been cancelled.</description>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Riverland, Murraylands and Upper South East forecast districts</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW006</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW007</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW004</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Sheep Grazier Warning</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>sheepWarning</value>
+        </eventCode>
+        <effective>2026-08-09T19:13:00+00:00</effective>
+        <expires>2026-08-10T14:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Cancellation of Warning to Sheep Graziers for Eastern Eyre Peninsula and Lower Eyre Peninsula forecast districts</headline>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Eastern Eyre Peninsula and Lower Eyre Peninsula forecast districts</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW011</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW012</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
