@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-08-10T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-08-11T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-08-10T18:30:26Z</sent-time>
+        <expiry-time>2026-08-11T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-08-11T04:00:26+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-08-14T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-08-11T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-08-11T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-08-11T04:00:26+09:30" end-time-local="2026-08-11T04:00:26+09:30" start-time-utc="2026-08-10T18:30:26Z" end-time-utc="2026-08-10T18:30:26Z">
+                <text type="synoptic_situation">A high pressure system is located just to the northeast of the state, ahead of a cold front forecast to move across the state from Tuesday and early Wednesday. A ridge of high pressure then pushes into the west of the state on Wednesday, with the associated high moving over the rest of SA on Thursday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-08-11T05:00:00+09:30" end-time-local="2026-08-12T00:00:00+09:30" start-time-utc="2026-08-10T19:30:00Z" end-time-utc="2026-08-11T14:30:00Z">
+                <text type="forecast">Possible patchy morning fog and frost about parts of the Pastoral districts. Isolated showers about southern coasts during the morning, becoming scattered about the west coast from the afternoon and extending throughout the rest of the Agricultural Areas and south of the Pastoral districts from the evening. Isolated thunderstorms possible about Kangaroo Island, southern coastal fringes and about the Flinders Ranges and adjacent areas. Maximum temperatures near average about the coastal fringe, tending below average elsewhere. North to northwesterly winds ahead of a southwesterly change, extending eastwards during the day. Winds tending fresh and gusty at times with the change and about coastal areas during the day.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-08-12T00:00:00+09:30" end-time-local="2026-08-13T00:00:00+09:30" start-time-utc="2026-08-11T14:30:00Z" end-time-utc="2026-08-12T14:30:00Z">
+                <text type="forecast">Possible morning frost about parts of the North West Pastoral district and Flinders Ranges. Isolated showers about the Southern Agricultural Area, possibly extending further north, and contracting to windward coasts and ranges during the evening. Slight chance of a thunderstorm about the Flinders Ranges. Maximum temperatures below average. West to southwesterly winds, fresh at times about coastal areas and in the northeast easing in the evening. Winds tending southwest to southeasterly from the west during the day.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-08-13T00:00:00+09:30" end-time-local="2026-08-14T00:00:00+09:30" start-time-utc="2026-08-12T14:30:00Z" end-time-utc="2026-08-13T14:30:00Z">
+                <text type="forecast">Possible morning fog about the West Coast, Eastern Eyre Peninsula and southern North West Pastoral districts. Possible morning frost about parts of the Flinders and Pastoral districts. Isolated light showers possible about the Southern Agricultural Area, mainly about windward coasts and ranges. Maximum temperatures below average, tending near average about the Southern Agricultural Area. Southwest to southeasterly winds, tending westerly in the southeast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-08-14T00:00:00+09:30" end-time-local="2026-08-15T00:00:00+09:30" start-time-utc="2026-08-13T14:30:00Z" end-time-utc="2026-08-14T14:30:00Z">
+                <text type="forecast">
+                    <p>Possible morning fog about the west coast and parts of the Northern Agricultural Area. Possible patchy morning frost about the Flinders Ranges. Slight chance of an isolated shower about the Southern Agricultural Area. Maximum temperatures below average, tending near average about the Southern Agricultural Area. East to southeasterly winds, tending west to southwesterly in the southeast until the evening.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Friday: Less than 2 mm about the northwest and northeast. Falls of 2 to 15 mm across the Agricultural Area and the Flinders Ranges, with isolated falls of 15 to 25 mm possible about the ranges and western facing coasts.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
