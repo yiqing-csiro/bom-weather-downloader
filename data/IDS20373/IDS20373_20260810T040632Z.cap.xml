@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>AusBoM-IDS20373-2026-08-10T04:06:32+00:00</identifier>
+  <sender>CAP.Message@bom.gov.au</sender>
+  <sent>2026-08-10T04:06:32+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Minor</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-08-10T04:06:32+00:00</effective>
+    <expires>2026-08-11T07:06:32+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Minor Flood Warning for Bremer River, Bremer River at Wanstead Rd and Bremer River at Langhorne Ck (Upstream)</headline>
+    <description>The Bremer River at Wanstead Rd is currently at 3.21 m and falling, with minor flooding. The Bremer River at Wanstead Rd may fall below the minor flood level (3.10 m) Monday afternoon.
+
+The Bremer River at Langhorne Ck (Upstream) is currently at 4.07 m and rising, below the minor flood level. The Bremer River at Langhorne Ck (Upstream) may reach around the minor flood level (4.80 m) Monday afternoon.</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+
+For emergency assistance call SES on telephone number 132 500. In life-threatening emergencies, call 000 (triple zero) immediately.</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Bremer River, Bremer River at Wanstead Rd and Bremer River at Langhorne Ck (Upstream)</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_RC026</value>
+      </geocode>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_RS025</value>
+      </geocode>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_RS026</value>
+      </geocode>
+    </area>
+  </info>
+</alert>
