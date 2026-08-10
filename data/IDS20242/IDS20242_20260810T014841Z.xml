@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20242</identifier>
+        <issue-time-utc>2026-08-10T01:48:41Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-08-10T11:18:41+09:30</issue-time-local>
+        <sent-time>2026-08-10T01:48:41Z</sent-time>
+        <expiry-time>2026-08-10T14:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-08-10T11:18:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-08-10T23:59:59+09:30</validity-end-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>WSG</sub-service>
+        <product-type>W</product-type>
+        <phase>CAN</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+            <text type="warning_title">Cancellation of Warning to Sheep Graziers</text>
+            <text type="warning_area_summary">Mount Lofty Ranges, West Coast, Yorke Peninsula, Flinders, Mid North, Riverland, Murraylands, Upper South East, North West Pastoral and North East Pastoral forecast districts</text>
+        </warning-info>
+        <!---->
+        <!--locale[SA_EV001, allow-output=yes]-->
+        <!--hazards-exist="yes" non-warning-info-elements-exist="no"-->
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <!--locale[SA_EV001]/period[variable]-->
+            <hazard index="1" parent-aac="SA_EV001" phase="CAN" type="SHW" severity="CAN" urgency="UNK" certainty="UNK" start-time-local="2026-08-10T11:18:00+09:30" end-time-local="2026-08-11T00:00:00+09:30" start-time-utc="2026-08-10T01:48:00Z" end-time-utc="2026-08-10T14:30:00Z">
+                <area-list>
+                    <area aac="SA_PW013" phase="CAN" description="North West Pastoral" type="public-district"/>
+                    <area aac="SA_PW014" phase="CAN" description="North East Pastoral" type="public-district"/>
+                    <area aac="SA_PW010" phase="CAN" description="West Coast" type="public-district"/>
+                    <area aac="SA_PW009" phase="CAN" description="Flinders" type="public-district"/>
+                    <area aac="SA_PW008" phase="CAN" description="Mid North" type="public-district"/>
+                    <area aac="SA_PW002" phase="CAN" description="Yorke Peninsula" type="public-district"/>
+                    <area aac="SA_PW015" phase="CAN" description="Mount Lofty Ranges" type="public-district"/>
+                    <area aac="SA_PW006" phase="CAN" description="Riverland" type="public-district"/>
+                    <area aac="SA_PW007" phase="CAN" description="Murraylands" type="public-district"/>
+                    <area aac="SA_PW004" phase="CAN" description="Upper South East" type="public-district"/>
+                </area-list>
+                <priority>W</priority>
+                <text type="warning_phenomena">Cancellation of Warning to Sheep Graziers</text>
+                <text type="warning_areas">Mount Lofty Ranges, West Coast, Yorke Peninsula, Flinders, Mid North, Riverland, Murraylands, Upper South East, North West Pastoral and North East Pastoral forecast districts</text>
+                <text type="warning">The Warning to Sheep Graziers for the Mount Lofty Ranges, West Coast, Yorke Peninsula, Flinders, Mid North, Riverland, Murraylands, Upper South East, North West Pastoral and North East Pastoral forecast districts has been cancelled.</text>
+            </hazard>
+        </area>
+    </warning>
+</product>
