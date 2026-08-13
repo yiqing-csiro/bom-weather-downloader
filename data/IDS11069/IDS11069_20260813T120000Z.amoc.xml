@@ -8,14 +8,14 @@
         <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
     </source>
     <identifier>IDS11069</identifier>
-    <issue-time-utc>2026-08-13T12:00:00Z</issue-time-utc>
-    <issue-time-local tz="CST">2026-08-13T21:30:00+09:30</issue-time-local>
-    <sent-time>2026-08-13T12:00:36Z</sent-time>
-    <expiry-time>2026-08-14T12:00:00Z</expiry-time>
-    <validity-bgn-time-local tz="CST">2026-08-13T00:00:00+09:30</validity-bgn-time-local>
+    <issue-time-utc>2026-08-13T18:10:00Z</issue-time-utc>
+    <issue-time-local tz="CST">2026-08-14T03:40:00+09:30</issue-time-local>
+    <sent-time>2026-08-13T18:10:37Z</sent-time>
+    <expiry-time>2026-08-14T18:10:00Z</expiry-time>
+    <validity-bgn-time-local tz="CST">2026-08-14T00:00:00+09:30</validity-bgn-time-local>
     <validity-end-time-local tz="CST">2026-08-16T23:59:59+09:30</validity-end-time-local>
-    <next-routine-issue-time-utc>2026-08-13T18:10:00Z</next-routine-issue-time-utc>
-    <next-routine-issue-time-local tz="CST">2026-08-14T03:40:00+09:30</next-routine-issue-time-local>
+    <next-routine-issue-time-utc>2026-08-14T00:00:00Z</next-routine-issue-time-utc>
+    <next-routine-issue-time-local tz="CST">2026-08-14T09:30:00+09:30</next-routine-issue-time-local>
     <status>O</status>
     <service>WSM</service>
     <sub-service>FCW</sub-service>
