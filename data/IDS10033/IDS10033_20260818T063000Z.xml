@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-08-18T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-08-18T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-08-18T06:30:03Z</sent-time>
+        <expiry-time>2026-08-18T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-08-18T16:00:03+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-08-22T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-08-18T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-08-19T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-08-18T16:00:03+09:30" end-time-local="2026-08-18T16:00:03+09:30" start-time-utc="2026-08-18T06:30:03Z" end-time-utc="2026-08-18T06:30:03Z">
+                <text type="synoptic_situation">A cold front moving through the Bight, directs a northerly flow over South Australia this evening. The front will clip the south on Wednesday, before clearing to the east late. An upper level feature lingers over the pastoral districts on Thursday, clearing to the northeast on Friday. A high pressure ridge is expected to approach South Australia on Thursday from the west and continue to move east over the state on the weekend. Weak troughs clip the southeast in a broad westerly flow on Thursday and Friday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-08-19T00:00:00+09:30" end-time-local="2026-08-20T00:00:00+09:30" start-time-utc="2026-08-18T14:30:00Z" end-time-utc="2026-08-19T14:30:00Z">
+                <text type="forecast">Possible early morning fog about southwestern parts. Showers about central and eastern parts, tending to rain at times about the southeast, contracting to the southern agricultural area during the morning and to southern coasts and range by evening. Showers developing about central parts of the pastoral districts during the evening. Possible thunderstorms about the northeast and southeast during the morning, redeveloping about the northeast during the afternoon. Maximum temperatures above average, tending near average in the southwest. North to northwesterly winds, fresh at times about the southeast. Winds tending light and variable about western parts.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-08-18T17:00:00+09:30" end-time-local="2026-08-19T00:00:00+09:30" start-time-utc="2026-08-18T07:30:00Z" end-time-utc="2026-08-18T14:30:00Z">
+                <text type="forecast">Showers about central and eastern districts, tending to patchy rain during the evening. Possible thunderstorms about the North East Pastoral, reaching southern central parts late. Isolated showers about western coasts. Northerly winds, freshening ahead of a west to southwesterly change extending across western parts of the state during the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-08-20T00:00:00+09:30" end-time-local="2026-08-21T00:00:00+09:30" start-time-utc="2026-08-19T14:30:00Z" end-time-utc="2026-08-20T14:30:00Z">
+                <text type="forecast">Early morning fog about the agricultural areas. Showers, tending to rain at times, and possible thunderstorms about the pastoral and Flinders districts. Showers about the Southern Agricultural Area, most likely about windward coasts and ranges. Maximum temperatures below average, tending above average in the far north and near average about the agricultural area. Light and variable winds, tending northwesterly about the southeast, becoming southeasterly about the north during the day.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-08-21T00:00:00+09:30" end-time-local="2026-08-22T00:00:00+09:30" start-time-utc="2026-08-20T14:30:00Z" end-time-utc="2026-08-21T14:30:00Z">
+                <text type="forecast">Early morning fog about the agricultural areas and West Coast. Chance of frost about the Flinders and Mid North districts. Showers and possible thunderstorms about the north, clearing during the afternoon. Isolated showers about the agricultural areas. Maximum temperatures below average. Generally south to southeasterly winds, tending westerly in the southeast.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-08-22T00:00:00+09:30" end-time-local="2026-08-23T00:00:00+09:30" start-time-utc="2026-08-21T14:30:00Z" end-time-utc="2026-08-22T14:30:00Z">
+                <text type="forecast">
+                    <p>Early morning fog and frost about the agricultural areas and south of the Pastoral districts. Isolated light showers about the Southern Agricultural Area, most likely about windward coasts and ranges, clearing by the evening. Showers about the far northwest, with thunderstorms developing during the evening. Maximum temperatures below average, tending near average about the Southern Agricultural Area. Generally south to southeasterly winds about the north, tending west to southwesterly about the south.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: Less than 2 mm, increasing to 5 to 15 mm about the Southern Agricultural Area and Pastoral districts, further increasing to 10 to 20 mm about the Mount Lofty Ranges, near the eastern border and parts of the Pastoral districts. Isolated falls of 20 to 40 mm possible with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
