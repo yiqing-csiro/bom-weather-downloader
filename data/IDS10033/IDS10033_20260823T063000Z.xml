@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-08-23T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-08-23T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-08-23T06:30:03Z</sent-time>
+        <expiry-time>2026-08-23T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-08-23T16:00:03+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-08-27T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-08-23T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-08-24T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-08-23T16:00:03+09:30" end-time-local="2026-08-23T16:00:03+09:30" start-time-utc="2026-08-23T06:30:03Z" end-time-utc="2026-08-23T06:30:03Z">
+                <text type="synoptic_situation">A high pressure system centred over the Tasman Sea extends a ridge over eastern SA, while a low pressure system and associated trough move into the far west. The low will move across the state on Monday and out over the eastern states by late Tuesday, as another high moves in from the west to be over SA on Wednesday. A second trough approaches the southwest during Thursday afternoon.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-08-24T00:00:00+09:30" end-time-local="2026-08-25T00:00:00+09:30" start-time-utc="2026-08-23T14:30:00Z" end-time-utc="2026-08-24T14:30:00Z">
+                <text type="forecast">Showers extending statewide, clearing from the northwest during the evening. Showers tending to rain about parts of the pastoral districts, the West Coast and Eyre Peninsula, reaching central and eastern districts by the evening, with locally heavy falls possible. Possible thunderstorms about the Northern Agricultural Area and pastoral districts, possibly severe, mainly about the central north. Maximum temperatures below average, remaining above average about the northeast and far southeast. Freshening north to northeasterly winds ahead of a fresh west to southwesterly change extending from the west during the day.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-08-23T17:00:00+09:30" end-time-local="2026-08-24T00:00:00+09:30" start-time-utc="2026-08-23T07:30:00Z" end-time-utc="2026-08-23T14:30:00Z">
+                <text type="forecast">Showers about the west, tending to areas of rain in the northwest. Thunderstorms about the west, possibly severe. Northeast to northwesterly winds, shifting southerly in the far southwest late.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-08-25T00:00:00+09:30" end-time-local="2026-08-26T00:00:00+09:30" start-time-utc="2026-08-24T14:30:00Z" end-time-utc="2026-08-25T14:30:00Z">
+                <text type="forecast">Showers about the agricultural area, and south of the pastoral districts, tending to rain about central and eastern parts of the agricultural area during the morning, contracting eastwards during the day. Possible thunderstorms about the northeast during the morning. Maximum temperatures generally below average. North to northwesterly winds about the eastern boarder districts, ahead of a fresh southwesterly change, extending throughout during the morning, before winds easing by the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-08-26T00:00:00+09:30" end-time-local="2026-08-27T00:00:00+09:30" start-time-utc="2026-08-25T14:30:00Z" end-time-utc="2026-08-26T14:30:00Z">
+                <text type="forecast">Possible early morning fog and frost central parts of the agricultural area and south of the pastoral districts. Isolated showers about the agricultural area, clearing during the morning. Maximum temperatures generally below average, tending to around average in the southwest. Southwest to southeasterly winds, tending northeast to northerly in the west.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-08-27T00:00:00+09:30" end-time-local="2026-08-28T00:00:00+09:30" start-time-utc="2026-08-26T14:30:00Z" end-time-utc="2026-08-27T14:30:00Z">
+                <text type="forecast">
+                    <p>Possible early morning fog and frost, mainly on and east of the ranges. Mostly dry, until showers and possible thunderstorms develop about the west during the late afternoon and evening. Maximum temperatures above average, tending below average in the northeast. Northeast to northwesterly winds, fresh at times about the west, ahead of a westerly change in the far west late.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Thursday: Broadly 1 to 5 mm, increasing to 5 to 15 mm about parts of the pastoral districts and increasing further to 15 to 30mm about parts of the West Coast, Eyre Peninsula and agricultural areas. Falls of 20 to 40mm possible about parts of Eyre and Yorke Peninsulas and the Mount Lofty Ranges, with isolated localised falls of 40 to 60mm in these areas and with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
