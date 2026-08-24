@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+			<region>National Water Operations</region>
+			<office>NWOT</office>
+           <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20364</identifier>
+        <issue-time-utc>2026-08-24T19:06:49Z</issue-time-utc>
+        <issue-time-local tz="ACST">2026-08-25T04:36:49+09:30</issue-time-local>
+        <sent-time>2026-08-24T19:06:49Z</sent-time>
+        <expiry-time>2026-08-25T22:06:49Z</expiry-time>
+        <validity-bgn-time-local tz="ACST">2026-08-25T04:36:49+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="ACST">2026-08-26T07:36:49+09:30</validity-end-time-local>
+        <status>O</status>
+        <service>HFW</service>
+        <sub-service>WFL</sub-service>
+        <product-type>W</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+			
+			
+            <text type="warning_title">Minor Flood Warning for the Onkaparinga River</text>
+            <text type="warning_subtitle"></text>
+  	        
+<text type="warning_advice">
+<p>Don't drive, walk, swim or play in floodwater because it is dangerous.</p>
+<p>Stay away from flooded drains, rivers, streams and waterways.</p>
+<p>Obey road closure signs. Plan ahead so you don&#39;t drive on flooded roads.</p>
+<p>Check the ABC and local media for updates. The situation can change quickly, so stay informed.</p>
+<p>For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.</p>
+</text>
+<text type="warning_advice_contact">
+<p>For emergency assistance call SES on telephone number 132 500. In life-threatening emergencies, call 000 (triple zero) immediately.
+
+</p>
+</text>
+            <text type="warning_next_issue">The next warning will be issued by 02:00 PM ACST on Tuesday 25 August 2026.</text>
+            <text type="product_footer">
+<p>This advice is also available by dialling 1300 659 219. Warning, rainfall and river information are available at http://www.bom.gov.au/australia/flood.</p>
+			</text>
+        </warning-info>
+        <area aac="SA_RC003" description="Onkaparinga River" type="river-basin">
+            <!--===================-->
+            <!--NON-HAZARD ELEMENTS-->
+            <!--===================-->
+	    <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                
+				<element type="warning_sequence">3</element>
+                <text type="warning_situation">
+				<p>MINOR FLOODING POSSIBLE AT CLARENDON WEIR FROM EARLY TUESDAY MORNING</p>
+<p>MINOR FLOODING EASED AT WOODSIDE AND OAKBANK</p>
+
+				<p/>
+				<p>Moderate to locally heavy rainfall has been observed across the Onkaparinga catchment since Monday afternoon. This has caused river and creek level rises, and minor flooding is possible along the Onkaparinga River at Clarendon Weir from early Tuesday morning. </p>
+
+				<p/>
+
+                </text>
+                <element type="severity">Minor</element>
+            </forecast-period>
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <hazard index="1" parent-aac="SA_RC003" phase="FIN" type="FLW" severity="BLWMIN" urgency="UNK" certainty="UNK" start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                <area-list>
+                    <area aac="SA_RC021" phase="FIN" description="Upper Onkaparinga River above Verdun" type="river-basin"/>
+                    <area aac="SA_RS016" phase="FIN" description="Onkaparinga River at Woodside" type="river-site"/>
+                    <area aac="SA_RS017" phase="FIN" description="Onkaparinga River at Oakbank" type="river-site"/>
+
+                </area-list>
+                <priority>W</priority>
+                <text type="warning">Minor flooding has eased along the Upper Onkaparinga River above Verdun.</text>
+            </hazard>            <hazard index="2" parent-aac="SA_RC003" phase="NEW" type="FLW" severity="MIN" urgency="UNK" certainty="UNK" start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                <area-list>
+                    <area aac="SA_RC023" phase="NEW" description="Lower Onkaparinga River below Mt Bold Reservoir" type="river-basin"/>
+                    <area aac="SA_RS019" phase="NEW" description="Onkaparinga River at Clarendon Weir" type="river-site"/>
+
+                </area-list>
+                <priority>W</priority>
+                <text type="warning">Minor flooding is possible along the Onkaparinga River at Clarendon Weir.</text>
+            </hazard>
+          </area>   
+        
+                <area aac="SA_RS016" description="Onkaparinga River at Woodside" type="river-site" parent-aac="SA_RC021">
+                    <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                        <text type="flood_status">The Onkaparinga River at Woodside is currently at 0.95 m and falling, below the minor flood level.</text>
+                        <text type="warning_prediction">The Onkaparinga River at Woodside is likely to remain below the minor flood level (2.00 m). </text>
+                    </forecast-period>
+					
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z"/>
+                </area>                <area aac="SA_RS017" description="Onkaparinga River at Oakbank" type="river-site" parent-aac="SA_RC021">
+                    <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                        <text type="flood_status">The Onkaparinga River at Oakbank is currently at 1.05 m and falling, below the minor flood level.</text>
+                        <text type="warning_prediction">The Onkaparinga River at Oakbank is likely to remain below the minor flood level (1.17 m). </text>
+                    </forecast-period>
+					
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z"/>
+                </area>                <area aac="SA_RS019" description="Onkaparinga River at Clarendon Weir" type="river-site" parent-aac="SA_RC023">
+                    <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                        <text type="flood_status">The Onkaparinga River at Clarendon Weir is currently at 11.02 m and rising, below the minor flood level.</text>
+                        <text type="warning_prediction">The Onkaparinga River at Clarendon Weir may exceed the minor flood level (11.20 m) early Tuesday morning. Further rises are possible. </text>
+                    </forecast-period>
+					
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z"/>
+                </area>      
+  
+            <area aac="SA_RO0014" description="Onkaparinga River at Charleston" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Onkaparinga River at Charleston</element>
+                    <element type="obs_site_latitude">-34.9161</element>
+                    <element type="obs_site_longitude">138.8989</element>
+                    <element type="obs_river_height">1.11</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:28 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0021" description="Onkaparinga River at Woodside" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Onkaparinga River at Woodside</element>
+                    <element type="obs_site_latitude">-34.9503</element>
+                    <element type="obs_site_longitude">138.874</element>
+                    <element type="obs_river_height">0.95</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:19 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0023" description="Western Branch Creek at Tiers Road" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Western Branch Creek at Tiers Road</element>
+                    <element type="obs_site_latitude">-34.9467</element>
+                    <element type="obs_site_longitude">138.857</element>
+                    <element type="obs_river_height">0.47</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:13 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0032" description="Lenswood Creek at Swamp Road" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Lenswood Creek at Swamp Road</element>
+                    <element type="obs_site_latitude">-34.9352</element>
+                    <element type="obs_site_longitude">138.8235</element>
+                    <element type="obs_river_height">0.62</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:16 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0024" description="Onkaparinga River at Oakbank" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Onkaparinga River at Oakbank</element>
+                    <element type="obs_site_latitude">-34.9805</element>
+                    <element type="obs_site_longitude">138.8429</element>
+                    <element type="obs_river_height">1.05</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:20 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0027" description="Onkaparinga River at Verdun" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Onkaparinga River at Verdun</element>
+                    <element type="obs_site_latitude">-35.0259</element>
+                    <element type="obs_site_longitude">138.79</element>
+                    <element type="obs_river_height">4.16</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:25 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0022" description="Aldgate Creek at Aldgate (Euston Rd)" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Aldgate Creek at Aldgate (Euston Rd)</element>
+                    <element type="obs_site_latitude">-35.0143</element>
+                    <element type="obs_site_longitude">138.7325</element>
+                    <element type="obs_river_height">0.77</element>
+                    <element type="obs_river_datum">AHD</element>
+                    <element type="observation_time">4:16 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0026" description="Onkaparinga River at Houlgraves" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Onkaparinga River at Houlgraves</element>
+                    <element type="obs_site_latitude">-35.0823</element>
+                    <element type="obs_site_longitude">138.7276</element>
+                    <element type="obs_river_height">5.76</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:25 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">rising</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0025" description="Onkaparinga River at Clarendon Weir" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Onkaparinga River at Clarendon Weir</element>
+                    <element type="obs_site_latitude">-35.1116</element>
+                    <element type="obs_site_longitude">138.6354</element>
+                    <element type="obs_river_height">11.02</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:22 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">rising</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0071" description="Onkaparinga River at Old Noarlunga" type="river-obs-site" parent-aac="SA_RC003">
+                <forecast-period start-time-local="2026-08-25T04:36:49+09:30" end-time-local="2026-08-26T07:36:49+09:30" start-time-utc="2026-08-24T19:06:49Z" end-time-utc="2026-08-25T22:06:49Z">
+                    <element type="obs_site_description">Onkaparinga River at Old Noarlunga</element>
+                    <element type="obs_site_latitude">-35.175</element>
+                    <element type="obs_site_longitude">138.515</element>
+                    <element type="obs_river_height">2.17</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">4:15 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">rising</element>
+                </forecast-period>
+            </area>
+
+    </warning>
+</product>
