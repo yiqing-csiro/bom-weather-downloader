@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>AusBoM-IDS20364-2026-08-24T22:09:32+00:00</identifier>
+  <sender>CAP.Message@bom.gov.au</sender>
+  <sent>2026-08-24T22:09:32+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+  <references>CAP.Message@bom.gov.au,AusBoM-IDS20364-2026-08-24T19:06:49+00:00,2026-08-24T19:06:49+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20364-2026-08-24T21:56:52+00:00,2026-08-24T21:56:52+00:00</references>
+  <info>
+    <language>en-AU</language>
+    <category>Met</category>
+    <event>Riverine Flood</event>
+    <urgency>Unknown</urgency>
+    <severity>Minor</severity>
+    <certainty>Unknown</certainty>
+    <eventCode>
+      <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+      <value>riverineFlod</value>
+    </eventCode>
+    <effective>2026-08-24T22:09:32+00:00</effective>
+    <expires>2026-08-26T01:09:32+00:00</expires>
+    <senderName>Australian Government Bureau of Meteorology</senderName>
+    <headline>Minor Flood Warning for Lower Onkaparinga River below Mt Bold Reservoir, Onkaparinga River at Clarendon Weir and Onkaparinga River at Old Noarlunga</headline>
+    <description>Minor flooding is possible along the Onkaparinga River at Clarendon Weir and Old Noarlunga.
+
+The Onkaparinga River at Clarendon Weir is currently at 11.08 m and rising, below the minor flood level. The Onkaparinga River at Clarendon Weir may exceed the minor flood level (11.20 m) early Tuesday morning. Further rises are possible.
+
+The Onkaparinga River at Old Noarlunga is currently at 4.82 m and rising, below the minor flood level. The Onkaparinga River at Old Noarlunga may reach around the minor flood level (5.00 m) Tuesday morning. Further rises are possible as upstream flows arrive.</description>
+    <instruction>* Don't drive, walk, swim or play in floodwater because it is dangerous.
+* Stay away from flooded drains, rivers, streams and waterways.
+* Obey road closure signs. Plan ahead so you don't drive on flooded roads.
+* Check the ABC and local media for updates. The situation can change quickly, so stay informed.
+* For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.
+
+For emergency assistance call SES on telephone number 132 500. In life-threatening emergencies, call 000 (triple zero) immediately.</instruction>
+    <web>http://www.bom.gov.au/australia/warnings</web>
+    <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+    <area>
+      <areaDesc>South Australia: Lower Onkaparinga River below Mt Bold Reservoir, Onkaparinga River at Clarendon Weir and Onkaparinga River at Old Noarlunga</areaDesc>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_RC023</value>
+      </geocode>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_RS019</value>
+      </geocode>
+      <geocode>
+        <valueName>AMOC-AreaCode</valueName>
+        <value>SA_RS020</value>
+      </geocode>
+    </area>
+  </info>
+</alert>
