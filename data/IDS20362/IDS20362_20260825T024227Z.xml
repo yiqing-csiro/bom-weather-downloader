@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+			<region>National Water Operations</region>
+			<office>NWOT</office>
+           <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20362</identifier>
+        <issue-time-utc>2026-08-25T02:42:27Z</issue-time-utc>
+        <issue-time-local tz="ACST">2026-08-25T12:12:27+09:30</issue-time-local>
+        <sent-time>2026-08-25T02:42:27Z</sent-time>
+        <expiry-time>2026-08-26T05:42:27Z</expiry-time>
+        <validity-bgn-time-local tz="ACST">2026-08-25T12:12:27+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="ACST">2026-08-26T15:12:27+09:30</validity-end-time-local>
+        <status>O</status>
+        <service>HFW</service>
+        <sub-service>WFL</sub-service>
+        <product-type>W</product-type>
+        <phase>FIN</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+			
+			
+            <text type="warning_title">Final Flood Warning for the Torrens River</text>
+            <text type="warning_subtitle"></text>
+  	        
+<text type="warning_advice">
+<p>Don't drive, walk, swim or play in floodwater because it is dangerous.</p>
+<p>Stay away from flooded drains, rivers, streams and waterways.</p>
+<p>Obey road closure signs. Plan ahead so you don&#39;t drive on flooded roads.</p>
+<p>Check the ABC and local media for updates. The situation can change quickly, so stay informed.</p>
+<p>For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.</p>
+</text>
+<text type="warning_advice_contact">
+<p>For emergency assistance call SES on telephone number 132 500. In life-threatening emergencies, call 000 (triple zero) immediately.
+
+</p>
+</text>
+            <text type="warning_next_issue">This is a final warning. No further warnings will be issued for this event.</text>
+            <text type="product_footer">
+<p>This advice is also available by dialling 1300 659 219. Warning, rainfall and river information are available at http://www.bom.gov.au/australia/flood.</p>
+			</text>
+        </warning-info>
+        <area aac="SA_RC002" description="Torrens River" type="river-basin">
+            <!--===================-->
+            <!--NON-HAZARD ELEMENTS-->
+            <!--===================-->
+	    <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                
+				<element type="warning_sequence">2</element>
+                <text type="warning_situation">
+				<p>MINOR FLOODING ESTIMATED TO HAVE EASED ALONG FIRST CREEK AT WATERFALL GULLY RD</p>
+
+				<p/>
+				<p>The risk of heavy rainfall has eased across the Torrens catchment. Minor flooding is estimated to eased along First Creek at Waterfall Gully Rd.</p>
+
+				<p/>
+
+                </text>
+                <element type="severity">Below Minor</element>
+            </forecast-period>
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <hazard index="1" parent-aac="SA_RC002" phase="FIN" type="FLW" severity="BLWMIN" urgency="UNK" certainty="UNK" start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                <area-list>
+                    <area aac="SA_RC020" phase="FIN" description="Lower Torrens River including Adelaide" type="river-basin"/>
+                    <area aac="SA_RS014" phase="FIN" description="First Creek at Waterfall Gully Rd" type="river-site"/>
+
+                </area-list>
+                <priority>W</priority>
+                <text type="warning">Minor flooding is estimated to eased along the First Creek at Waterfall Gully Rd.</text>
+            </hazard>
+          </area>   
+        
+                <area aac="SA_RS014" description="First Creek at Waterfall Gully Rd" type="river-site" parent-aac="SA_RC020">
+                    <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                        <text type="flood_status">No observations are currently available for the First Creek at Waterfall Gully Rd.</text>
+                        <text type="warning_prediction">The First Creek at Waterfall Gully Rd may remain below the minor flood level (1.50 m). </text>
+                    </forecast-period>
+					
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z"/>
+                </area>      
+  
+            <area aac="SA_RO0028" description="Torrens River at Mt Pleasant" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">Torrens River at Mt Pleasant</element>
+                    <element type="obs_site_latitude">-34.7869</element>
+                    <element type="obs_site_longitude">139.0272</element>
+                    <element type="obs_river_height">1.40</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">11:10 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0033" description="Torrens River at Gumeracha Weir" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">Torrens River at Gumeracha Weir</element>
+                    <element type="obs_site_latitude">-34.8217</element>
+                    <element type="obs_site_longitude">138.8521</element>
+                    <element type="obs_river_height">10.37</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">11:00 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0029" description="Torrens River at Kangaroo Creek Dam" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">Torrens River at Kangaroo Creek Dam</element>
+                    <element type="obs_site_latitude">-34.8649</element>
+                    <element type="obs_site_longitude">138.7743</element>
+                    <element type="obs_river_height">43.59</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">11:55 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">rising</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0012" description="Sixth Creek at Castambul" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">Sixth Creek at Castambul</element>
+                    <element type="obs_site_latitude">-34.8733</element>
+                    <element type="obs_site_longitude">138.7539</element>
+                    <element type="obs_river_height">0.71</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">10:40 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0031" description="Torrens River at Gorge Weir" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">Torrens River at Gorge Weir</element>
+                    <element type="obs_site_latitude">-34.8561</element>
+                    <element type="obs_site_longitude">138.7312</element>
+                    <element type="obs_river_height">10.32</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">11:55 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0067" description="Fifth Creek at Athelstone" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">Fifth Creek at Athelstone</element>
+                    <element type="obs_site_latitude">-34.8688</element>
+                    <element type="obs_site_longitude">138.6917</element>
+                    <element type="obs_river_height">0.21</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">11:25 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0068" description="First Creek at Cleland (Waterfall)" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">First Creek at Cleland (Waterfall)</element>
+                    <element type="obs_site_latitude">-34.9711</element>
+                    <element type="obs_site_longitude">138.6825</element>
+                    <element type="obs_river_height"></element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time"></element>
+                    <element type="obs_river_height_tendency"></element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0069" description="First Creek at Waterfall Gully Rd" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">First Creek at Waterfall Gully Rd</element>
+                    <element type="obs_site_latitude">-34.9501</element>
+                    <element type="obs_site_longitude">138.67</element>
+                    <element type="obs_river_height"></element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time"></element>
+                    <element type="obs_river_height_tendency"></element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0070" description="Torrens River at Holbrooks Rd" type="river-obs-site" parent-aac="SA_RC002">
+                <forecast-period start-time-local="2026-08-25T12:12:27+09:30" end-time-local="2026-08-26T15:12:27+09:30" start-time-utc="2026-08-25T02:42:27Z" end-time-utc="2026-08-26T05:42:27Z">
+                    <element type="obs_site_description">Torrens River at Holbrooks Rd</element>
+                    <element type="obs_site_latitude">-34.914</element>
+                    <element type="obs_site_longitude">138.549</element>
+                    <element type="obs_river_height">2.69</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">11:15 am Tue 25/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>
+
+    </warning>
+</product>
