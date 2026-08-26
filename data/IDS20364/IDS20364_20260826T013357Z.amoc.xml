@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+  <source>
+    <sender>Australian Government Bureau of Meteorology</sender>
+    <region>National Water Operations</region>
+    <office>NWOT</office>
+    <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+    <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+  </source>
+  <identifier>IDS20364</identifier>
+  <issue-time-utc>2026-08-26T01:33:57Z</issue-time-utc>
+  <issue-time-local tz="ACST">2026-08-26T11:03:57+09:30</issue-time-local>
+  <sent-time>2026-08-26T01:33:57Z</sent-time>
+  <expiry-time>2026-08-27T04:33:57Z</expiry-time>
+  <validity-bgn-time-local tz="ACST">2026-08-26T11:03:57+09:30</validity-bgn-time-local>
+  <validity-end-time-local tz="ACST">2026-08-27T14:03:57+09:30</validity-end-time-local>
+  <status>O</status>
+  <service>HFW</service>
+  <sub-service>WFL</sub-service>
+  <product-type>W</product-type>
+  <phase>FIN</phase>
+  <hazard index="1" parent-aac="SA_RC003" phase="FIN" type="FLW" severity="BLWMIN" urgency="UNK" certainty="UNK" start-time-utc="2026-08-26T01:33:57Z" end-time-utc="2026-08-27T04:33:57Z">
+    <area-list>
+      <area aac="SA_RC023" phase="FIN" description="Lower Onkaparinga River below Mt Bold Reservoir" type="river-basin"/>
+      <area aac="SA_RS019" phase="FIN" description="Onkaparinga River at Clarendon Weir" type="river-site"/>
+      <area aac="SA_RS020" phase="FIN" description="Onkaparinga River at Old Noarlunga" type="river-site"/>
+    </area-list>
+    <priority>W</priority>
+    <headline>Flood Warning for Lower Onkaparinga River below Mt Bold Reservoir, Onkaparinga River at Clarendon Weir and Onkaparinga River at Old Noarlunga</headline>
+  </hazard>
+</amoc>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+			<region>National Water Operations</region>
+			<office>NWOT</office>
+           <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS20373</identifier>
+        <issue-time-utc>2026-08-26T00:12:39Z</issue-time-utc>
+        <issue-time-local tz="ACST">2026-08-26T09:42:39+09:30</issue-time-local>
+        <sent-time>2026-08-26T00:12:39Z</sent-time>
+        <expiry-time>2026-08-27T03:12:39Z</expiry-time>
+        <validity-bgn-time-local tz="ACST">2026-08-26T09:42:39+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="ACST">2026-08-27T12:42:39+09:30</validity-end-time-local>
+        <status>O</status>
+        <service>HFW</service>
+        <sub-service>WFL</sub-service>
+        <product-type>W</product-type>
+        <phase>FIN</phase>
+    </amoc>
+    <warning>
+        <warning-info>
+			
+			
+            <text type="warning_title">Final Flood Warning for the Bremer River</text>
+            <text type="warning_subtitle"></text>
+  	        
+<text type="warning_advice">
+<p>Don't drive, walk, swim or play in floodwater because it is dangerous.</p>
+<p>Stay away from flooded drains, rivers, streams and waterways.</p>
+<p>Obey road closure signs. Plan ahead so you don&#39;t drive on flooded roads.</p>
+<p>Check the ABC and local media for updates. The situation can change quickly, so stay informed.</p>
+<p>For local emergency management warnings and advice visit www.ses.sa.gov.au/incidents-and-warnings/incidents-and-warnings-map/.</p>
+</text>
+<text type="warning_advice_contact">
+<p>For emergency assistance call SES on telephone number 132 500. In life-threatening emergencies, call 000 (triple zero) immediately.
+
+</p>
+</text>
+            <text type="warning_next_issue">This is a final warning. No further warnings will be issued for this event.</text>
+            <text type="product_footer">
+<p>This advice is also available by dialling 1300 659 219. Warning, rainfall and river information are available at http://www.bom.gov.au/australia/flood.</p>
+			</text>
+        </warning-info>
+        <area aac="SA_RC008" description="Angas and Bremer Rivers" type="river-basin">
+            <!--===================-->
+            <!--NON-HAZARD ELEMENTS-->
+            <!--===================-->
+	    <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                
+				<element type="warning_sequence">3</element>
+                <text type="warning_situation">
+				<p>FLOODING HAS EASED AT WANSTEAD ROAD AND LANGHORNE CREEK (UPSTREAM)</p>
+
+				<p/>
+				<p>A minor flood peak was observed along the Bremer River at Wanstead Road on Tuesday afternoon, and at Langhorne Creek (Upstream) on Tuesday evening. River levels have now fallen below the minor flood level and no further flooding is expected.</p>
+
+				<p/>
+
+                </text>
+                <element type="severity">Below Minor</element>
+            </forecast-period>
+            <!--===============-->
+            <!--HAZARD ELEMENTS-->
+            <!--===============-->
+            <hazard index="1" parent-aac="SA_RC008" phase="FIN" type="FLW" severity="BLWMIN" urgency="UNK" certainty="UNK" start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                <area-list>
+                    <area aac="SA_RC026" phase="FIN" description="Bremer River" type="river-basin"/>
+                    <area aac="SA_RS025" phase="FIN" description="Bremer River at Wanstead Rd" type="river-site"/>
+                    <area aac="SA_RS026" phase="FIN" description="Bremer River at Langhorne Ck (Upstream)" type="river-site"/>
+
+                </area-list>
+                <priority>W</priority>
+                <text type="warning">No further flooding is expected along the Bremer River.</text>
+            </hazard>
+          </area>   
+        
+                <area aac="SA_RS025" description="Bremer River at Wanstead Rd" type="river-site" parent-aac="SA_RC026">
+                    <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                        <text type="flood_status">The Bremer River at Wanstead Road peaked at 3.85 m around 12:30 pm Tuesday 25 August, with minor flooding. The river is currently at 2.70 m and falling, below the minor flood level.</text>
+                        <text type="warning_prediction">The Bremer River at Wanstead Road is expected to remain below the minor flood level (3.10 m). </text>
+                    </forecast-period>
+					
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z"/>
+                </area>                <area aac="SA_RS026" description="Bremer River at Langhorne Ck (Upstream)" type="river-site" parent-aac="SA_RC026">
+                    <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                        <text type="flood_status">The Bremer River at Langhorne Creek (Upstream) peaked at 4.82 m around 08:00 pm Tuesday 25 August, with minor flooding. The river is currently at 4.36 m and falling, below the minor flood level.</text>
+                        <text type="warning_prediction">The Bremer River at Langhorne Creek (Upstream) is expected to remain below the minor flood level (4.80 m). </text>
+                    </forecast-period>
+					
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z"/>
+                </area>      
+  
+            <area aac="SA_RO0034" description="Angas River at Angas Weir" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Angas River at Angas Weir</element>
+                    <element type="obs_site_latitude">-35.227</element>
+                    <element type="obs_site_longitude">138.857</element>
+                    <element type="obs_river_height">10.53</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:20 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0051" description="Angas River at Willyaroo (Downstream)" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Angas River at Willyaroo (Downstream)</element>
+                    <element type="obs_site_latitude">-35.28</element>
+                    <element type="obs_site_longitude">138.918</element>
+                    <element type="obs_river_height">1.62</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:00 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0061" description="Angas River at Ballandown Rd (Downstream)" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Angas River at Ballandown Rd (Downstream)</element>
+                    <element type="obs_site_latitude">-35.3801</element>
+                    <element type="obs_site_longitude">138.9966</element>
+                    <element type="obs_river_height">1.91</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:10 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0058" description="Bremer River at Harrogate (Tennis Court)" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Bremer River at Harrogate (Tennis Court)</element>
+                    <element type="obs_site_latitude">-34.9495</element>
+                    <element type="obs_site_longitude">139.01</element>
+                    <element type="obs_river_height">10.40</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:10 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0048" description="Mt Barker Creek downstream Mt Barker (Springs)" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Mt Barker Creek downstream Mt Barker (Springs)</element>
+                    <element type="obs_site_latitude">-35.088</element>
+                    <element type="obs_site_longitude">138.917</element>
+                    <element type="obs_river_height">1.61</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:20 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0102" description="Dawesley Creek at Dawesley" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Dawesley Creek at Dawesley</element>
+                    <element type="obs_site_latitude">-35.04</element>
+                    <element type="obs_site_longitude">138.95</element>
+                    <element type="obs_river_height">1.33</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:15 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0045" description="Bremer River at US Mt Barker Ck" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Bremer River at US Mt Barker Ck</element>
+                    <element type="obs_site_latitude">-35.134</element>
+                    <element type="obs_site_longitude">139.029</element>
+                    <element type="obs_river_height">1.80</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:20 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0046" description="Mt Barker Creek upstream Bremer River" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Mt Barker Creek upstream Bremer River</element>
+                    <element type="obs_site_latitude">-35.138</element>
+                    <element type="obs_site_longitude">139.023</element>
+                    <element type="obs_river_height">2.25</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:20 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">steady</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0047" description="Bremer River at Hartley" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Bremer River at Hartley</element>
+                    <element type="obs_site_latitude">-35.209</element>
+                    <element type="obs_site_longitude">139.006</element>
+                    <element type="obs_river_height">2.22</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:10 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0056" description="Bremer River at Wanstead Rd" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Bremer River at Wanstead Rd</element>
+                    <element type="obs_site_latitude">-35.2327</element>
+                    <element type="obs_site_longitude">138.9901</element>
+                    <element type="obs_river_height">2.70</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:00 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0062" description="Bremer River at Langhorne Ck (Upstream)" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Bremer River at Langhorne Ck (Upstream)</element>
+                    <element type="obs_site_latitude">-35.2943</element>
+                    <element type="obs_site_longitude">139.0388</element>
+                    <element type="obs_river_height">4.36</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:10 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">falling</element>
+                </forecast-period>
+            </area>            <area aac="SA_RO0103" description="Bremer River at Ballandown Rd (Upstream)" type="river-obs-site" parent-aac="SA_RC008">
+                <forecast-period start-time-local="2026-08-26T09:42:39+09:30" end-time-local="2026-08-27T12:42:39+09:30" start-time-utc="2026-08-26T00:12:39Z" end-time-utc="2026-08-27T03:12:39Z">
+                    <element type="obs_site_description">Bremer River at Ballandown Rd (Upstream)</element>
+                    <element type="obs_site_latitude">-35.367</element>
+                    <element type="obs_site_longitude">139.051</element>
+                    <element type="obs_river_height">2.52</element>
+                    <element type="obs_river_datum">LGH</element>
+                    <element type="observation_time">9:10 am Wed 26/08/26</element>
+                    <element type="obs_river_height_tendency">rising</element>
+                </forecast-period>
+            </area>
+
+    </warning>
+</product>
