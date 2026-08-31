@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-08-31T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-08-31T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-08-31T06:30:04Z</sent-time>
+        <expiry-time>2026-08-31T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-08-31T16:00:04+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-04T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-08-31T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-01T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-08-31T16:00:04+09:30" end-time-local="2026-08-31T16:00:04+09:30" start-time-utc="2026-08-31T06:30:04Z" end-time-utc="2026-08-31T06:30:04Z">
+                <text type="synoptic_situation">A high pressure system centred over eastern NSW extends a ridge over SA. The ridge will weaken and the high will move eastwards on Tuesday and a cold front is expected to move across SA. Another high pressure ridge will move across the north of the state on Wednesday and Thursday and another cold front will slip across the southeast of SA early Thursday. The ridge will move eastwards early Friday then another trough and cold front will move over SA during the day.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-01T00:00:00+09:30" end-time-local="2026-09-02T00:00:00+09:30" start-time-utc="2026-08-31T14:30:00Z" end-time-utc="2026-09-01T14:30:00Z">
+                <text type="forecast">Dry at first then showers developing about the Agricultural Areas during the afternoon, extending over the far south of the pastoral districts during the evening. Chance of an afternoon thunderstorm about southern coastal districts. Maximum temperatures near average about the coast but above average elsewhere. North to northwesterly winds becoming fresh and gusty ahead of ahead of a southwesterly change extending across the west and south during the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-08-31T17:00:00+09:30" end-time-local="2026-09-01T00:00:00+09:30" start-time-utc="2026-08-31T07:30:00Z" end-time-utc="2026-08-31T14:30:00Z">
+                <text type="forecast">Dry and mostly clear evening. North to northeasterly winds, tending east to southeasterly in the northeast.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-02T00:00:00+09:30" end-time-local="2026-09-03T00:00:00+09:30" start-time-utc="2026-09-01T14:30:00Z" end-time-utc="2026-09-02T14:30:00Z">
+                <text type="forecast">Isolated showers about the Agricultural Areas and the far south of the pastoral districts. Maximum temperatures below average in the south but above average in the north. Fresh and gusty northwesterly winds in the northeast. West to southwesterly winds elsewhere, but southwest to southeasterly in the northwest, tending northwesterly about the Agricultural Areas in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-03T00:00:00+09:30" end-time-local="2026-09-04T00:00:00+09:30" start-time-utc="2026-09-02T14:30:00Z" end-time-utc="2026-09-03T14:30:00Z">
+                <text type="forecast">Isolated showers about the Agricultural Areas, more frequent about the Southern Agricultural Areas during the morning. Patchy rain developing in the southwest, west of about Ceduna, and the chance of a thunderstorm in the far southwest in the evening. Maximum temperatures below average in the south but above average in the north. West to northwesterly winds about the Agricultural Areas, tending southeast to northeasterly further north.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-09-04T00:00:00+09:30" end-time-local="2026-09-05T00:00:00+09:30" start-time-utc="2026-09-03T14:30:00Z" end-time-utc="2026-09-04T14:30:00Z">
+                <text type="forecast">
+                    <p>Areas of rain in the west extending over the Agricultural Areas and the far south of the pastoral districts, easing to showers from the west during the afternoon and evening. Chance of a thunderstorm in the west and south. Maximum temperatures below average about coastal districts but above average elsewhere. Northeast to northwesterly winds freshening ahead of a northwest to southwesterly change in the west and south.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Friday: 2 to 5 mm over the far south of the pastoral districts, increasing to 5 to 10 mm about the Northern Agricultural Areas and 10 to 15 mm about the Southern Agricultural Areas. Local falls of 15 to 25 mm are possible about the Mount Lofty Ranges, Lower South East and Kangaroo Island. Isolated higher falls are possible about the Mount Lofty Ranges.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
