@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11049</identifier>
+        <issue-time-utc>2026-08-30T23:47:47Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-08-31T09:17:47+09:30</issue-time-local>
+        <sent-time>2026-08-30T23:47:47Z</sent-time>
+        <expiry-time>2026-08-31T23:47:47Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-08-31T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-03T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-08-31T06:25:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-08-31T15:55:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-08-31T09:17:47+09:30" end-time-local="2026-08-31T09:17:47+09:30" start-time-utc="2026-08-30T23:47:47Z" end-time-utc="2026-08-30T23:47:47Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A high pressure system southeast of SA continues extending a ridge across the state, as it moves over Victoria and into the Tasman Sea by late Monday. A cold front is then forecast to move across the state on Tuesday, as another ridge and high push in behind the front on Wednesday. Another cold front may slip across the southeast parts of SA early Thursday, with the high moving over eastern SA.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW009" description="Flinders" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-08-31T00:00:00+09:30" end-time-local="2026-09-01T00:00:00+09:30" start-time-utc="2026-08-30T14:30:00Z" end-time-utc="2026-08-31T14:30:00Z">
+                <text type="forecast">Sunny. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly in the middle of the day then tending east to northeasterly in the evening. Daytime maximum temperatures between 19 and 24.</text>
+                <text type="uv_alert">Sun protection 9:30am to 3:10pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-01T00:00:00+09:30" end-time-local="2026-09-02T00:00:00+09:30" start-time-utc="2026-08-31T14:30:00Z" end-time-utc="2026-09-01T14:30:00Z">
+                <text type="forecast">Mostly sunny. Slight chance of a shower near the coast in the evening. Near zero chance of rain elsewhere. Winds northwest to northeasterly 15 to 25 km/h tending north to northwesterly 25 to 35 km/h in the morning then tending northwest to southwesterly 15 to 25 km/h in the late evening. Overnight temperatures falling to between 7 and 11 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-02T00:00:00+09:30" end-time-local="2026-09-03T00:00:00+09:30" start-time-utc="2026-09-01T14:30:00Z" end-time-utc="2026-09-02T14:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower south of Hawker, most likely in the morning. Near zero chance of rain elsewhere. Winds northwest to southwesterly 15 to 20 km/h tending south to southwesterly during the morning then tending west to southwesterly 15 to 25 km/h during the day. Overnight temperatures falling to between 8 and 13 with daytime temperatures reaching between 17 and 23.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-03T00:00:00+09:30" end-time-local="2026-09-04T00:00:00+09:30" start-time-utc="2026-09-02T14:30:00Z" end-time-utc="2026-09-03T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds westerly 15 to 25 km/h becoming light during the afternoon. Overnight temperatures falling to between 4 and 8 with daytime temperatures reaching between 18 and 21.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT067" description="Hawker" type="location" parent-aac="SA_PW009">
+            <forecast-period index="0" start-time-local="2026-08-31T09:00:00+09:30" end-time-local="2026-09-01T00:00:00+09:30" start-time-utc="2026-08-30T23:30:00Z" end-time-utc="2026-08-31T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">21</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-01T00:00:00+09:30" end-time-local="2026-09-02T00:00:00+09:30" start-time-utc="2026-08-31T14:30:00Z" end-time-utc="2026-09-01T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-02T00:00:00+09:30" end-time-local="2026-09-03T00:00:00+09:30" start-time-utc="2026-09-01T14:30:00Z" end-time-utc="2026-09-02T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-03T00:00:00+09:30" end-time-local="2026-09-04T00:00:00+09:30" start-time-utc="2026-09-02T14:30:00Z" end-time-utc="2026-09-03T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">4</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT041" description="Port Augusta" type="location" parent-aac="SA_PW009">
+            <forecast-period index="0" start-time-local="2026-08-31T09:00:00+09:30" end-time-local="2026-09-01T00:00:00+09:30" start-time-utc="2026-08-30T23:30:00Z" end-time-utc="2026-08-31T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-01T00:00:00+09:30" end-time-local="2026-09-02T00:00:00+09:30" start-time-utc="2026-08-31T14:30:00Z" end-time-utc="2026-09-01T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-02T00:00:00+09:30" end-time-local="2026-09-03T00:00:00+09:30" start-time-utc="2026-09-01T14:30:00Z" end-time-utc="2026-09-02T14:30:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Possible shower.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-03T00:00:00+09:30" end-time-local="2026-09-04T00:00:00+09:30" start-time-utc="2026-09-02T14:30:00Z" end-time-utc="2026-09-03T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">6</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT019" description="Orroroo" type="location" parent-aac="SA_PW009">
+            <forecast-period index="0" start-time-local="2026-08-31T09:00:00+09:30" end-time-local="2026-09-01T00:00:00+09:30" start-time-utc="2026-08-30T23:30:00Z" end-time-utc="2026-08-31T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-01T00:00:00+09:30" end-time-local="2026-09-02T00:00:00+09:30" start-time-utc="2026-08-31T14:30:00Z" end-time-utc="2026-09-01T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-02T00:00:00+09:30" end-time-local="2026-09-03T00:00:00+09:30" start-time-utc="2026-09-01T14:30:00Z" end-time-utc="2026-09-02T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-03T00:00:00+09:30" end-time-local="2026-09-04T00:00:00+09:30" start-time-utc="2026-09-02T14:30:00Z" end-time-utc="2026-09-03T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">4</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
