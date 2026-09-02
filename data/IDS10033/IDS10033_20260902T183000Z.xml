@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-09-02T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-09-03T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-09-02T18:30:04Z</sent-time>
+        <expiry-time>2026-09-03T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-09-03T04:00:05+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-06T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-09-03T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-03T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-09-03T04:00:05+09:30" end-time-local="2026-09-03T04:00:05+09:30" start-time-utc="2026-09-02T18:30:05Z" end-time-utc="2026-09-02T18:30:05Z">
+                <text type="synoptic_situation">A high pressure ridge will remain over northern parts of SA, as a cold front slips across the southeast early today. The ridge will move to the east early Friday as a trough moves over SA during the day, followed by another cold front early Saturday. Another high pressure system will move across the state, behind the front, and will extend a ridge across central and eastern parts of SA into Sunday. A low pressure system is then expected to develop about the WA border and may extend a trough into far west SA late on Sunday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-09-03T05:00:00+09:30" end-time-local="2026-09-04T00:00:00+09:30" start-time-utc="2026-09-02T19:30:00Z" end-time-utc="2026-09-03T14:30:00Z">
+                <text type="forecast">Isolated showers about the Agricultural Areas, more frequent about the Southern Agricultural Area during the morning and early afternoon. Patchy rain developing in the far southwest, with the chance of a thunderstorm possible from the late evening. Maximum temperatures above average in the north and west, below average elsewhere. Southeast to northeasterly winds, tending northwest to southwesterly winds about the Agricultural Areas.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-04T00:00:00+09:30" end-time-local="2026-09-05T00:00:00+09:30" start-time-utc="2026-09-03T14:30:00Z" end-time-utc="2026-09-04T14:30:00Z">
+                <text type="forecast">Chance of early morning fog on and east of the ranges. Areas of rain in the west, extending over the Agricultural Areas and the south of the pastoral districts during the day and easing to isolated showers from the west throughout the afternoon and evening. Chance of a thunderstorm in the west and about parts of the Eyre and Yorke Peninsulas. Chance of a thunderstorm during the late evening about coastal parts of the Lower South East district. Maximum temperatures above average in the north and west, near average elsewhere. Northeast to northwesterly winds freshening ahead of a west to southwesterly change in the west later.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-05T00:00:00+09:30" end-time-local="2026-09-06T00:00:00+09:30" start-time-utc="2026-09-04T14:30:00Z" end-time-utc="2026-09-05T14:30:00Z">
+                <text type="forecast">Showers about the south of the pastoral districts, with the chance of a thunderstorm possible in the far southeast of the North East Pastoral, contracting east and clearing during the morning. Further south, showers about the Southern Agricultural Area, becoming isolated during the afternoon and mostly clearing by the evening. Chance of thunderstorms about the Lower South East district until the late afternoon, thunderstorms may be severe with the risk of damaging wind gusts. Maximum temperatures below average, tending above average in the far northeast. Fresh to strong and gusty northwesterly winds about the Agricultural Areas, turning west to southwesterly during the morning and easing into the evening. Southwest to southeasterly winds extending over remaining areas.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-06T00:00:00+09:30" end-time-local="2026-09-07T00:00:00+09:30" start-time-utc="2026-09-05T14:30:00Z" end-time-utc="2026-09-06T14:30:00Z">
+                <text type="forecast">
+                    <p>Chance of early morning fog about the Flinders Ranges and Eyre Peninsula. Slight chance of isolated light showers about southern coastal districts. Patchy rain developing in the far west from the afternoon, with thunderstorms possible. Maximum temperatures below average, tending above average in the north and west. Northeast to southeasterly winds, tending northwest to southwesterly in the southeast.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: 2 to 5 mm over the south of the pastoral districts, although local falls of 5 to 15 mm are possible. 5 to 10 mm is possible in the far west, and more likely about the Agricultural Areas, with 10 to 15 mm possible in parts of the Southern Agricultural Area. Local falls of 15 to 25 mm are also possible about the Mount Lofty Ranges and Lower South East. Further isolated higher falls may be possible about the Mount Lofty Ranges.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
