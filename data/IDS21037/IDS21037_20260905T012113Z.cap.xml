@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS21037-2026-09-05T01:21:13+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-09-05T01:21:13+00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS21037-2026-09-04T19:28:38+00:00,2026-09-04T19:28:38+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Weather</event>
+        <urgency>Unknown</urgency>
+        <severity>Unknown</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-09-05T01:21:07+00:00</effective>
+        <expires>2026-09-05T09:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Severe Weather Warning for Flinders, Mid North, Mount Lofty Ranges, Murraylands, Upper South East and Lower South East forecast districts</headline>
+        <description>
+          For parts of the SOUTHEAST: DAMAGING WIND GUSTS with peak gusts in excess of 90 km/h are possible today most likely in showers and thunderstorms. 
+          
+          For MOUNT LOFTY and FLINDERS RANGES: DAMAGING WINDS GUSTS in excess of 90 km/h are possible this morning, before easing during the late afternoon. 
+          
+          Winds are forecast to ease early this evening. 
+          Locations which may be affected include Mount Gambier, Clare, Naracoorte, Keith, Bordertown and Jamestown.  
+        </description>
+        <instruction>The State Emergency Service advises that people should:
+* Move vehicles under cover or away from trees;
+* Secure or put away loose items around your property.
+* Stay indoors, away from windows, while conditions are severe.
+
+</instruction>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Mount Lofty Ranges, Flinders, Mid North, Murraylands, Upper South East and Lower South East</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW009</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW015</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW007</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW004</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW005</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
