@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-09-07T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-09-07T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-09-07T06:30:04Z</sent-time>
+        <expiry-time>2026-09-07T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-09-07T16:00:04+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-11T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-09-07T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-08T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-09-07T16:00:04+09:30" end-time-local="2026-09-07T16:00:04+09:30" start-time-utc="2026-09-07T06:30:04Z" end-time-utc="2026-09-07T06:30:04Z">
+                <text type="synoptic_situation">A high pressure system, centred southwest of WA, extends a ridge across the south of SA. The main high centre will move across waters to the south throughout the week to be centred to the east of SA from late Thursday. A trough over the interior of WA will remain stationary for most of the week and may extend into the far west of the state at times.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-08T00:00:00+09:30" end-time-local="2026-09-09T00:00:00+09:30" start-time-utc="2026-09-07T14:30:00Z" end-time-utc="2026-09-08T14:30:00Z">
+                <text type="forecast">Morning fog possible about the Eastern Eyre Peninsula and on and east of the Mount Lofty Ranges. Possible morning frost patches about the southeast. Dry apart from the chance of a light shower about southern coastal districts. Showers and isolated thunderstorms continue in the west. Thunderstorms may be severe in the far northwest with heavy rainfall possible. Maximum temperatures below average. Easterly winds, fresh and gusty about northern parts during the morning. Winds becoming southwest to southeasterly during the afternoon, freshening near the coast later, and tending east to southeasterly in the west.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-09-07T17:00:00+09:30" end-time-local="2026-09-08T00:00:00+09:30" start-time-utc="2026-09-07T07:30:00Z" end-time-utc="2026-09-07T14:30:00Z">
+                <text type="forecast">Showers and isolated thunderstorms in the far west. East to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-09T00:00:00+09:30" end-time-local="2026-09-10T00:00:00+09:30" start-time-utc="2026-09-08T14:30:00Z" end-time-utc="2026-09-09T14:30:00Z">
+                <text type="forecast">Dry apart from showers in the west and isolated thunderstorms in the far northwest. Maximum temperatures below average. East to southeasterly winds, fresh at times during the day and into the evening in northeastern parts.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-10T00:00:00+09:30" end-time-local="2026-09-11T00:00:00+09:30" start-time-utc="2026-09-09T14:30:00Z" end-time-utc="2026-09-10T14:30:00Z">
+                <text type="forecast">Patchy morning frost about the Flinders Ranges and the southeast. Dry apart from isolated showers in the far west. Maximum temperatures below average. Southeast to northeasterly winds, fresh in the north during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-09-11T00:00:00+09:30" end-time-local="2026-09-12T00:00:00+09:30" start-time-utc="2026-09-10T14:30:00Z" end-time-utc="2026-09-11T14:30:00Z">
+                <text type="forecast">
+                    <p>Morning fog possible about and east of the ranges. Dry apart from isolated showers and thunderstorms in the far west easing throughout the day. Maximum temperatures near average, tending above average for parts of the Southern Agricultural Area. Northeasterly winds, tending east to southeasterly in the northeast, freshening during the day.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Friday: Less than 2 mm across much of the state. 5 to 15 mm is likely over areas west of about Ceduna, but local heavier falls of 20 to 50 mm are possible nearer the western border with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
