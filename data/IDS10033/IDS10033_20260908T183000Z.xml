@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-09-08T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-09-09T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-09-08T18:30:26Z</sent-time>
+        <expiry-time>2026-09-09T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-09-09T04:00:27+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-12T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-09-09T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-09T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-09-09T04:00:27+09:30" end-time-local="2026-09-09T04:00:27+09:30" start-time-utc="2026-09-08T18:30:27Z" end-time-utc="2026-09-08T18:30:27Z">
+                <text type="synoptic_situation">A high pressure system centred south of WA extends a ridge across the south of SA. The main high centre will move eastwards during the week to be centred to the east of SA on Friday. A trough over the interior of WA will remain stationary for most of the week and may extend into the far west of SA at times. Another low pressure trough will approach from the west on Saturday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-09-09T05:00:00+09:30" end-time-local="2026-09-10T00:00:00+09:30" start-time-utc="2026-09-08T19:30:00Z" end-time-utc="2026-09-09T14:30:00Z">
+                <text type="forecast">Showers in the west and isolated thunderstorms in the far northwest. Dry elsewhere apart from isolated light showers about southern coastal districts during the morning. Maximum temperatures above average in the far northeast but below average elsewhere. Southeasterly winds, fresh at times.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-10T00:00:00+09:30" end-time-local="2026-09-11T00:00:00+09:30" start-time-utc="2026-09-09T14:30:00Z" end-time-utc="2026-09-10T14:30:00Z">
+                <text type="forecast">Cold at first about central and eastern parts with patchy morning frost. Dry apart from isolated showers in the far west. Maximum temperatures above average in the far north but below average elsewhere. Southeast to northeasterly winds, fresh at times near the coast and in the north.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-11T00:00:00+09:30" end-time-local="2026-09-12T00:00:00+09:30" start-time-utc="2026-09-10T14:30:00Z" end-time-utc="2026-09-11T14:30:00Z">
+                <text type="forecast">Patchy morning fog about eastern districts. Dry apart from isolated showers and thunderstorms in the far west. easing throughout the day. Maximum temperatures slightly below average about coastal districts but above average further inland. East to northeasterly winds, tending east to southeasterly in the northeast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-12T00:00:00+09:30" end-time-local="2026-09-13T00:00:00+09:30" start-time-utc="2026-09-11T14:30:00Z" end-time-utc="2026-09-12T14:30:00Z">
+                <text type="forecast">
+                    <p>Dry. Maximum temperatures above average. Northeasterly winds, tending east to southeasterly in the northeast.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: Less than 2 mm about southern coastal districts. 10 to 20 mm is likely over areas west of about Ceduna, but local heavier falls of 20 to 50 mm are possible in the west of the North West Pastoral district. Falls of 2 to 10 mm are possible over the remainder of the North West Pastoral but less then 2 mm in the far southeast of that district. Falls of 2 to 5 mm are possible in the far west of the North East Pastoral district.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
