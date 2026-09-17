@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-09-17T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-09-18T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-09-17T18:30:04Z</sent-time>
+        <expiry-time>2026-09-18T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-09-18T04:00:04+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-21T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-09-18T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-18T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-09-18T04:00:04+09:30" end-time-local="2026-09-18T04:00:04+09:30" start-time-utc="2026-09-17T18:30:04Z" end-time-utc="2026-09-17T18:30:04Z">
+                <text type="synoptic_situation">A strong high pressure system centred over Victoria will maintain a ridge across SA as it drifts slowly over NSW. A cold front will then approach from the west late Saturday and move across SA on Sunday, before another ridge pushes in behind the front. The associated high will then move eastwards across waters south from Monday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-09-18T05:00:00+09:30" end-time-local="2026-09-19T00:00:00+09:30" start-time-utc="2026-09-17T19:30:00Z" end-time-utc="2026-09-18T14:30:00Z">
+                <text type="forecast">Cold at first with patchy frost in parts of the east. Dry and mostly sunny day. Maximum temperatures above average. Northeast to northwesterly winds, tending east to southeasterly at times in the northeast.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-19T00:00:00+09:30" end-time-local="2026-09-20T00:00:00+09:30" start-time-utc="2026-09-18T14:30:00Z" end-time-utc="2026-09-19T14:30:00Z">
+                <text type="forecast">Dry and mostly sunny day. Maximum temperatures above average. Northeast to northwesterly winds ahead of a west to southwesterly change from the southwest overnight. Winds freshening in the far west during the afternoon and about coastal areas overnight.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-20T00:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T14:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <text type="forecast">Isolated showers about the Southern Agricultural Area from the afternoon. Slight chance of an isolated thunderstorm in the far northwest later. Maximum temperatures above average. North to northwesterly winds, fresh and gusty during the afternoon, ahead of a west to southwesterly change extending across the state throughout the day. Fresh and gusty winds also about coastal areas, easing from the west and tending southwest to southeasterly throughout from the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-21T00:00:00+09:30" end-time-local="2026-09-22T00:00:00+09:30" start-time-utc="2026-09-20T14:30:00Z" end-time-utc="2026-09-21T14:30:00Z">
+                <text type="forecast">
+                    <p>Chance of an isolated morning shower about the Agricultural Areas, and a slight chance of an isolated thunderstorm in the far northwest later. Maximum temperatures below average, tending above average in northern parts. South to southeasterly winds, fresh in the northeast during the afternoon.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Sunday: less than 1 to 2 mm about the Southern Agricultural Area.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
