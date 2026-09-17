@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11054</identifier>
+        <issue-time-utc>2026-09-16T23:48:11Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-09-17T09:18:11+09:30</issue-time-local>
+        <sent-time>2026-09-16T23:48:11Z</sent-time>
+        <expiry-time>2026-09-17T23:48:11Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-09-17T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-20T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-09-17T06:25:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-17T15:55:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-09-17T09:18:11+09:30" end-time-local="2026-09-17T09:18:11+09:30" start-time-utc="2026-09-16T23:48:11Z" end-time-utc="2026-09-16T23:48:11Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A strong high pressure system south of the state will maintain a ridge across SA for the next few days as it drifts eastwards, to be located over NSW from Friday. A cold front is then likely to approach from the west late Saturday and move across SA on Sunday.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW014" description="North East Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-09-17T00:00:00+09:30" end-time-local="2026-09-18T00:00:00+09:30" start-time-utc="2026-09-16T14:30:00Z" end-time-utc="2026-09-17T14:30:00Z">
+                <text type="forecast">Sunny. Winds southeasterly 25 to 40 km/h. Daytime maximum temperatures 20 to 26.</text>
+                <text type="uv_alert">Sun protection 8:50am to 3:30pm, UV Index predicted to reach 8 [Very High]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-18T00:00:00+09:30" end-time-local="2026-09-19T00:00:00+09:30" start-time-utc="2026-09-17T14:30:00Z" end-time-utc="2026-09-18T14:30:00Z">
+                <text type="forecast">Sunny. The chance of morning frost south of Yunta. Winds southeasterly 15 to 25 km/h tending northeast to southeasterly 20 to 30 km/h in the early morning. Overnight temperatures falling to between 4 and 12 with daytime temperatures reaching 25 to 31.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-19T00:00:00+09:30" end-time-local="2026-09-20T00:00:00+09:30" start-time-utc="2026-09-18T14:30:00Z" end-time-utc="2026-09-19T14:30:00Z">
+                <text type="forecast">Sunny. Winds northeast to southeasterly 20 to 30 km/h tending northwest to northeasterly 15 to 25 km/h during the day then tending northeast to southeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 7 and 15 with daytime temperatures reaching 29 to 34.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-20T00:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T14:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <text type="forecast">Sunny. Winds northwest to northeasterly 25 to 35 km/h tending west to northwesterly 25 to 40 km/h during the day then tending southeast to southwesterly 15 to 25 km/h during the evening. Overnight temperatures falling to between 12 and 17 with daytime temperatures reaching the low to mid 30s.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT021" description="Leigh Creek" type="location" parent-aac="SA_PW014">
+            <forecast-period index="0" start-time-local="2026-09-17T09:00:00+09:30" end-time-local="2026-09-18T00:00:00+09:30" start-time-utc="2026-09-16T23:30:00Z" end-time-utc="2026-09-17T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-18T00:00:00+09:30" end-time-local="2026-09-19T00:00:00+09:30" start-time-utc="2026-09-17T14:30:00Z" end-time-utc="2026-09-18T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-19T00:00:00+09:30" end-time-local="2026-09-20T00:00:00+09:30" start-time-utc="2026-09-18T14:30:00Z" end-time-utc="2026-09-19T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-20T00:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T14:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">33</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT024" description="Marree" type="location" parent-aac="SA_PW014">
+            <forecast-period index="0" start-time-local="2026-09-17T09:00:00+09:30" end-time-local="2026-09-18T00:00:00+09:30" start-time-utc="2026-09-16T23:30:00Z" end-time-utc="2026-09-17T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-18T00:00:00+09:30" end-time-local="2026-09-19T00:00:00+09:30" start-time-utc="2026-09-17T14:30:00Z" end-time-utc="2026-09-18T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-19T00:00:00+09:30" end-time-local="2026-09-20T00:00:00+09:30" start-time-utc="2026-09-18T14:30:00Z" end-time-utc="2026-09-19T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">33</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-20T00:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T14:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT027" description="Moomba" type="location" parent-aac="SA_PW014">
+            <forecast-period index="0" start-time-local="2026-09-17T09:00:00+09:30" end-time-local="2026-09-18T00:00:00+09:30" start-time-utc="2026-09-16T23:30:00Z" end-time-utc="2026-09-17T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-18T00:00:00+09:30" end-time-local="2026-09-19T00:00:00+09:30" start-time-utc="2026-09-17T14:30:00Z" end-time-utc="2026-09-18T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-19T00:00:00+09:30" end-time-local="2026-09-20T00:00:00+09:30" start-time-utc="2026-09-18T14:30:00Z" end-time-utc="2026-09-19T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">32</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-20T00:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T14:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">35</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT038" description="Oodnadatta" type="location" parent-aac="SA_PW014">
+            <forecast-period index="0" start-time-local="2026-09-17T09:00:00+09:30" end-time-local="2026-09-18T00:00:00+09:30" start-time-utc="2026-09-16T23:30:00Z" end-time-utc="2026-09-17T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-18T00:00:00+09:30" end-time-local="2026-09-19T00:00:00+09:30" start-time-utc="2026-09-17T14:30:00Z" end-time-utc="2026-09-18T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-19T00:00:00+09:30" end-time-local="2026-09-20T00:00:00+09:30" start-time-utc="2026-09-18T14:30:00Z" end-time-utc="2026-09-19T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">34</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-20T00:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T14:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT058" description="Yunta" type="location" parent-aac="SA_PW014">
+            <forecast-period index="0" start-time-local="2026-09-17T09:00:00+09:30" end-time-local="2026-09-18T00:00:00+09:30" start-time-utc="2026-09-16T23:30:00Z" end-time-utc="2026-09-17T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-18T00:00:00+09:30" end-time-local="2026-09-19T00:00:00+09:30" start-time-utc="2026-09-17T14:30:00Z" end-time-utc="2026-09-18T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">3</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-19T00:00:00+09:30" end-time-local="2026-09-20T00:00:00+09:30" start-time-utc="2026-09-18T14:30:00Z" end-time-utc="2026-09-19T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">6</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-20T00:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T14:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <element type="forecast_icon_code">9</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">33</element>
+                <text type="precis">Becoming windy. Sunny.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
