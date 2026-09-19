@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-09-19T18:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-09-20T04:00:00+09:30</issue-time-local>
+        <sent-time>2026-09-19T18:30:02Z</sent-time>
+        <expiry-time>2026-09-20T09:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-09-20T04:00:02+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-09-23T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-09-20T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-20T16:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-09-20T04:00:02+09:30" end-time-local="2026-09-20T04:00:02+09:30" start-time-utc="2026-09-19T18:30:02Z" end-time-utc="2026-09-19T18:30:02Z">
+                <text type="synoptic_situation">A cold front will cross the west of the state this morning and will track across the east of the state during the day. Another high pressure system will move eastwards across waters to the south during Monday then over Victoria and the Tasman Sea on Tuesday. This high will extend a ridge westwards over SA ahead of a low pressure trough that is expected to move over the far west of SA during Wednesday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-09-20T05:00:00+09:30" end-time-local="2026-09-21T00:00:00+09:30" start-time-utc="2026-09-19T19:30:00Z" end-time-utc="2026-09-20T14:30:00Z">
+                <text type="forecast">Isolated light showers about the southern agricultural area during the afternoon and evening. Chance of an isolated thunderstorm in the far northwest later. Maximum temperatures above average. North to northwesterly winds becoming fresh and gusty ahead of a southwesterly change extending across the west and south, tending southwest to southeasterly during the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-21T00:00:00+09:30" end-time-local="2026-09-22T00:00:00+09:30" start-time-utc="2026-09-20T14:30:00Z" end-time-utc="2026-09-21T14:30:00Z">
+                <text type="forecast">Chance of an isolated light morning shower about the southern agricultural areas and a possible isolated thunderstorm in the far northwest later. Maximum temperatures below average in the south but above average in the north. South to southeasterly winds, fresh in the northeast during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-22T00:00:00+09:30" end-time-local="2026-09-23T00:00:00+09:30" start-time-utc="2026-09-21T14:30:00Z" end-time-utc="2026-09-22T14:30:00Z">
+                <text type="forecast">Cold at first with patchy frost about the agricultural area. Dry and mostly sunny day. Maximum temperatures above average in the north and west but slightly below average elsewhere. Southeast to northeasterly winds. Afternoon sea breezes near the coast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-09-23T00:00:00+09:30" end-time-local="2026-09-24T00:00:00+09:30" start-time-utc="2026-09-22T14:30:00Z" end-time-utc="2026-09-23T14:30:00Z">
+                <text type="forecast">
+                    <p>Cold at first about eastern districts with with patchy frost. Isolated showers and possible thunderstorms developing in the far west and in the far northeast corner. Maximum temperatures above average. Southeast to northeasterly winds.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Wednesday: less than 2 mm about the southern agricultural area and in the far west. Possible local falls of 2 to 5 mm with thunderstorms in the far west.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
