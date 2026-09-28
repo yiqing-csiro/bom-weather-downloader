@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-09-28T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-09-28T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-09-28T06:30:01Z</sent-time>
+        <expiry-time>2026-09-28T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-09-28T16:00:02+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2026-10-02T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-09-28T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-09-29T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-09-28T16:00:02+09:30" end-time-local="2026-09-28T16:00:02+09:30" start-time-utc="2026-09-28T06:30:02Z" end-time-utc="2026-09-28T06:30:02Z">
+                <text type="synoptic_situation">A high pressure system centred west of Tasmania extends a ridge northeastwards over the southeast of the continent. This high and ridge will move eastwards over the Tasman Sea overnight. A series of troughs will then move across from WA during the middle and later part of the week and a couple of cold fronts will move across waters to the south. A high pressure system will become established south of the Bight during Friday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-09-29T00:00:00+09:30" end-time-local="2026-09-30T00:00:00+09:30" start-time-utc="2026-09-28T14:30:00Z" end-time-utc="2026-09-29T14:30:00Z">
+                <text type="forecast">Isolated showers and thunderstorms in the far west, extending to Eyre Peninsula and near southern coasts in the late evening. Maximum temperatures well above average. Northeast to northwesterly winds becoming fresh and gusty ahead of a southwest to southerly change extending across the west and about southern coasts.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-09-28T17:00:00+09:30" end-time-local="2026-09-29T00:00:00+09:30" start-time-utc="2026-09-28T07:30:00Z" end-time-utc="2026-09-28T14:30:00Z">
+                <text type="forecast">Dry apart from isolated showers and thunderstorms developing in the far southwest. Northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-09-30T00:00:00+09:30" end-time-local="2026-10-01T00:00:00+09:30" start-time-utc="2026-09-29T14:30:00Z" end-time-utc="2026-09-30T14:30:00Z">
+                <text type="forecast">Isolated showers and thunderstorms developing across the agricultural areas, North West Pastoral and West Coast districts, becoming scattered in the far west. Maximum temperatures above average in the south and west, grading to well above above average in the north. Mostly light winds in the south, tending northeast to northwesterly in the north.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-01T00:00:00+09:30" end-time-local="2026-10-02T00:00:00+09:30" start-time-utc="2026-09-30T14:30:00Z" end-time-utc="2026-10-01T14:30:00Z">
+                <text type="forecast">Scattered showers and isolated thunderstorms possible across most districts, but remaining dry in the far northeast. Maximum temperatures below average in the west and south but above average in the northeast. Fresh and gusty north to northwesterly winds in the northeast ahead of a southwest to southeasterly change extending across all but the far northeast corner.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-02T00:00:00+09:30" end-time-local="2026-10-03T00:00:00+09:30" start-time-utc="2026-10-01T14:30:00Z" end-time-utc="2026-10-02T14:30:00Z">
+                <text type="forecast">
+                    <p>Isolated showers and thunderstorms over the pastoral districts. Isolated morning showers about the southern agricultural area, most likely about southern coastal districts. Maximum temperatures below average. South to southeasterly winds, fresh near the coast during the afternoon.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Friday: dry in the far northeast. Generally 2 to 10 mm elsewhere but local falls of 10 to 15 mm are likely. Isolated higher totals of 15 to 25 mm possible about parts of the far west, southern coastal districts and Eyre Peninsula, particularly with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
