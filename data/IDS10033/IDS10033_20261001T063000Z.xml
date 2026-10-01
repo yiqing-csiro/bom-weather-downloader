@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-10-01T06:30:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-10-01T16:00:00+09:30</issue-time-local>
+        <sent-time>2026-10-01T06:30:04Z</sent-time>
+        <expiry-time>2026-10-01T21:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-10-01T16:00:05+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-10-05T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-01T18:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-10-02T04:00:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-10-01T16:00:05+09:30" end-time-local="2026-10-01T16:00:05+09:30" start-time-utc="2026-10-01T06:30:05Z" end-time-utc="2026-10-01T06:30:05Z">
+                <text type="synoptic_situation">A series of troughs continue moving east, with a low pressure system developing near the Victorian border on Friday. In the west, a high pressure system will move into the Bight and slowly move east to be centred over Victoria on Monday, while extending a ridge into parts of the state. Another trough near the WA border is expected to develop from Saturday and extend into the state before weakening by Monday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-02T00:00:00+09:30" end-time-local="2026-10-03T00:00:00+09:30" start-time-utc="2026-10-01T14:30:00Z" end-time-utc="2026-10-02T14:30:00Z">
+                <text type="forecast">Isolated showers about the agricultural areas contracting to the southeast during the evening and isolated morning showers about the pastoral districts. Thunderstorms are possible about the eastern districts from the morning and parts of the far northwest during the afternoon. Maximum temperatures below average. Southeast to southwesterly winds, fresh near the coast and in the north during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-10-01T17:00:00+09:30" end-time-local="2026-10-02T00:00:00+09:30" start-time-utc="2026-10-01T07:30:00Z" end-time-utc="2026-10-01T14:30:00Z">
+                <text type="forecast">Showers, tending to rain about parts of the east, and the chance of isolated thunderstorms across most districts. Severe thunderstorms with heavy rainfall are possible about western and central districts. Southwest to southeasterly winds, tending northwest to westerly, fresh and gusty at times, in the far northeast until midnight.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-03T00:00:00+09:30" end-time-local="2026-10-04T00:00:00+09:30" start-time-utc="2026-10-02T14:30:00Z" end-time-utc="2026-10-03T14:30:00Z">
+                <text type="forecast">Possible morning fog about the west coast and Eyre Peninsula. Isolated showers about the southeast, clearing during the evening. Isolated showers and thunderstorms developing over the far west. Maximum temperatures below average. East to southeasterly winds, tending southwest to southerly, fresh near the coast, in the southeast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-04T00:00:00+09:30" end-time-local="2026-10-05T00:00:00+10:30" start-time-utc="2026-10-03T14:30:00Z" end-time-utc="2026-10-04T13:30:00Z">
+                <text type="forecast">Isolated showers and thunderstorms over the far west, possibly extending into central parts during the day. Maximum temperatures below average. Southeast to northeasterly winds, tending south to southwesterly about the eastern districts at times during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-05T00:00:00+10:30" end-time-local="2026-10-06T00:00:00+10:30" start-time-utc="2026-10-04T13:30:00Z" end-time-utc="2026-10-05T13:30:00Z">
+                <text type="forecast">
+                    <p>Possible morning fog in the far west. Slight chance of isolated showers or thunderstorms over the northern parts of the pastoral districts. Maximum temperatures below average. Light winds, tending northwest to southwesterly from the afternoon.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Monday: 2 to 10 mm across the state, increasing 10 to 20 mm in the northwest and across the southern agricultural area, with local falls possibly reaching up to 20 to 40 mm ? particularly with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
