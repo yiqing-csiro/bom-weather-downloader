@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10036</identifier>
+        <issue-time-utc>2026-10-02T12:00:00Z</issue-time-utc>
+        <issue-time-local tz="CST">2026-10-02T21:30:00+09:30</issue-time-local>
+        <sent-time>2026-10-02T12:01:29Z</sent-time>
+        <expiry-time>2026-10-03T12:00:00Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2026-10-02T17:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-10-06T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-02T18:10:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2026-10-03T03:40:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSM</service>
+        <sub-service>FLW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-10-02T21:31:29+09:30" end-time-local="2026-10-02T21:31:29+09:30" start-time-utc="2026-10-02T12:01:29Z" end-time-utc="2026-10-02T12:01:29Z">
+                <text type="synoptic_situation">A trough in the southeast with a low pressure system developing near the Victorian border will also move further east. In the west, a high pressure system will move into the Bight and slowly move east to be centred over Victoria on Monday, while extending a ridge into parts of the state. Another trough near the WA border is expected to develop from Saturday and extend into the state before weakening by Monday.</text>
+                <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_MW011" description="Adelaide Metropolitan Waters" type="coast" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-10-02T21:00:00+09:30" end-time-local="2026-10-03T00:00:00+09:30" start-time-utc="2026-10-02T11:30:00Z" end-time-utc="2026-10-02T14:30:00Z">
+                <text type="forecast_winds">Southerly 10 to 15 knots, reaching up to 20 knots north of Grange.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres north of Grange.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-03T00:00:00+09:30" end-time-local="2026-10-04T00:00:00+09:30" start-time-utc="2026-10-02T14:30:00Z" end-time-utc="2026-10-03T14:30:00Z">
+                <text type="forecast_winds">Southerly 15 to 20 knots decreasing to about 10 knots in the late evening.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres north of Brighton.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-04T00:00:00+09:30" end-time-local="2026-10-05T00:00:00+10:30" start-time-utc="2026-10-03T14:30:00Z" end-time-utc="2026-10-04T13:30:00Z">
+                <text type="forecast_winds">Southeasterly below 10 knots becoming south to southwesterly in the middle of the day then becoming southeasterly in the evening.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-05T00:00:00+10:30" end-time-local="2026-10-06T00:00:00+10:30" start-time-utc="2026-10-04T13:30:00Z" end-time-utc="2026-10-05T13:30:00Z">
+                <text type="forecast_winds">Variable below 10 knots.</text>
+                <text type="forecast_seas">Below 0.5 metres.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Cloud clearing.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-06T00:00:00+10:30" end-time-local="2026-10-07T00:00:00+10:30" start-time-utc="2026-10-05T13:30:00Z" end-time-utc="2026-10-06T13:30:00Z">
+                <text type="forecast_winds">Westerly 10 to 15 knots shifting south to southeasterly during the afternoon.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">West to southwesterly below 0.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
