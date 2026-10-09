@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-10-09T05:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-10-09T16:00:00+10:30</issue-time-local>
+        <sent-time>2026-10-09T05:30:04Z</sent-time>
+        <expiry-time>2026-10-09T20:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-10-09T16:00:05+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-10-13T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-09T17:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-10-10T04:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-10-09T16:00:05+10:30" end-time-local="2026-10-09T16:00:05+10:30" start-time-utc="2026-10-09T05:30:05Z" end-time-utc="2026-10-09T05:30:05Z">
+                <text type="synoptic_situation">A trough and cold front clear to the east of the state state overnight, as a high pressure system briefly establishes in the north on Saturday. Another series of troughs and cold fronts are expected to enter western SA early on Sunday, crossing the state and then clearing in the east by the end of Monday. A ridge of high pressure will then push into western SA on Monday before the associated high moves into waters south on Tuesday. A trough over the WA/NT border will also extend into SA at times from Monday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-10T00:00:00+10:30" end-time-local="2026-10-11T00:00:00+10:30" start-time-utc="2026-10-09T13:30:00Z" end-time-utc="2026-10-10T13:30:00Z">
+                <text type="forecast">Isolated light showers about the southern agricultural areas, mostly clearing by the afternoon. Isolated thunderstorms possible across the far northeast. Maximum temperatures below average, tending near average in the west. Light and variable winds in the north, tending northwest to southwesterly winds across the south.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-10-09T17:00:00+10:30" end-time-local="2026-10-10T00:00:00+10:30" start-time-utc="2026-10-09T06:30:00Z" end-time-utc="2026-10-09T13:30:00Z">
+                <text type="forecast">Showers and thunderstorms continuing about central and eastern districts, clearing overnight. Thunderstorms may be severe about central districts bringing damaging wind gusts and a chance of large hail and heavy rainfall. North to northwesterly winds in the east, ahead of a fresh and gusty west to southwesterly change extending across the state overnight.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-11T00:00:00+10:30" end-time-local="2026-10-12T00:00:00+10:30" start-time-utc="2026-10-10T13:30:00Z" end-time-utc="2026-10-11T13:30:00Z">
+                <text type="forecast">Isolated showers and thunderstorms developing across the north and west, becoming scattered and extending into central and eastern districts during the late afternoon and evening. Severe thunderstorms are possible, bringing damaging wind gusts about parts of the pastoral districts extending into the Eyre Peninsula. Maximum temperatures above average. Northeast to northwesterly winds, fresh at times in the north, as a south to southwesterly change moves into the far west during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-12T00:00:00+10:30" end-time-local="2026-10-13T00:00:00+10:30" start-time-utc="2026-10-11T13:30:00Z" end-time-utc="2026-10-12T13:30:00Z">
+                <text type="forecast">Scattered showers and thunderstorms across central and eastern districts during the morning and afternoon, tending isolated in the west. Thunderstorms contract to the north in the late afternoon and possibly tend severe with a damaging wind gust risk in the northeast. Maximum temperatures below average in the east, grading to well below average in the west. North to northwesterly winds in the far north, ahead of moderate south to southwesterly change extending throughout and freshening near the coast.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-13T00:00:00+10:30" end-time-local="2026-10-14T00:00:00+10:30" start-time-utc="2026-10-12T13:30:00Z" end-time-utc="2026-10-13T13:30:00Z">
+                <text type="forecast">
+                    <p>Isolated light showers possible about the southern agricultural area and isolated to scattered showers and thunderstorms about the north, more likely in the northwest. Maximum temperatures below to well below average. South to southeasterly winds, fresh at times in the northeast and tending southwest to southerly about the southern agricultural area.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Tuesday: Broadly 2 to 10 mm across the pastoral districts, with isolated falls reaching 10-20 mm. 5-15 mm about the agricultural areas, with isolated higher falls of 15-25 mm possible. Localised falls of up to 40 mm are possible with severe thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
