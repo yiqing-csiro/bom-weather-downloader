@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11047</identifier>
+        <issue-time-utc>2026-10-09T10:48:03Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-10-09T21:18:03+10:30</issue-time-local>
+        <sent-time>2026-10-09T10:48:03Z</sent-time>
+        <expiry-time>2026-10-10T10:48:03Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-10-09T17:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-10-13T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-09T17:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-10-10T04:10:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-10-09T21:18:04+10:30" end-time-local="2026-10-09T21:18:04+10:30" start-time-utc="2026-10-09T10:48:04Z" end-time-utc="2026-10-09T10:48:04Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A trough and cold front clear to the east of the state state overnight, as a high pressure system briefly establishes in the north on Saturday. Another series of troughs and cold fronts are expected to enter western SA early on Sunday, crossing the state and then clearing in the east by the end of Monday. A ridge of high pressure will then push into western SA on Monday before the associated high moves into waters south on Tuesday. A trough over the WA/NT border will also extend into SA at times from Monday.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW007" description="Murraylands" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-10-09T21:00:00+10:30" end-time-local="2026-10-10T00:00:00+10:30" start-time-utc="2026-10-09T10:30:00Z" end-time-utc="2026-10-09T13:30:00Z">
+                <text type="forecast">Mostly clear. Winds westerly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-10T00:00:00+10:30" end-time-local="2026-10-11T00:00:00+10:30" start-time-utc="2026-10-09T13:30:00Z" end-time-utc="2026-10-10T13:30:00Z">
+                <text type="forecast">Partly cloudy. Slight chance of a shower in the west, near zero chance elsewhere. Winds westerly 15 to 20 km/h becoming light in the early morning then becoming westerly 20 to 30 km/h in the morning. Overnight temperatures falling to around 9 with daytime temperatures reaching the low 20s.</text>
+                <text type="fire_danger">No Rating</text>
+                <text type="uv_alert">Sun protection 9:40am to 4:20pm, UV Index predicted to reach 8 [Very High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-11T00:00:00+10:30" end-time-local="2026-10-12T00:00:00+10:30" start-time-utc="2026-10-10T13:30:00Z" end-time-utc="2026-10-11T13:30:00Z">
+                <text type="forecast">Sunny morning. The chance of fog near the eastern border in the early morning. High chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northwest to northeasterly 25 to 35 km/h in the morning then becoming light in the evening. Overnight temperatures falling to around 8 with daytime temperatures reaching around 30.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-12T00:00:00+10:30" end-time-local="2026-10-13T00:00:00+10:30" start-time-utc="2026-10-11T13:30:00Z" end-time-utc="2026-10-12T13:30:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Light winds becoming southwesterly 20 to 30 km/h during the morning then becoming light during the evening. Overnight temperatures falling to around 12 with daytime temperatures reaching around 20.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-13T00:00:00+10:30" end-time-local="2026-10-14T00:00:00+10:30" start-time-utc="2026-10-12T13:30:00Z" end-time-utc="2026-10-13T13:30:00Z">
+                <text type="forecast">Cloudy. Slight chance of a shower in the south in the morning and afternoon. Near zero chance of rain elsewhere. Light winds becoming southwesterly 20 to 30 km/h during the morning then tending southerly 15 to 25 km/h during the evening. Overnight temperatures falling to around 6 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT033" description="Murray Bridge" type="location" parent-aac="SA_PW007">
+            <forecast-period index="1" start-time-local="2026-10-10T00:00:00+10:30" end-time-local="2026-10-11T00:00:00+10:30" start-time-utc="2026-10-09T13:30:00Z" end-time-utc="2026-10-10T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <element type="air_temperature_minimum" units="Celsius">10</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-11T00:00:00+10:30" end-time-local="2026-10-12T00:00:00+10:30" start-time-utc="2026-10-10T13:30:00Z" end-time-utc="2026-10-11T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">30</element>
+                <text type="precis">Shower or two developing.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-12T00:00:00+10:30" end-time-local="2026-10-13T00:00:00+10:30" start-time-utc="2026-10-11T13:30:00Z" end-time-utc="2026-10-12T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-13T00:00:00+10:30" end-time-local="2026-10-14T00:00:00+10:30" start-time-utc="2026-10-12T13:30:00Z" end-time-utc="2026-10-13T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT068" description="Karoonda" type="location" parent-aac="SA_PW007">
+            <forecast-period index="1" start-time-local="2026-10-10T00:00:00+10:30" end-time-local="2026-10-11T00:00:00+10:30" start-time-utc="2026-10-09T13:30:00Z" end-time-utc="2026-10-10T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-11T00:00:00+10:30" end-time-local="2026-10-12T00:00:00+10:30" start-time-utc="2026-10-10T13:30:00Z" end-time-utc="2026-10-11T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">30</element>
+                <text type="precis">Showers developing.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-12T00:00:00+10:30" end-time-local="2026-10-13T00:00:00+10:30" start-time-utc="2026-10-11T13:30:00Z" end-time-utc="2026-10-12T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-13T00:00:00+10:30" end-time-local="2026-10-14T00:00:00+10:30" start-time-utc="2026-10-12T13:30:00Z" end-time-utc="2026-10-13T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">5</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT020" description="Lameroo" type="location" parent-aac="SA_PW007">
+            <forecast-period index="1" start-time-local="2026-10-10T00:00:00+10:30" end-time-local="2026-10-11T00:00:00+10:30" start-time-utc="2026-10-09T13:30:00Z" end-time-utc="2026-10-10T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-11T00:00:00+10:30" end-time-local="2026-10-12T00:00:00+10:30" start-time-utc="2026-10-10T13:30:00Z" end-time-utc="2026-10-11T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Showers developing.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-12T00:00:00+10:30" end-time-local="2026-10-13T00:00:00+10:30" start-time-utc="2026-10-11T13:30:00Z" end-time-utc="2026-10-12T13:30:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Shower or two.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-13T00:00:00+10:30" end-time-local="2026-10-14T00:00:00+10:30" start-time-utc="2026-10-12T13:30:00Z" end-time-utc="2026-10-13T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">5</element>
+                <element type="air_temperature_maximum" units="Celsius">17</element>
+                <text type="precis">Cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
