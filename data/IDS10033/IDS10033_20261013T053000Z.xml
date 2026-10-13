@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-10-13T05:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-10-13T16:00:00+10:30</issue-time-local>
+        <sent-time>2026-10-13T05:30:03Z</sent-time>
+        <expiry-time>2026-10-13T20:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-10-13T16:00:04+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-10-17T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-13T17:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-10-14T04:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-10-13T16:00:04+10:30" end-time-local="2026-10-13T16:00:04+10:30" start-time-utc="2026-10-13T05:30:04Z" end-time-utc="2026-10-13T05:30:04Z">
+                <text type="synoptic_situation">A trough of low pressure lies north of the South Australian border over the Northern Territory. A high pressure system moves across waters to the south of the state reaching the Tasman Sea later on Thursday. Another trough of low pressure moves into the far west on Friday before weakening over the weekend.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-14T00:00:00+10:30" end-time-local="2026-10-15T00:00:00+10:30" start-time-utc="2026-10-13T13:30:00Z" end-time-utc="2026-10-14T13:30:00Z">
+                <text type="forecast">Showers and isolated thunderstorms about the pastoral districts, easing during the evening. Otherwise dry apart from the light morning showers about southern coasts. Maximum temperatures below to well below average. East to southeasterly winds, fresh at times about the west coast and in the northeast.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-10-13T17:00:00+10:30" end-time-local="2026-10-14T00:00:00+10:30" start-time-utc="2026-10-13T06:30:00Z" end-time-utc="2026-10-13T13:30:00Z">
+                <text type="forecast">Showers and isolated thunderstorms mainly about the north of the pastoral districts. Southwest to southeasterly winds, fresh at times in the northeast and about the coast.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-15T00:00:00+10:30" end-time-local="2026-10-16T00:00:00+10:30" start-time-utc="2026-10-14T13:30:00Z" end-time-utc="2026-10-15T13:30:00Z">
+                <text type="forecast">Dry at first. Isolated showers and possible thunderstorms developing in the far west during the afternoon and evening. Maximum temperatures near average about western coasts, grading to below average in the northeast. Southeast to northeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-16T00:00:00+10:30" end-time-local="2026-10-17T00:00:00+10:30" start-time-utc="2026-10-15T13:30:00Z" end-time-utc="2026-10-16T13:30:00Z">
+                <text type="forecast">Showers and thunderstorms in the west, contracting to the far north during the afternoon and evening. Maximum temperatures near to above average about coastal districts, grading to below average about the pastoral districts. East to northeasterly winds, with local afternoon sea breezes</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-10-17T00:00:00+10:30" end-time-local="2026-10-18T00:00:00+10:30" start-time-utc="2026-10-16T13:30:00Z" end-time-utc="2026-10-17T13:30:00Z">
+                <text type="forecast">
+                    <p>Showers and possible thunderstorms developing in the west. Possible showers near the eastern border. Maximum temperatures near to above average about the south and west, grading to below average in the northeast. East to northeasterly winds, with local afternoon sea breezes.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Saturday: Broadly 5 to 10 mm across the pastoral districts, increasing 10 to 20 mm in the northwest with isolated falls of 20 to 40 mm. Less than 2 mm across the southeast.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
