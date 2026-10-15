@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amoc version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/amoc.xsd">
+    <source>
+        <sender>Australian Government Bureau of Meteorology</sender>
+        <region>South Australia</region>
+        <office>SARO</office>
+        <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+        <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDS21033</identifier>
+    <issue-time-utc>2026-10-15T17:26:26Z</issue-time-utc>
+    <issue-time-local tz="CDT">2026-10-16T03:56:26+10:30</issue-time-local>
+    <sent-time>2026-10-15T17:26:26Z</sent-time>
+    <expiry-time>2026-10-15T22:26:22Z</expiry-time>
+    <validity-bgn-time-local tz="CDT">2026-10-16T03:56:22+10:30</validity-bgn-time-local>
+    <validity-end-time-local tz="CDT">2026-10-16T08:56:21+10:30</validity-end-time-local>
+    <status>O</status>
+    <service>WSW</service>
+    <sub-service>WST</sub-service>
+    <product-type>W</product-type>
+    <phase>CAN</phase>
+    <hazard index="1" parent-aac="SA_EV001" phase="CAN" type="STW" severity="CAN" urgency="UNK" certainty="UNK" start-time-utc="2026-10-15T17:26:22Z" end-time-utc="2026-10-15T22:26:22Z">
+        <area-list>
+            <area aac="SA_PW013" phase="CAN" description="North West Pastoral" type="public-district"/>
+        </area-list>
+        <priority>W</priority>
+        <headline>Cancellation of Severe Thunderstorm Warning for North West Pastoral forecast district</headline>
+    </hazard>
+</amoc>
