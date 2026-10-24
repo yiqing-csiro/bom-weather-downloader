@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-10-24T17:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-10-25T04:00:00+10:30</issue-time-local>
+        <sent-time>2026-10-24T17:30:38Z</sent-time>
+        <expiry-time>2026-10-25T08:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-10-25T04:00:38+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-10-28T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-25T05:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-10-25T16:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-10-25T04:00:38+10:30" end-time-local="2026-10-25T04:00:38+10:30" start-time-utc="2026-10-24T17:30:38Z" end-time-utc="2026-10-24T17:30:38Z">
+                <text type="synoptic_situation">A trough and cold front continue moving across the far northeast on Sunday. A ridge of high pressure will move into the west late Sunday and persist over much of southern SA through to mid-next week, as the associated high slowly drifts east across waters to the south. A trough and low pressure system may then develop near the WA border from late Wednesday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-10-25T05:00:00+10:30" end-time-local="2026-10-26T00:00:00+10:30" start-time-utc="2026-10-24T18:30:00Z" end-time-utc="2026-10-25T13:30:00Z">
+                <text type="forecast">Showers and possible thunderstorms mainly across southern districts, tending to rain areas and contracting northeastwards during the day. Showers and thunderstorms possible in the far northwest, with showers also redeveloping about the agricultural areas later. Severe thunderstorms with damaging wind gusts may be possible about the far northeast in the afternoon. Maximum temperatures below average, grading to well below average in the northwest. Fresh and gusty south to southwesterly winds, tending north to northwesterly in the northeast during the morning. Winds easing later and tending south to southeasterly in the west.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-26T00:00:00+10:30" end-time-local="2026-10-27T00:00:00+10:30" start-time-utc="2026-10-25T13:30:00Z" end-time-utc="2026-10-26T13:30:00Z">
+                <text type="forecast">Isolated showers about the agricultural areas and western coasts. Isolated showers and possible thunderstorms about the north. Maximum temperatures below average. Southwest to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-27T00:00:00+10:30" end-time-local="2026-10-28T00:00:00+10:30" start-time-utc="2026-10-26T13:30:00Z" end-time-utc="2026-10-27T13:30:00Z">
+                <text type="forecast">Isolated showers possible about the agricultural areas. Showers and possible thunderstorms about the north and west, thunderstorms possibly severe in the northwest with a damaging wind gust risk. Maximum temperatures below average. Southwest to southeasterly winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-28T00:00:00+10:30" end-time-local="2026-10-29T00:00:00+10:30" start-time-utc="2026-10-27T13:30:00Z" end-time-utc="2026-10-28T13:30:00Z">
+                <text type="forecast">
+                    <p>Early morning fog possible on and east of the Mount Lofty Ranges. Possible isolated light showers about the southeast. Showers and possible thunderstorms continuing about the north and west. Maximum temperatures near to below average. Southwest to southeasterly winds, shifting southeast to easterly during the day and east to northeasterly in the west later.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Wednesday: 2 to 10 mm broadly across SA. Possible falls of 10 to 20 mm about parts of the agricultural areas, western coasts and the north, with localised falls of 20 to 30 mm also possible. Heavier falls between 20 to 50 mm are possible with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
