@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>AusBoM-IDS20242-2026-10-25T05:48:25+00:00</identifier>
+    <sender>CAP.Message@bom.gov.au</sender>
+    <sent>2026-10-25T05:48:25+00:00</sent>
+    <status>Actual</status>
+    <msgType>Cancel</msgType>
+    <scope>Public</scope>
+    <code>urn:oasis:names:tc:emergency:cap:1.2:profile:CAP-AU:1.0</code>
+    <references>CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-10-23T17:00:03+00:00,2026-10-23T17:00:03+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-10-23T23:48:39+00:00,2026-10-23T23:48:39+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-10-24T05:57:26+00:00,2026-10-24T05:57:26+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-10-24T12:06:50+00:00,2026-10-24T12:06:50+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-10-24T18:29:26+00:00,2026-10-24T18:29:26+00:00 CAP.Message@bom.gov.au,AusBoM-IDS20242-2026-10-24T23:58:02+00:00,2026-10-24T23:58:02+00:00</references>
+    <info>
+        <language>en-AU</language>
+        <category>Met</category>
+        <event>Sheep Grazier Warning</event>
+        <urgency>Unknown</urgency>
+        <severity>Minor</severity>
+        <certainty>Unknown</certainty>
+        <eventCode>
+            <valueName>https://govshare.gov.au/xmlui/handle/10772/6495</valueName>
+            <value>sheepWarning</value>
+        </eventCode>
+        <effective>2026-10-25T05:46:00+00:00</effective>
+        <expires>2026-10-26T13:30:00+00:00</expires>
+        <senderName>Australian Government Bureau of Meteorology</senderName>
+        <headline>Cancellation of Warning to Sheep Graziers for North West Pastoral, West Coast, Eastern Eyre Peninsula, Lower Eyre Peninsula, Mid North, Yorke Peninsula, Mount Lofty Ranges, Kangaroo Island, Riverland, Murraylands, Upper South East and Lower South East forecast districts</headline>
+        <description>The Warning to Sheep Graziers for the Mount Lofty Ranges, West Coast, Lower Eyre Peninsula, Eastern Eyre Peninsula, Yorke Peninsula, Kangaroo Island, Mid North, Riverland, Murraylands, Upper South East, Lower South East and North West Pastoral forecast districts has been cancelled.</description>
+        <web>http://www.bom.gov.au/australia/warnings</web>
+        <contact>http://www.bom.gov.au/inside/contacts.shtml</contact>
+        <area>
+            <areaDesc>South Australia: Mount Lofty Ranges, West Coast, Lower Eyre Peninsula, Eastern Eyre Peninsula, Yorke Peninsula, Kangaroo Island, Mid North, Riverland, Murraylands, Upper South East, Lower South East and North West Pastoral forecast districts</areaDesc>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW013</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW010</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW011</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW012</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW008</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW002</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW015</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW003</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW006</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW007</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW004</value>
+            </geocode>
+            <geocode>
+                <valueName>AMOC-AreaCode</valueName>
+                <value>SA_PW005</value>
+            </geocode>
+        </area>
+    </info>
+</alert>
