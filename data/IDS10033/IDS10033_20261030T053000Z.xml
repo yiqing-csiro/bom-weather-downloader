@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-10-30T05:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-10-30T16:00:00+10:30</issue-time-local>
+        <sent-time>2026-10-30T05:30:02Z</sent-time>
+        <expiry-time>2026-10-30T20:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-10-30T16:00:02+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-11-03T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-30T17:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-10-31T04:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-10-30T16:00:02+10:30" end-time-local="2026-10-30T16:00:02+10:30" start-time-utc="2026-10-30T05:30:02Z" end-time-utc="2026-10-30T05:30:02Z">
+                <text type="synoptic_situation">A ridge of high pressure lies over eastern parts of SA. A low pressure system south of the Bight extends a trough over the state and will continue to move east clearing the state Saturday morning, followed by a new high pressure system. Another low pressure system is expected to enter from the west on Sunday, moving over central and eastern districts on Monday, followed by another ridge of high pressure which will persist until Tuesday.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-31T00:00:00+10:30" end-time-local="2026-11-01T00:00:00+10:30" start-time-utc="2026-10-30T13:30:00Z" end-time-utc="2026-10-31T13:30:00Z">
+                <text type="forecast">Possible morning fog patches about the West Coast district. Possible early morning thunderstorms about central and eastern districts contracting to the southeast during the morning and clearing to east by late morning or early afternoon. Showers about the agricultural areas, contracting to the southeast during the day. Maximum temperatures near to above average. Northwest to westerly winds tending southwesterly during the day, fresh at times near southern coasts and near the eastern border, easing late. Winds turning northeasterly in the west.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-10-30T17:00:00+10:30" end-time-local="2026-10-31T00:00:00+10:30" start-time-utc="2026-10-30T06:30:00Z" end-time-utc="2026-10-30T13:30:00Z">
+                <text type="forecast">Showers and possible thunderstorms, east of about Ceduna, moving eastwards during the evening. Thunderstorms may become severe with damaging winds and large hail, mainly about western districts. Fresh north to northeasterly winds, tending west to southwesterly about the west.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-01T00:00:00+10:30" end-time-local="2026-11-02T00:00:00+10:30" start-time-utc="2026-10-31T13:30:00Z" end-time-utc="2026-11-01T13:30:00Z">
+                <text type="forecast">Possible morning fog patches about the southern agricultural area. Showers and possible thunderstorms developing about the agricultural area and south of the pastoral districts. Maximum temperatures above average in the west, grading to below average in the southeast. Light and variable winds about the eastern border, tending northeasterly. Elsewhere, north to northeasterly winds, fresh about the west ahead of a west to southwesterly change reaching central districts in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-02T00:00:00+10:30" end-time-local="2026-11-03T00:00:00+10:30" start-time-utc="2026-11-01T13:30:00Z" end-time-utc="2026-11-02T13:30:00Z">
+                <text type="forecast">Showers and possible thunderstorms about about central and eastern districts, contracting east during the day. Maximum temperatures near to above average. Northeast to northwesterly winds about the east at first, tending south to southwesterly about the west and extending throughout during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-11-03T00:00:00+10:30" end-time-local="2026-11-04T00:00:00+10:30" start-time-utc="2026-11-02T13:30:00Z" end-time-utc="2026-11-03T13:30:00Z">
+                <text type="forecast">
+                    <p>Possible morning fog patches about central districts. Light showers about southern coasts. Maximum temperatures near to below average grading to above average in the west. Southeast to southwesterly winds.</p>
+                    <p/>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Tuesday: 1 to 5 mm about the northern agricultural area and south of the pastoral districts, increasing to 5 to 15 mm across the southern agricultural area, with possible falls of 15 to 30 mm about southern ranges and the Lower South East district. Higher totals of 30 to 50 mm possible with thunderstorms.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
