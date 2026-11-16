@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-11-16T17:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-11-17T04:00:00+10:30</issue-time-local>
+        <sent-time>2026-11-16T17:30:27Z</sent-time>
+        <expiry-time>2026-11-17T08:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-11-17T04:00:27+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-11-20T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-11-17T05:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-11-17T16:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-11-17T04:00:27+10:30" end-time-local="2026-11-17T04:00:27+10:30" start-time-utc="2026-11-16T17:30:27Z" end-time-utc="2026-11-16T17:30:27Z">
+                <text type="synoptic_situation">A high pressure system centred south of Western Australia, extends a ridge of high pressure over most of South Australia. The high and ridge will move slowly eastwards during the week to be in the Tasman Sea on Thursday. A low pressure system and associated trough over Western Australia will move over South Australia mid to late in the week.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-11-17T05:00:00+10:30" end-time-local="2026-11-18T00:00:00+10:30" start-time-utc="2026-11-16T18:30:00Z" end-time-utc="2026-11-17T13:30:00Z">
+                <text type="forecast">Patchy early morning frost about the South East districts. Showers and thunderstorms in the west. Thunderstorms may become severe in the far northwest. Maximum temperatures below average statewide. Southeast to northeasterly winds, fresh near the coast during the afternoon and early evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-18T00:00:00+10:30" end-time-local="2026-11-19T00:00:00+10:30" start-time-utc="2026-11-17T13:30:00Z" end-time-utc="2026-11-18T13:30:00Z">
+                <text type="forecast">Isolated light morning showers about southern coasts. Showers and thunderstorms in the west. Thunderstorms may become severe in the far west. Maximum temperatures above average in the east and and grading to below average in the west. Northeasterly winds, fresh about the west at times.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-19T00:00:00+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-18T13:30:00Z" end-time-utc="2026-11-19T13:30:00Z">
+                <text type="forecast">Showers and isolated thunderstorms extending across most parts, clearing from the west during the evening. Thunderstorms may become severe in the north. Maximum temperatures below average in the far west but above average elsewhere. Fresh northeast winds to northwesterly winds ahead of a west to southwesterly change extending from the west.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <text type="forecast">
+                    <p>Showers and thunderstorms contracting to the far northeast. Maximum temperatures above to well above average statewide. North to northwesterly winds in the east ahead of a fresh west to southwesterly change. Winds tending southeasterly in the west.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Friday: mostly less than 5 mm about eastern districts, increasing to 5 to 15 mm about most remaining districts and 15 to 30 mm west of about Coober Pedy to Ceduna. Local falls of 30 to 60 mm are likely with thunderstorms in the far west and isolated higher falls are possible.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
