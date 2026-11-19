@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS11053</identifier>
+        <issue-time-utc>2026-11-19T01:08:32Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-11-19T11:38:32+10:30</issue-time-local>
+        <sent-time>2026-11-19T01:08:32Z</sent-time>
+        <expiry-time>2026-11-20T01:08:32Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-11-19T00:00:00+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-11-22T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-11-19T05:25:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-11-19T15:55:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FDS</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-11-19T11:38:32+10:30" end-time-local="2026-11-19T11:38:32+10:30" start-time-utc="2026-11-19T01:08:32Z" end-time-utc="2026-11-19T01:08:32Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="synoptic_situation">A low pressure system and associated trough over Western Australia move across the state during Thursday, clearing to the east early Friday. A high pressure system will then move across southern SA from Friday, before a trough and cold front move across the west late Saturday and across the rest of SA on Sunday.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PW013" description="North West Pastoral" type="public-district" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2026-11-19T00:00:00+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-18T13:30:00Z" end-time-utc="2026-11-19T13:30:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers east of Coober Pedy, slight chance elsewhere. A thunderstorm likely, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding from the late morning. Winds northwesterly 25 to 35 km/h turning west to southwesterly 15 to 20 km/h during the afternoon and evening. Daytime maximum temperatures 31 to 36.</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 9:10am to 5:10pm, UV Index predicted to reach 11 [Extreme]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <text type="forecast">The chance of a thunderstorm east of Stuart Highway in the early morning. Sunny day. Winds southeast to southwesterly 15 to 20 km/h tending northwest to southwesterly 25 to 35 km/h in the morning then tending southeast to southwesterly 20 to 30 km/h in the evening. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 31 to 37.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <text type="forecast">Mostly sunny. Winds northeast to southeasterly 15 to 25 km/h tending north to northeasterly 25 to 40 km/h during the morning then tending north to northwesterly 30 to 45 km/h during the day. Overnight temperatures falling to between 15 and 22 with daytime temperatures reaching around 40.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <text type="forecast">Mostly sunny. Slight chance of a shower south of Woomera, near zero chance elsewhere. The chance of a thunderstorm south of Woomera in the morning. Winds northwest to northeasterly 15 to 25 km/h tending southwesterly 25 to 40 km/h during the morning then tending southerly 25 to 35 km/h during the evening. Overnight temperatures falling to 20 to 27 with daytime temperatures reaching 31 to 39.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT009" description="Coober Pedy" type="location" parent-aac="SA_PW013">
+            <forecast-period index="0" start-time-local="2026-11-19T11:34:07+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-19T01:04:07Z" end-time-utc="2026-11-19T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="precis">Shower or two. Storm.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">21</element>
+                <element type="air_temperature_maximum" units="Celsius">39</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">28</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT048" description="Roxby Downs" type="location" parent-aac="SA_PW013">
+            <forecast-period index="0" start-time-local="2026-11-19T11:34:07+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-19T01:04:07Z" end-time-utc="2026-11-19T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="precis">Showers. Storms.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <element type="air_temperature_maximum" units="Celsius">35</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">18</element>
+                <element type="air_temperature_maximum" units="Celsius">38</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <element type="forecast_icon_code">9</element>
+                <element type="air_temperature_minimum" units="Celsius">28</element>
+                <element type="air_temperature_maximum" units="Celsius">39</element>
+                <text type="precis">Windy. Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT056" description="Woomera" type="location" parent-aac="SA_PW013">
+            <forecast-period index="0" start-time-local="2026-11-19T11:34:07+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-19T01:04:07Z" end-time-utc="2026-11-19T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">35</element>
+                <text type="precis">Showers. Storm.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <element type="air_temperature_maximum" units="Celsius">33</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <element type="forecast_icon_code">9</element>
+                <element type="air_temperature_minimum" units="Celsius">28</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="precis">Becoming windy. Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT044" description="Pukatja/Ernabella" type="location" parent-aac="SA_PW013">
+            <forecast-period index="0" start-time-local="2026-11-19T11:34:07+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-19T01:04:07Z" end-time-utc="2026-11-19T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">31</element>
+                <text type="precis">Possible storm.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">18</element>
+                <element type="air_temperature_maximum" units="Celsius">35</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">23</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT072" description="Marla" type="location" parent-aac="SA_PW013">
+            <forecast-period index="0" start-time-local="2026-11-19T11:34:07+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-19T01:04:07Z" end-time-utc="2026-11-19T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">35</element>
+                <text type="precis">Possible shower or storm.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">22</element>
+                <element type="air_temperature_maximum" units="Celsius">40</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">26</element>
+                <element type="air_temperature_maximum" units="Celsius">39</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT012" description="Oak Valley" type="location" parent-aac="SA_PW013">
+            <forecast-period index="0" start-time-local="2026-11-19T11:34:07+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-19T01:04:07Z" end-time-utc="2026-11-19T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">32</element>
+                <text type="precis">Possible storm.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">34</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <element type="forecast_icon_code">9</element>
+                <element type="air_temperature_minimum" units="Celsius">22</element>
+                <element type="air_temperature_maximum" units="Celsius">41</element>
+                <text type="precis">Windy. Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">23</element>
+                <element type="air_temperature_maximum" units="Celsius">31</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT053" description="Tarcoola" type="location" parent-aac="SA_PW013">
+            <forecast-period index="0" start-time-local="2026-11-19T11:34:07+10:30" end-time-local="2026-11-20T00:00:00+10:30" start-time-utc="2026-11-19T01:04:07Z" end-time-utc="2026-11-19T13:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">33</element>
+                <text type="precis">Shower or two. Storm.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-20T00:00:00+10:30" end-time-local="2026-11-21T00:00:00+10:30" start-time-utc="2026-11-19T13:30:00Z" end-time-utc="2026-11-20T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">33</element>
+                <text type="precis">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-21T00:00:00+10:30" end-time-local="2026-11-22T00:00:00+10:30" start-time-utc="2026-11-20T13:30:00Z" end-time-utc="2026-11-21T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">17</element>
+                <element type="air_temperature_maximum" units="Celsius">40</element>
+                <text type="precis">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-11-22T00:00:00+10:30" end-time-local="2026-11-23T00:00:00+10:30" start-time-utc="2026-11-21T13:30:00Z" end-time-utc="2026-11-22T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">24</element>
+                <element type="air_temperature_maximum" units="Celsius">34</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
