@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10033</identifier>
+        <issue-time-utc>2026-11-28T05:30:00Z</issue-time-utc>
+        <issue-time-local tz="CDT">2026-11-28T16:00:00+10:30</issue-time-local>
+        <sent-time>2026-11-28T05:30:00Z</sent-time>
+        <expiry-time>2026-11-28T20:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2026-11-28T16:00:01+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CDT">2026-12-02T23:59:59+10:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-11-28T17:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2026-11-29T04:00:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FST</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2026-11-28T16:00:01+10:30" end-time-local="2026-11-28T16:00:01+10:30" start-time-utc="2026-11-28T05:30:01Z" end-time-utc="2026-11-28T05:30:01Z">
+                <text type="synoptic_situation">A ridge of high pressure continues to build across the state. A cold front will brush the far southeast on Sunday before the high begins to move across the Bight and into the Tasman Sea early next week. Another trough begins to develop over WA mid next week.</text>
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-11-29T00:00:00+10:30" end-time-local="2026-11-30T00:00:00+10:30" start-time-utc="2026-11-28T13:30:00Z" end-time-utc="2026-11-29T13:30:00Z">
+                <text type="forecast">Isolated showers about the southern agricultural area and west coast, becoming more likely during the afternoon. Dry elsewhere. Maximum temperatures below average. South to southeasterly winds, fresh at times during the day.</text>
+            </forecast-period>
+            <forecast-period index="0" start-time-local="2026-11-28T17:00:00+10:30" end-time-local="2026-11-29T00:00:00+10:30" start-time-utc="2026-11-28T06:30:00Z" end-time-utc="2026-11-28T13:30:00Z">
+                <text type="forecast">Isolated showers about the agricultural area, most likely about coastal parts and the Lower South East. Slight chance of a thunderstorm about the southeast. Dry elsewhere. Fresh and gusty south to southwesterly winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-11-30T00:00:00+10:30" end-time-local="2026-12-01T00:00:00+10:30" start-time-utc="2026-11-29T13:30:00Z" end-time-utc="2026-11-30T13:30:00Z">
+                <text type="forecast">Light morning showers about the southern agricultural area. Dry elsewhere. Maximum temperatures below average. South to southeasterly winds, fresh about the northeast.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-12-01T00:00:00+10:30" end-time-local="2026-12-02T00:00:00+10:30" start-time-utc="2026-11-30T13:30:00Z" end-time-utc="2026-12-01T13:30:00Z">
+                <text type="forecast">Dry. Maximum temperatures below average in the northeast, grading to above average in the south. Northeast to northwesterly winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2026-12-02T00:00:00+10:30" end-time-local="2026-12-03T00:00:00+10:30" start-time-utc="2026-12-01T13:30:00Z" end-time-utc="2026-12-02T13:30:00Z">
+                <text type="forecast">
+                    <p>Dry. Maximum temperatures average to above average. Northeast to northwesterly winds, fresh at times in the morning.</p>
+                    <p/>
+                    <p>Cumulative rainfall totals to the end of Wednesday: Generally less than 2 mm across the agricultural areas and West Coast, possibly up to 5 mm about the Mount Lofty Ranges.</p>
+                </text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
